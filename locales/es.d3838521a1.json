@@ -1,0 +1,798 @@
+{
+  "site": {
+    "title": "SCC - Portafolio",
+    "description": "Portafolio técnico-científico de Calvimontes, S. C., con currículum, proyectos y publicaciones en ingeniería, modelado computacional y computación científica.",
+    "ogTitle": "SCC - Portafolio de Calvimontes, S. C.",
+    "ogDescription": "Conoce el currículum, los proyectos y las publicaciones de Calvimontes, S. C."
+  },
+  "ui": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "componentLoadError": "Error al cargar el componente.",
+    "backToHome": "Volver a la página principal",
+    "retry": "Intentar nuevamente",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "success": "Éxito"
+  },
+  "nav": {
+    "home": "Inicio",
+    "curriculo": "Currículum",
+    "projetos": "Proyectos",
+    "publicacoes": "Publicaciones e investigación",
+    "contato": "Contacto"
+  },
+  "home": {
+    "pageTitle": "Inicio",
+    "title": "Calvimontes, S. C.",
+    "intro": "Ingeniero Mecatrónico con maestrías stricto sensu en Ingeniería Mecánica y Modelado Computacional. Trabaja con simulación numérica, computación científica, desarrollo de herramientas computacionales, modelado multiescala, materiales compuestos, procesos termomecánicos y enseñanza en disciplinas electroelectrónicas.",
+    "navigation": "Usa la barra de navegación superior para explorar las distintas secciones del sitio.",
+    "cta": {
+      "resume": "Ver currículum",
+      "projects": "Ver proyectos"
+    },
+    "highlights": {
+      "title": "Destacados",
+      "item1": {
+        "title": "Modelado Computacional",
+        "description": "Experiencia en simulación numérica, homogeneización computacional y análisis multiescala."
+      },
+      "item2": {
+        "title": "Ingeniería y Computación",
+        "description": "Formación en Ingeniería Mecatrónica, Ingeniería Mecánica y Ciencia de la Computación."
+      },
+      "item3": {
+        "title": "Publicaciones y Enseñanza",
+        "description": "Producción técnico-científica, materiales didácticos y actuación en disciplinas electroelectrónicas."
+      }
+    },
+    "description": "Resumen técnico-científico de Calvimontes, S. C., con destacados en modelado computacional, ingeniería, computación científica, publicaciones y docencia."
+  },
+  "curriculo": {
+    "pageTitle": "Currículum",
+    "title": "Currículum",
+    "experience": {
+      "title": "Experiencia profesional",
+      "description": "Experiencia técnico-científica organizada a partir de la versión editorial del currículum.",
+      "items": []
+    },
+    "education": {
+      "title": "Formación y proyectos",
+      "description": "Formación académica y proyectos técnico-científicos destacados.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "Maestría en Modelado Computacional en Ciencia y Tecnología",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "Rio de Janeiro, Brasil",
+          "projects": [
+            {
+              "title": "Procedimientos de homogeneización computacional para análisis multiescala.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "Maestría en Ingeniería Mecánica",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "Rio de Janeiro, Brasil",
+          "projects": [
+            {
+              "title": "Simulación numérica de procesos electrotérmico-mecánicos en soldadura.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2013",
+          "degree": "Licenciatura en Ingeniería Mecatrónica",
+          "institution": "CIE/UFSCar, UPB/USP",
+          "location": "São Paulo, Brasil / Cochabamba, Bolivia",
+          "projects": [
+            {
+              "title": "Medición indirecta de fuerzas de corte en procesos CNC.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–actual",
+          "degree": "Licenciatura en Ciencia de la Computación, modalidad EAD",
+          "institution": "Universidade Estácio de Sá",
+          "location": "Angra dos Reis, Brasil"
+        },
+        {
+          "period": "2024",
+          "degree": "Técnico en Mecatrónica",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "Paraíba, Brasil"
+        }
+      ]
+    },
+    "downloadButton": "Descargar currículum en PDF",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "Ingeniero Mecatrónico | Modelado Computacional | Computación Científica",
+      "location": "Rio de Janeiro, Brasil",
+      "contactLabel": "Información de contacto y perfiles públicos",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "Resumen",
+      "text": "Ingeniero Mecatrónico con maestrías stricto sensu en Ingeniería Mecánica y Modelado Computacional. Tiene experiencia en simulación numérica, computación científica y desarrollo de herramientas computacionales. Su actuación principal se orienta al modelado multiescala, materiales compuestos y procesos termomecánicos. Su actuación secundaria se orienta a la enseñanza de disciplinas electroelectrónicas."
+    },
+    "careerPerspective": {
+      "title": "Perspectiva de carrera",
+      "items": [
+        {
+          "label": "Investigación técnico-científica",
+          "text": "Consolidación de manuscritos y materiales de apoyo para la presentación de artículos en computación, modelado de materiales y simulación numérica."
+        },
+        {
+          "label": "Desarrollo académico",
+          "text": "Organización de un portafolio técnico-científico para candidatura al Doctorado en Modelado Computacional en el LNCC-MCTI, Petrópolis, RJ."
+        },
+        {
+          "label": "Actuación técnica",
+          "text": "Seguimiento de oportunidades en el área pública y de ingeniería, incluyendo lista de reserva en Itaipu Binacional, la central nuclear Angra 3 y oportunidades como analista naval en EMGEPRON."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "Formación complementaria",
+      "items": [
+        {
+          "label": "Programación",
+          "text": "C; códigos G/M para CNC; microcontroladores PIC, Arduino y ESP32; prototipado y diseño técnico-industrial con manufactura aditiva en ABS y otros materiales poliméricos."
+        },
+        {
+          "label": "Automatización",
+          "text": "Ladder Logic para PLC; comandos electroelectrónicos y circuitos de accionamiento con relés, contactores, pulsadores, sensores, llaves selectoras, conmutadores e interbloqueos."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS y Linkage."
+        },
+        {
+          "label": "Ingeniería",
+          "text": "Instalaciones eléctricas según NBR 5410, NBR 5413, NBR 5419 y NBR 14039; análisis de fallas y resistencia de materiales; metalografía y predicción de propiedades de acero con IA."
+        }
+      ]
+    },
+    "description": "Currículum de Calvimontes, S. C., con formación académica, proyectos técnico-científicos, experiencia profesional y formación complementaria."
+  },
+  "projetos": {
+    "pageTitle": "Proyectos",
+    "title": "Proyectos técnico-científicos",
+    "description": "Proyectos académicos y técnicos seleccionados a partir de la versión editorial del currículum.",
+    "demoButton": "Ver proyecto",
+    "codeButton": "Ver código",
+    "items": [
+      {
+        "slug": "exemplo-monitoramento-vibracao",
+        "category": "mecanica",
+        "title": "[Ejemplo] Monitoreo de vibración para diagnóstico predictivo",
+        "context": "Proyecto de ejemplo (mecánica) — contenido ficticio usado para validar el mecanismo de páginas de detalle",
+        "description": "Prototipo ficticio de sensado de vibración en máquinas rotativas para anticipar fallas mecánicas.",
+        "technologies": [
+          "Sensores piezoeléctricos",
+          "Análisis espectral",
+          "Mantenimiento predictivo"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Este es un proyecto de ejemplo, con datos ficticios, creado para validar el mecanismo de páginas de proyecto detalladas antes de agregar el contenido real de cada área de trabajo. Describe, de forma ilustrativa, un sistema de monitoreo continuo de vibración aplicado a máquinas rotativas industriales, capaz de identificar patrones anómalos asociados con desbalanceo, desalineación y desgaste de rodamientos.",
+          "role": "Responsabilidad ficticia de ejemplo: definición de la arquitectura de adquisición de datos, selección de sensores e implementación de los algoritmos de análisis espectral.",
+          "results": "Resultado ficticio de ejemplo: reducción simulada del 30% en el tiempo de diagnóstico de fallas mecánicas en un escenario de prueba."
+        }
+      },
+      {
+        "slug": "exemplo-conversor-energia-solar",
+        "category": "eletroeletronica",
+        "title": "[Ejemplo] Convertidor electrónico para generación solar fotovoltaica",
+        "context": "Proyecto de ejemplo (electroelectrónica) — contenido ficticio usado para validar el mecanismo de páginas de detalle",
+        "description": "Prototipo ficticio de un convertidor CC-CC para optimizar la captación de energía de paneles solares fotovoltaicos.",
+        "technologies": [
+          "Electrónica de potencia",
+          "Seguimiento del punto de máxima potencia",
+          "Energía solar fotovoltaica"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Este es un proyecto de ejemplo, con datos ficticios, creado para validar el mecanismo de páginas de proyecto detalladas. Ilustra el desarrollo de un convertidor electrónico de potencia orientado a la generación fotovoltaica, con un algoritmo de seguimiento del punto de máxima potencia (MPPT) para mejorar el aprovechamiento energético en condiciones variables de irradiación.",
+          "role": "Responsabilidad ficticia de ejemplo: diseño del circuito de potencia, implementación del algoritmo de control y pruebas de banco.",
+          "results": "Resultado ficticio de ejemplo: ganancia simulada del 12% en la energía captada en comparación con un convertidor sin seguimiento de máxima potencia."
+        }
+      },
+      {
+        "slug": "exemplo-painel-monitoramento-dados",
+        "category": "informatica",
+        "title": "[Ejemplo] Panel web de monitoreo de datos en tiempo real",
+        "context": "Proyecto de ejemplo (informática) — contenido ficticio usado para validar el mecanismo de páginas de detalle",
+        "description": "Prototipo ficticio de un panel web para visualizar datos de sensores industriales en tiempo real.",
+        "technologies": [
+          "Desarrollo web",
+          "Visualización de datos",
+          "Arquitectura orientada a eventos"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Este es un proyecto de ejemplo, con datos ficticios, creado para validar el mecanismo de páginas de proyecto detalladas. Describe, de forma ilustrativa, un panel web que recibe lecturas de sensores industriales mediante un flujo de eventos y las muestra en gráficos actualizados en tiempo real, con soporte para múltiples usuarios simultáneos.",
+          "role": "Responsabilidad ficticia de ejemplo: definición de la arquitectura del sistema, desarrollo del backend de ingesta de datos y de la interfaz web.",
+          "results": "Resultado ficticio de ejemplo: latencia simulada de menos de 1 segundo entre la lectura del sensor y su visualización en el panel."
+        }
+      }
+    ],
+    "viewDetails": "Ver detalles",
+    "categories": {
+      "mecanica": "Mecánica",
+      "eletroeletronica": "Electroelectrónica",
+      "informatica": "Informática"
+    },
+    "detail": {
+      "categoryLabel": "Área",
+      "roleLabel": "Rol y responsabilidades",
+      "resultsLabel": "Resultados",
+      "backToProjects": "Volver a proyectos"
+    },
+    "technologiesLabel": "Tecnologías y temas asociados"
+  },
+  "publicacoes": {
+    "pageTitle": "Publicaciones",
+    "title": "Publicaciones destacadas",
+    "description": "Publicaciones y materiales técnico-científicos destacados en la versión editorial del currículum.",
+    "noItems": "No hay publicaciones disponibles en este momento.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "1.ª edición",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Libro técnico sobre fundamentos, dimensionamiento y documentación técnica de proyectos eléctricos industriales básicos.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Artículo sobre homogeneización computacional de compuestos multifásicos viscoelásticos lineales y estimación de relajación efectiva en paneles solares basados en perovskita.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Método alternativo para el cálculo de los coeficientes efectivos de materiales compuestos viscoelásticos lineales mediante homogeneización asintótica computacional, utilizando funciones lambda en lugar de la transformada de Laplace-Carson.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Enfoque computacional basado en el Método de Homogeneización Asintótica para estimar propiedades efectivas de compuestos viscoelásticos lineales con estructura periódica en capas, evitando el uso de transformadas integrales.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneización computacional para análisis multiescala",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Procedimientos de homogeneización computacional aplicados al análisis multiescala de materiales.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Propuesta de elementos electrotérmicos puramente resistivos para la simulación computacional del acoplamiento termomecánico-eléctrico en procesos de soldadura por resistencia eléctrica (ERW).",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Modelo matemático, implementado en Octave®, para el análisis del perfil de temperatura en la soldadura Flash-Butt de materiales disímiles, comparado con datos experimentales de la literatura.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Método alternativo, basado en un modelo matemático computacional, para el cálculo de la tasa de deposición en procesos de soldadura por fusión con electrodo consumible.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Modelo matemático computacional, implementado en Octave®, para estudiar la influencia de la impedancia de interfaz en el comportamiento electrotérmico del proceso de soldadura ERW.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulación numérica de procesos electrotérmico-mecánicos en soldadura",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Estudio de procesos acoplados que involucran efectos eléctricos, térmicos y mecánicos en soldadura.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Evaluación de los factores de agrietamiento en la soldadura Flash-Butt de acero bifásico DP600, relacionando composición química, proceso termomecánico y efectos del aporte de calor en la región soldada.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Propuesta de modelado matemático para el proceso de soldadura Flash-Butt en acero en formato de chapa, definiendo las variables termo-electro-mecánicas involucradas en el proceso.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Trabajo sobre el dimensionamiento estructural y por fatiga de la maza del eje delantero de un vehículo Mini Baja SAE, utilizando herramientas de CAD/CAE.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Estudio sobre la optimización estructural del chasis tubular de un vehículo Baja SAE mediante el Método de los Elementos Finitos, con simulaciones de impacto frontal, vuelco y lateral.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Medición indirecta de fuerzas de corte en procesos CNC",
+        "type": "Bachelor's thesis",
+        "journal": "CIE/UFSCar, UPB/USP",
+        "year": "2013",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Proyecto orientado a la medición indirecta de fuerzas de corte en procesos CNC.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "Contacto",
+    "title": "Contacto",
+    "description": "Información pública de contacto y perfiles profesionales.",
+    "sections": {
+      "message": "Enviar un mensaje",
+      "file": "Enviar un archivo"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "Perfiles públicos",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "Formulario de Contacto",
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "attachment": "Adjunto",
+      "chooseFile": "Elegir archivo",
+      "noFileChosen": "Ningún archivo elegido",
+      "attachmentHint": "PDF, hasta 3 MB.",
+      "send": "Enviar Mensaje",
+      "sendFile": "Enviar Archivo",
+      "privacyPolicy": "He leído y acepto la <a href='#privacyPolicy'>política de privacidad</a> y doy mi consentimiento para el procesamiento de mis datos personales."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "Email",
+      "phone": "Teléfono"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — Todos los derechos reservados.",
+    "contact": {
+      "title": "Contacto",
+      "email": "Email: "
+    },
+    "social": {
+      "title": "Perfiles públicos",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "Error",
+    "notFound": {
+      "title": "Página no encontrada",
+      "message": "La página que estás buscando no existe o ha sido movida.",
+      "backButton": "Volver a la página de inicio"
+    },
+    "generic": {
+      "title": "Ocurrió un error",
+      "message": "Lo sentimos, ocurrió un error al cargar el contenido. Por favor, inténtalo nuevamente.",
+      "backButton": "Volver a la página de inicio"
+    },
+    "connection": {
+      "title": "Error de conexión",
+      "message": "No se pudo conectar al servidor. Verifica tu conexión a internet.",
+      "retryButton": "Intentar nuevamente"
+    },
+    "appInitFailed": "Error al inicializar la aplicación. Por favor, recarga la página.",
+    "langChangeFailed": "Error al cambiar el idioma. Por favor, inténtalo nuevamente.",
+    "pageLoadFailed": "Error al cargar la página. Por favor, inténtalo nuevamente.",
+    "description": "Página de error mostrada cuando el contenido no puede cargarse o la ruta solicitada no está disponible."
+  },
+  "form": {
+    "validation": {
+      "required": "Por favor, completa este campo",
+      "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+      "invalidFileType": "Suba un archivo en formato PDF.",
+      "fileTooLarge": "El archivo debe tener como máximo {{max}}.",
+      "email": "Por favor, introduce una dirección de correo electrónico válida",
+      "minLength": "Este campo debe tener al menos {{min}} caracteres",
+      "maxLength": "Este campo debe tener como máximo {{max}} caracteres",
+      "pattern": "Por favor, introduce un formato válido",
+      "number": "Por favor, introduce un número válido",
+      "url": "Por favor, introduce una URL válida",
+      "match": "Los campos no coinciden"
+    },
+    "status": {
+      "sending": "Enviando mensaje...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "placeholders": {
+      "name": "Escribe tu nombre",
+      "email": "Escribe tu dirección de correo electrónico",
+      "subject": "Escribe el asunto",
+      "message": "Escribe tu mensaje aquí",
+      "phone": "Escribe tu número de teléfono"
+    }
+  },
+  "aria": {
+    "languageSelector": "Seleccionar idioma",
+    "menuToggle": "Alternar menú de navegación",
+    "closeMenu": "Cerrar menú",
+    "nextSlide": "Siguiente slide",
+    "previousSlide": "Slide anterior",
+    "loadMore": "Cargar más contenido",
+    "search": "Buscar",
+    "searchButton": "Botón de búsqueda",
+    "closeButton": "Botón de cerrar",
+    "expandButton": "Botón de expandir",
+    "collapseButton": "Botón de contraer",
+    "socialLinks": "Enlaces de redes sociales",
+    "contactForm": "Formulario de contacto",
+    "requiredField": "Campo obligatorio",
+    "navigation": "Navegación principal",
+    "skipToContent": "Saltar al contenido",
+    "darkModeToggle": "Alternar modo oscuro",
+    "backToTop": "Volver al inicio de la página",
+    "openMenu": "Abrir menú",
+    "paletteSelector": "Seleccionar paleta de colores",
+    "paletteSelectorWithCurrent": "Seleccionar paleta de colores: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "Leer más",
+    "viewAll": "Ver todos",
+    "download": "Descargar",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "apply": "Aplicar",
+    "filter": "Filtrar",
+    "clear": "Limpiar",
+    "search": "Buscar",
+    "share": "Compartir",
+    "print": "Imprimir",
+    "contactMe": "Ponte en contacto",
+    "backToTop": "Volver al Inicio"
+  },
+  "formats": {
+    "date": {
+      "short": "DD/MM/AAAA",
+      "long": "D [de] MMMM [de] AAAA",
+      "monthYear": "MMMM [de] AAAA",
+      "time": "HH:mm",
+      "dateTime": "D [de] MMMM [de] AAAA [a las] HH:mm",
+      "relative": {
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "tomorrow": "Mañana",
+        "daysAgo": "hace {{days}} días",
+        "inDays": "en {{days}} días"
+      }
+    },
+    "number": {
+      "decimal": ",",
+      "thousands": ".",
+      "percent": "{value}%",
+      "currency": "$ {value}"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "Política de Privacidad",
+    "description": "Política de privacidad que explica datos del formulario de contacto, preferencias locales de idioma y paleta, enlaces externos y control del usuario sobre datos guardados en el navegador."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "description": "Esta política describe qué datos utiliza este sitio para contacto, preferencias locales y enlaces externos.",
+    "consent": "He leído y acepto la",
+    "lastUpdated": "Última actualización",
+    "lastUpdatedDate": "30 de julio de 2026",
+    "sections": {
+      "introduction": {
+        "title": "Introducción",
+        "content": "Esta política resume los flujos de datos implementados en este sitio estático. Debe leerse junto con el inventario técnico en docs/PRIVACY_DATA_FLOW.md."
+      },
+      "dataCollection": {
+        "title": "Datos tratados",
+        "content": "El sitio evita la recopilación innecesaria. Los principales datos involucrados son los enviados voluntariamente mediante el formulario de contacto y las preferencias guardadas localmente en el navegador.",
+        "personalData": {
+          "title": "Formulario de contacto",
+          "content": "El sitio tiene dos formularios de contacto: al enviar el formulario de mensaje, se envían nombre, correo electrónico, asunto, mensaje y confirmación de consentimiento al endpoint de Formspree configurado por el sitio; al enviar el formulario de archivo, se envían nombre, correo electrónico, mensaje, un archivo adjunto en PDF (hasta 3 MB), una etiqueta fija de asunto (\"inbox-document\", no editable por el usuario) y confirmación de consentimiento al endpoint de Forminit configurado por el sitio. Los servicios también pueden procesar metadatos técnicos de la solicitud necesarios para entregar el mensaje."
+        },
+        "usage": {
+          "title": "Preferencias locales",
+          "content": "El sitio usa localStorage para recordar el idioma seleccionado y la paleta visual elegida. Estos valores permanecen en el navegador del usuario y pueden eliminarse al borrar los datos del sitio."
+        }
+      },
+      "lgpd": {
+        "title": "Ley General de Protección de Datos de Brasil (LGPD)",
+        "content": "Cuando sea aplicable, el tratamiento de datos personales debe observar la LGPD. Esta página describe los datos conocidos y mantiene las dudas operativas marcadas en el inventario técnico hasta revisar la cuenta del servicio externo.",
+        "controller": {
+          "title": "Controlador",
+          "content": "El responsable del sitio decide la finalidad del formulario de contacto y recibe los mensajes enviados."
+        },
+        "operator": {
+          "title": "Encargado del tratamiento",
+          "content": "Formspree y Forminit actúan como servicios externos usados para procesar y entregar los mensajes de los formularios de contacto (el de mensaje y el de archivo, respectivamente). Las configuraciones de retención y eliminación de cada servicio aún deben verificarse en la cuenta correspondiente."
+        }
+      },
+      "cookies": {
+        "title": "Cookies y almacenamiento local",
+        "content": "El código de primera parte de este sitio no define cookies. Las preferencias de idioma y paleta se guardan en localStorage, no en cookies."
+      },
+      "thirdParty": {
+        "title": "Servicios de terceros",
+        "content": "El sitio no carga Google Analytics, reCAPTCHA, píxeles de publicidad ni analytics embebido. Una solicitud a Formspree ocurre solo cuando se envía un formulario válido. Los enlaces externos se abren solo cuando el usuario los activa."
+      },
+      "rights": {
+        "title": "Sus derechos",
+        "content": "Puede solicitar acceso, corrección, eliminación o aclaraciones sobre datos personales enviados mediante el formulario usando el correo público indicado en este sitio. Las preferencias locales también pueden eliminarse directamente en el navegador."
+      },
+      "changes": {
+        "title": "Cambios en la política",
+        "content": "Esta política puede actualizarse cuando cambien el sitio, el formulario de contacto o los servicios externos. La fecha anterior indica la última revisión registrada."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Para preguntas sobre esta política o sobre datos enviados mediante el formulario, use el correo público sergio.cordero.calvimontes@proton.me o la página de contacto del sitio."
+      }
+    }
+  },
+  "palettes": {
+    "system": "Sistema",
+    "classic": "Clásica",
+    "alternative": "Alternativa",
+    "editorial": "Editorial",
+    "classicDark": "Clásica oscura",
+    "alternativeDark": "Alternativa oscura",
+    "editorialDark": "Editorial oscura",
+    "blueprint": "Blueprint",
+    "blueprintDark": "Blueprint oscura"
+  },
+  "controls": {
+    "readMore": "Leer más",
+    "readLess": "Leer menos",
+    "showMore": "Ver más",
+    "showLess": "Ver menos",
+    "filterByYear": "Filtrar por año:",
+    "filterByCategory": "Filtrar por área:",
+    "filterByType": "Filtrar por tipo:",
+    "all": "Todos",
+    "previousImage": "Imagen anterior",
+    "nextImage": "Imagen siguiente"
+  }
+}

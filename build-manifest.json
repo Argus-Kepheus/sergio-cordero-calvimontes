@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-07-31T20:03:29.554Z",
+  "site": {
+    "siteUrl": "https://argus-kepheus.github.io",
+    "basePath": "/sergio-cordero-calvimontes/",
+    "defaultLocale": "pt",
+    "supportedLocales": [
+      "pt",
+      "en",
+      "es",
+      "ja",
+      "he",
+      "ru"
+    ]
+  },
+  "assets": {
+    "css": "assets/style-NPKDRCPQ.css",
+    "componentLoader": "assets/app-AHIV7DQA.js",
+    "js": "assets/app-JOXXONKG.js"
+  },
+  "locales": {
+    "en": "en.5b9fc11d47.json",
+    "es": "es.d3838521a1.json",
+    "he": "he.a6d864fdd2.json",
+    "ja": "ja.70430079f3.json",
+    "pt": "pt.21a4aeb448.json",
+    "ru": "ru.ae8ef17bce.json"
+  },
+  "copied": {
+    "sourceDirectories": [
+      "components",
+      "palettes",
+      "images",
+      "locales"
+    ],
+    "publicDirectory": "public"
+  }
+}

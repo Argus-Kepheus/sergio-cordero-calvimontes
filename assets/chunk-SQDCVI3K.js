@@ -1,0 +1,1 @@
+function t(){console.log("Initializing home page animations..."),document.querySelectorAll(".home-page h1, .intro-section, .highlights-section").forEach((e,i)=>{setTimeout(()=>{e.classList.add("animate-in")},100*i)})}export{t as initializeHomeAnimations};

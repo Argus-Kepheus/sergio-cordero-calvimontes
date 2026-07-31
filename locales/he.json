@@ -1,0 +1,798 @@
+{
+  "site": {
+    "title": "SCC - תיק עבודות",
+    "description": "תיק עבודות טכני-מדעי של ⁦Calvimontes, S. C.⁩, הכולל קורות חיים, פרויקטים ופרסומים בתחומי ההנדסה, המידול החישובי והמחשוב המדעי.",
+    "ogTitle": "SCC - תיק העבודות של ⁦Calvimontes, S. C.⁩",
+    "ogDescription": "הכירו את קורות החיים, הפרויקטים והפרסומים של ⁦Calvimontes, S. C.⁩"
+  },
+  "ui": {
+    "loading": "טוען...",
+    "error": "שגיאה",
+    "componentLoadError": "שגיאה בטעינת הרכיב.",
+    "backToHome": "חזרה לדף הבית",
+    "retry": "נסה שוב",
+    "close": "סגור",
+    "yes": "כן",
+    "no": "לא",
+    "accept": "קבל",
+    "decline": "דחה",
+    "success": "הצלחה"
+  },
+  "nav": {
+    "home": "בית",
+    "curriculo": "קורות חיים",
+    "projetos": "פרויקטים",
+    "publicacoes": "פרסומים ומחקר",
+    "contato": "צור קשר"
+  },
+  "home": {
+    "pageTitle": "בית",
+    "title": "⁦Calvimontes, S. C.⁩",
+    "intro": "מהנדס מכטרוניקה בעל תארים מתקדמים מסוג stricto sensu בהנדסת מכונות ובמידול חישובי. עוסק בסימולציה נומרית, מחשוב מדעי, פיתוח כלים חישוביים, מידול רב-סקאלי, חומרים מרוכבים, תהליכים תרמו-מכניים וכן בהוראה בתחומי האלקטרו-אלקטרוניקה.",
+    "navigation": "השתמשו בסרגל הניווט למעלה כדי לעבור בין חלקי האתר השונים.",
+    "cta": {
+      "resume": "צפה בקורות החיים",
+      "projects": "צפה בפרויקטים"
+    },
+    "highlights": {
+      "title": "נקודות בולטות",
+      "item1": {
+        "title": "מידול חישובי",
+        "description": "ניסיון בסימולציה נומרית, הומוגניזציה חישובית וניתוח רב-סקאלי."
+      },
+      "item2": {
+        "title": "הנדסה ומחשוב",
+        "description": "רקע אקדמי בהנדסת מכטרוניקה, הנדסת מכונות ומדעי המחשב."
+      },
+      "item3": {
+        "title": "פרסומים והוראה",
+        "description": "הפקה טכנית-מדעית, חומרי לימוד ופעילות בתחומי האלקטרו-אלקטרוניקה."
+      }
+    },
+    "description": "סקירה טכנית-מדעית של ⁦Calvimontes, S. C.⁩, עם דגשים במידול חישובי, הנדסה, מחשוב מדעי, פרסומים והוראה."
+  },
+  "curriculo": {
+    "pageTitle": "קורות חיים",
+    "title": "קורות חיים",
+    "experience": {
+      "title": "ניסיון מקצועי",
+      "description": "ניסיון טכני-מדעי המאורגן על בסיס הגרסה העריכתית של קורות החיים.",
+      "items": []
+    },
+    "education": {
+      "title": "השכלה ופרויקטים",
+      "description": "השכלה אקדמית ופרויקטים טכניים-מדעיים נבחרים.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "תואר שני במידול חישובי במדע וטכנולוגיה",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "ריו דה ז'ניירו, ברזיל",
+          "projects": [
+            {
+              "title": "הליכי הומוגניזציה חישובית לניתוח רב-סקאלי.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "תואר שני בהנדסת מכונות",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "ריו דה ז'ניירו, ברזיל",
+          "projects": [
+            {
+              "title": "סימולציה נומרית של תהליכים אלקטרו-תרמו-מכניים בריתוך.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2013",
+          "degree": "תואר ראשון בהנדסת מכטרוניקה",
+          "institution": "CIE/UFSCar, UPB/USP",
+          "location": "סאו פאולו, ברזיל / קוצ'במבה, בוליביה",
+          "projects": [
+            {
+              "title": "מדידה עקיפה של כוחות חיתוך בתהליכי CNC.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–כיום",
+          "degree": "תואר ראשון במדעי המחשב, מסלול למידה מרחוק",
+          "institution": "Universidade Estácio de Sá",
+          "location": "אנגרה דוס רייס, ברזיל"
+        },
+        {
+          "period": "2024",
+          "degree": "טכנאי מכטרוניקה",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "פאראיבה, ברזיל"
+        }
+      ]
+    },
+    "downloadButton": "הורד קורות חיים ב-PDF",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "⁦Calvimontes, S. C.⁩",
+      "professionalTitle": "מהנדס מכטרוניקה | מידול חישובי | מחשוב מדעי",
+      "location": "ריו דה ז'ניירו, ברזיל",
+      "contactLabel": "פרטי קשר ופרופילים ציבוריים",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "תקציר",
+      "text": "מהנדס מכטרוניקה בעל תארים מתקדמים מסוג stricto sensu בהנדסת מכונות ובמידול חישובי. בעל ניסיון בסימולציה נומרית, מחשוב מדעי ופיתוח כלים חישוביים. תחום הפעילות המרכזי מתמקד במידול רב-סקאלי, חומרים מרוכבים ותהליכים תרמו-מכניים. תחום משני מתמקד בהוראה בתחומי האלקטרו-אלקטרוניקה."
+    },
+    "careerPerspective": {
+      "title": "כיוון קריירה",
+      "items": [
+        {
+          "label": "מחקר טכני-מדעי",
+          "text": "גיבוש כתבי יד וחומרי תמיכה לצורך הגשת מאמרים בתחומי המחשוב, מידול חומרים וסימולציה נומרית."
+        },
+        {
+          "label": "התפתחות אקדמית",
+          "text": "ארגון תיק עבודות טכני-מדעי לצורך מועמדות לדוקטורט במידול חישובי ב-LNCC-MCTI, פטרופוליס, ריו דה ז'ניירו."
+        },
+        {
+          "label": "עשייה טכנית",
+          "text": "מעקב אחר הזדמנויות במגזר הציבורי וההנדסי, כולל מאגרי מועמדים ב-Itaipu Binacional, בתחנת הכוח הגרעינית Angra 3 וב-EMGEPRON כאנליסט ימי."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "הכשרה משלימה",
+      "items": [
+        {
+          "label": "תכנות",
+          "text": "C; קודי G/M ל-CNC; מיקרו-בקרים מסוג PIC, Arduino ו-ESP32; אב-טיפוס ותכנון טכני-תעשייתי באמצעות ייצור תוספתי ב-ABS ובחומרים פולימריים נוספים."
+        },
+        {
+          "label": "אוטומציה",
+          "text": "Ladder Logic לבקרים מתוכנתים; פיקוד אלקטרו-אלקטרוני ומעגלי הפעלה עם ממסרים, קונטקטורים, לחצנים, חיישנים, מפסקים בוררים, מתגים ומנגנוני נעילה."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS ו-Linkage."
+        },
+        {
+          "label": "הנדסה",
+          "text": "מתקנים חשמליים לפי NBR 5410, NBR 5413, NBR 5419 ו-NBR 14039; ניתוח כשלים וחוזק חומרים; מטלוגרפיה וחיזוי תכונות פלדה באמצעות בינה מלאכותית."
+        }
+      ]
+    },
+    "description": "קורות החיים של ⁦Calvimontes, S. C.⁩, הכוללים השכלה אקדמית, פרויקטים טכניים-מדעיים, ניסיון מקצועי והכשרה משלימה."
+  },
+  "projetos": {
+    "pageTitle": "פרויקטים",
+    "title": "פרויקטים טכניים-מדעיים",
+    "description": "פרויקטים אקדמיים וטכניים נבחרים מתוך הגרסה העריכתית של קורות החיים.",
+    "demoButton": "צפה בפרויקט",
+    "codeButton": "צפה בקוד",
+    "items": [
+      {
+        "slug": "exemplo-monitoramento-vibracao",
+        "category": "mecanica",
+        "title": "[דוגמה] ניטור רטט לאבחון מונע",
+        "context": "פרויקט לדוגמה (הנדסת מכונות) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
+        "description": "אב-טיפוס בדיוני לחישת רטט במכונות מסתובבות במטרה לצפות כשלים מכניים מראש.",
+        "technologies": [
+          "חיישני פייזואלקטריים",
+          "ניתוח ספקטרלי",
+          "תחזוקה מונעת"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים לפני הוספת התוכן האמיתי של כל תחום עשייה. הוא מתאר, באופן המחשתי, מערכת ניטור רטט מתמשכת המיושמת על מכונות מסתובבות תעשייתיות, המסוגלת לזהות דפוסים חריגים הקשורים לחוסר איזון, אי-יישור וסחיקת מיסבים.",
+          "role": "אחריות בדיונית לדוגמה: הגדרת ארכיטקטורת רכישת הנתונים, בחירת החיישנים ויישום אלגוריתמי הניתוח הספקטרלי.",
+          "results": "תוצאה בדיונית לדוגמה: הפחתה מדומה של 30% בזמן אבחון כשלים מכניים בתרחיש בדיקה."
+        }
+      },
+      {
+        "slug": "exemplo-conversor-energia-solar",
+        "category": "eletroeletronica",
+        "title": "[דוגמה] ממיר אלקטרוני לייצור סולארי פוטו-וולטאי",
+        "context": "פרויקט לדוגמה (הנדסת חשמל ואלקטרוניקה) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
+        "description": "אב-טיפוס בדיוני של ממיר DC-DC לאופטימיזציה של קליטת אנרגיה מפאנלים סולאריים פוטו-וולטאיים.",
+        "technologies": [
+          "אלקטרוניקת הספק",
+          "מעקב אחר נקודת ההספק המרבי",
+          "אנרגיה סולארית פוטו-וולטאית"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים. הוא ממחיש את פיתוחו של ממיר אלקטרוניקת הספק לייצור פוטו-וולטאי, עם אלגוריתם מעקב אחר נקודת ההספק המרבי (MPPT) לשיפור ניצול האנרגיה בתנאי קרינה משתנים.",
+          "role": "אחריות בדיונית לדוגמה: תכנון מעגל ההספק, יישום אלגוריתם הבקרה ובדיקות מעבדה.",
+          "results": "תוצאה בדיונית לדוגמה: עלייה מדומה של 12% באנרגיה שנקלטה בהשוואה לממיר ללא מעקב אחר ההספק המרבי."
+        }
+      },
+      {
+        "slug": "exemplo-painel-monitoramento-dados",
+        "category": "informatica",
+        "title": "[דוגמה] לוח בקרה מקוון לניטור נתונים בזמן אמת",
+        "context": "פרויקט לדוגמה (מדעי המחשב) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
+        "description": "אב-טיפוס בדיוני של לוח בקרה מקוון להצגת נתוני חיישנים תעשייתיים בזמן אמת.",
+        "technologies": [
+          "פיתוח אתרים",
+          "הדמיית נתונים",
+          "ארכיטקטורה מונעת אירועים"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים. הוא מתאר, באופן המחשתי, לוח בקרה מקוון המקבל קריאות מחיישנים תעשייתיים דרך זרם אירועים ומציג אותן בגרפים המתעדכנים בזמן אמת, עם תמיכה במספר משתמשים בו-זמנית.",
+          "role": "אחריות בדיונית לדוגמה: הגדרת ארכיטקטורת המערכת, פיתוח שרת קליטת הנתונים וממשק האתר.",
+          "results": "תוצאה בדיונית לדוגמה: זמן השהיה מדומה של פחות משנייה אחת בין קריאת החיישן להצגתה בלוח הבקרה."
+        }
+      }
+    ],
+    "viewDetails": "לצפייה בפרטים",
+    "categories": {
+      "mecanica": "הנדסת מכונות",
+      "eletroeletronica": "הנדסת חשמל ואלקטרוניקה",
+      "informatica": "מדעי המחשב"
+    },
+    "detail": {
+      "categoryLabel": "תחום",
+      "roleLabel": "תפקיד ואחריות",
+      "resultsLabel": "תוצאות",
+      "backToProjects": "חזרה לפרויקטים"
+    },
+    "technologiesLabel": "טכנולוגיות ונושאים קשורים"
+  },
+  "publicacoes": {
+    "pageTitle": "פרסומים",
+    "title": "פרסומים נבחרים",
+    "description": "פרסומים וחומרים טכניים-מדעיים שהודגשו בגרסה העריכתית של קורות החיים.",
+    "noItems": "אין פרסומים זמינים כרגע.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "מהדורה ראשונה",
+        "isbn": "978-65-976344-0-8",
+        "authors": "⁦Calvimontes, S. C.⁩",
+        "abstract": "ספר טכני על יסודות, מימד ותיעוד טכני של פרויקטים חשמליים תעשייתיים בסיסיים.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "מאמר על הומוגניזציה חישובית של חומרים מרוכבים רב-פאזיים ויסקו-אלסטיים ליניאריים ועל אומדן רלקסציה אפקטיבית בפאנלים סולאריים מבוססי פרובסקיט.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "שיטה חלופית לחישוב המקדמים האפקטיביים של חומרים מרוכבים צמיג-אלסטיים ליניאריים באמצעות הומוגניזציה אסימפטוטית חישובית, תוך שימוש בפונקציות למבדה במקום התמרת ⁦Laplace-Carson⁩.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "גישה חישובית המבוססת על שיטת ההומוגניזציה האסימפטוטית להערכת תכונות אפקטיביות של חומרים מרוכבים צמיג-אלסטיים ליניאריים בעלי מבנה מחזורי מרובד, תוך הימנעות משימוש בהתמרות אינטגרליות.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "הומוגניזציה חישובית לניתוח רב-סקאלי",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "⁦Calvimontes, S. C.⁩",
+        "abstract": "הליכי הומוגניזציה חישובית המיושמים לניתוח רב-סקאלי של חומרים.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "הצעה לאלמנטים אלקטרו-תרמיים רזיסטיביים טהורים לסימולציה חישובית של הצימוד התרמו-מכני-חשמלי בתהליכי ריתוך התנגדות חשמלית (⁦ERW⁩).",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "מודל מתמטי, מיושם ב-⁦Octave®⁩, לניתוח פרופיל הטמפרטורה בריתוך ⁦Flash-Butt⁩ של חומרים שונים זה מזה, בהשוואה לנתונים ניסיוניים מהספרות.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "שיטה חלופית, המבוססת על מודל מתמטי חישובי, לחישוב קצב השקיעה בתהליכי ריתוך היתוך עם אלקטרודה מתכלה.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "מודל מתמטי חישובי, מיושם ב-⁦Octave®⁩, לחקר השפעת עכבת הממשק על ההתנהגות האלקטרו-תרמית של תהליך ריתוך ⁦ERW⁩.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "סימולציה נומרית של תהליכים אלקטרו-תרמו-מכניים בריתוך",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "⁦Calvimontes, S. C.⁩",
+        "abstract": "מחקר של תהליכים מצומדים הכוללים השפעות חשמליות, תרמיות ומכאניות בריתוך.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "הערכת גורמי סדיקה בריתוך ⁦Flash-Butt⁩ של פלדה דו-פאזית ⁦DP600⁩, תוך קישור בין הרכב כימי, תהליך תרמו-מכני והשפעות קלט החום על אזור הריתוך.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "הצעה למידול מתמטי של תהליך ריתוך ⁦Flash-Butt⁩ בפלדה בפורמט לוח, תוך הגדרת המשתנים התרמו-אלקטרו-מכניים המעורבים בתהליך.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "עבודה על תכן מבני ותכן עייפות של צוואר הסרן הקדמי של רכב ⁦Mini Baja SAE⁩, באמצעות כלי ⁦CAD/CAE⁩.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "מחקר על אופטימיזציה מבנית של שלדת הצינורות של רכב ⁦Baja SAE⁩ בשיטת האלמנטים הסופיים, עם הדמיות התנגשות חזיתית, התהפכות והתנגשות צדדית.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "מדידה עקיפה של כוחות חיתוך בתהליכי CNC",
+        "type": "Bachelor's thesis",
+        "journal": "CIE/UFSCar, UPB/USP",
+        "year": "2013",
+        "authors": "⁦Calvimontes, S. C.⁩",
+        "abstract": "פרויקט המתמקד במדידה עקיפה של כוחות חיתוך בתהליכי CNC.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "צור קשר",
+    "title": "צור קשר",
+    "description": "פרטי קשר ציבוריים ופרופילים מקצועיים.",
+    "sections": {
+      "message": "שליחת הודעה",
+      "file": "שליחת קובץ"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "פרופילים ציבוריים",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "טופס יצירת קשר",
+      "name": "שם",
+      "email": "דוא״ל",
+      "subject": "נושא",
+      "message": "הודעה",
+      "attachment": "קובץ מצורף",
+      "chooseFile": "בחר קובץ",
+      "noFileChosen": "לא נבחר קובץ",
+      "attachmentHint": "⁦PDF,⁩ עד ⁦3MB.⁩",
+      "send": "שלח הודעה",
+      "sendFile": "שלח קובץ",
+      "privacyPolicy": "קראתי ואני מקבל את <a href='#privacyPolicy'>מדיניות הפרטיות</a> ונותן את הסכמתי לעיבוד הנתונים האישיים שלי."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "דוא״ל",
+      "phone": "טלפון"
+    }
+  },
+  "footer": {
+    "copyright": "⁦© 2026 Calvimontes, S. C.⁩ — כל הזכויות שמורות.",
+    "contact": {
+      "title": "צור קשר",
+      "email": "דוא״ל: "
+    },
+    "social": {
+      "title": "פרופילים ציבוריים",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "שגיאה",
+    "notFound": {
+      "title": "הדף לא נמצא",
+      "message": "הדף שאתה מחפש אינו קיים או הועבר.",
+      "backButton": "חזרה לדף הבית"
+    },
+    "generic": {
+      "title": "אירעה שגיאה",
+      "message": "מצטערים, אירעה שגיאה בטעינת התוכן. אנא נסה שוב.",
+      "backButton": "חזרה לדף הבית"
+    },
+    "connection": {
+      "title": "שגיאת חיבור",
+      "message": "לא ניתן להתחבר לשרת. אנא בדוק את חיבור האינטרנט שלך.",
+      "retryButton": "נסה שוב"
+    },
+    "appInitFailed": "שגיאה באתחול היישום. אנא רענן את הדף.",
+    "langChangeFailed": "שגיאה בשינוי השפה. אנא נסה שוב.",
+    "pageLoadFailed": "שגיאה בטעינת הדף. אנא נסה שוב.",
+    "description": "דף שגיאה המוצג כאשר לא ניתן לטעון תוכן או כאשר הנתיב המבוקש אינו זמין."
+  },
+  "form": {
+    "validation": {
+      "required": "אנא מלא שדה זה",
+      "invalidEmail": "אנא הזן כתובת דוא״ל תקינה",
+      "invalidFileType": "אנא העלה קובץ בפורמט PDF.",
+      "fileTooLarge": "הקובץ חייב להיות עד ⁦{{max}}⁩.",
+      "email": "אנא הזן כתובת דוא״ל תקינה",
+      "minLength": "שדה זה חייב להכיל לפחות {{min}} תווים",
+      "maxLength": "שדה זה חייב להכיל לכל היותר {{max}} תווים",
+      "pattern": "אנא הזן פורמט תקין",
+      "number": "אנא הזן מספר תקין",
+      "url": "אנא הזן כתובת URL תקינה",
+      "match": "השדות אינם תואמים"
+    },
+    "status": {
+      "sending": "שולח הודעה...",
+      "success": "ההודעה נשלחה בהצלחה!",
+      "error": "שגיאה בשליחת ההודעה. אנא נסה שוב."
+    },
+    "placeholders": {
+      "name": "הזן את שמך",
+      "email": "הזן את כתובת הדוא״ל שלך",
+      "subject": "הזן את הנושא",
+      "message": "כתוב את הודעתך כאן",
+      "phone": "הזן את מספר הטלפון שלך"
+    }
+  },
+  "aria": {
+    "languageSelector": "בחר שפה",
+    "menuToggle": "החלף תפריט ניווט",
+    "closeMenu": "סגור תפריט",
+    "nextSlide": "שקופית הבאה",
+    "previousSlide": "שקופית קודמת",
+    "loadMore": "טען תוכן נוסף",
+    "search": "חיפוש",
+    "searchButton": "כפתור חיפוש",
+    "closeButton": "כפתור סגירה",
+    "expandButton": "כפתור הרחבה",
+    "collapseButton": "כפתור כיווץ",
+    "socialLinks": "קישורי רשתות חברתיות",
+    "contactForm": "טופס יצירת קשר",
+    "requiredField": "שדה חובה",
+    "navigation": "ניווט ראשי",
+    "skipToContent": "דלג לתוכן",
+    "darkModeToggle": "החלף מצב כהה",
+    "backToTop": "חזור לראש הדף",
+    "openMenu": "פתח תפריט",
+    "paletteSelector": "בחר פלטת צבעים",
+    "paletteSelectorWithCurrent": "בחר פלטת צבעים: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "קרא עוד",
+    "viewAll": "צפה בהכל",
+    "download": "הורד",
+    "submit": "שלח",
+    "cancel": "בטל",
+    "close": "סגור",
+    "back": "חזור",
+    "next": "הבא",
+    "previous": "הקודם",
+    "save": "שמור",
+    "edit": "ערוך",
+    "delete": "מחק",
+    "confirm": "אשר",
+    "apply": "החל",
+    "filter": "סנן",
+    "clear": "נקה",
+    "search": "חפש",
+    "share": "שתף",
+    "print": "הדפס",
+    "contactMe": "צור קשר",
+    "backToTop": "חזרה למעלה"
+  },
+  "formats": {
+    "date": {
+      "short": "DD/MM/YYYY",
+      "long": "D ב-MMMM, YYYY",
+      "monthYear": "MMMM YYYY",
+      "time": "HH:mm",
+      "dateTime": "D ב-MMMM, YYYY HH:mm",
+      "relative": {
+        "today": "היום",
+        "yesterday": "אתמול",
+        "tomorrow": "מחר",
+        "daysAgo": "לפני {{days}} ימים",
+        "inDays": "בעוד {{days}} ימים"
+      }
+    },
+    "number": {
+      "decimal": ".",
+      "thousands": ",",
+      "percent": "{value}%",
+      "currency": "₪{value}"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "מדיניות פרטיות",
+    "description": "מדיניות פרטיות המסבירה את נתוני טופס יצירת הקשר, העדפות מקומיות של שפה ופלטה, קישורים חיצוניים, ושליטת המשתמש בנתונים השמורים בדפדפן."
+  },
+  "privacy": {
+    "title": "מדיניות פרטיות",
+    "description": "מדיניות זו מתארת אילו נתונים האתר משתמש בהם לצורך יצירת קשר, העדפות מקומיות וקישורים חיצוניים.",
+    "consent": "קראתי ואני מקבל את",
+    "lastUpdated": "עודכן לאחרונה",
+    "lastUpdatedDate": "30 ביולי 2026",
+    "sections": {
+      "introduction": {
+        "title": "מבוא",
+        "content": "מדיניות זו מסכמת את זרימות הנתונים המיושמות באתר סטטי זה. יש לקרוא אותה יחד עם המלאי הטכני בקובץ docs/PRIVACY_DATA_FLOW.md."
+      },
+      "dataCollection": {
+        "title": "נתונים מטופלים",
+        "content": "האתר נמנע מאיסוף שאינו נחוץ. הנתונים העיקריים הם נתונים שנשלחים מרצון בטופס יצירת הקשר והעדפות הנשמרות מקומית בדפדפן.",
+        "personalData": {
+          "title": "טופס יצירת קשר",
+          "content": "לאתר יש שני טפסי יצירת קשר: בעת שליחת טופס ההודעה, שם, כתובת דוא״ל, נושא, הודעה ואישור הסכמה נשלחים אל נקודת הקצה של ⁦Formspree⁩ שהוגדרה באתר; בעת שליחת טופס הקובץ, שם, כתובת דוא״ל, הודעה, קובץ ⁦PDF⁩ מצורף (עד ⁦3MB⁩), תווית נושא קבועה (⁦\"inbox-document\"⁩, שאינה ניתנת לעריכה על ידי המשתמש) ואישור הסכמה נשלחים אל נקודת הקצה של ⁦Forminit⁩ שהוגדרה באתר. השירותים עשויים גם לעבד מטא-נתונים טכניים של הבקשה הדרושים למסירת ההודעה."
+        },
+        "usage": {
+          "title": "העדפות מקומיות",
+          "content": "האתר משתמש ב-localStorage כדי לזכור את שפת הממשק ואת פלטת הצבעים שנבחרה. ערכים אלה נשארים בדפדפן המשתמש וניתנים למחיקה על ידי ניקוי נתוני האתר."
+        }
+      },
+      "lgpd": {
+        "title": "חוק הגנת המידע הכללי הברזילאי (LGPD)",
+        "content": "כאשר הדבר חל, עיבוד נתונים אישיים צריך לעמוד ב-LGPD. דף זה מתאר את הנתונים הידועים ומשאיר שאלות תפעוליות פתוחות במלאי הטכני עד לבדיקת חשבון השירות החיצוני.",
+        "controller": {
+          "title": "בקר",
+          "content": "בעל האתר קובע את מטרת טופס יצירת הקשר ומקבל את ההודעות שנשלחות."
+        },
+        "operator": {
+          "title": "מעבד",
+          "content": "⁦Formspree⁩ ו-⁦Forminit⁩ פועלים כשירותים חיצוניים המשמשים לעיבוד ולמסירת הודעות מטפסי יצירת הקשר (טופס ההודעה וטופס הקובץ, בהתאמה). עדיין יש לאמת את הגדרות השמירה והמחיקה של כל שירות בחשבון המתאים."
+        }
+      },
+      "cookies": {
+        "title": "עוגיות ואחסון מקומי",
+        "content": "קוד צד ראשון באתר זה אינו מגדיר עוגיות. העדפות שפה ופלטה נשמרות ב-localStorage, לא בעוגיות."
+      },
+      "thirdParty": {
+        "title": "שירותי צד שלישי",
+        "content": "האתר אינו טוען Google Analytics, reCAPTCHA, פיקסלי פרסום או analytics מוטמע. בקשה אל Formspree מתרחשת רק כאשר טופס תקין נשלח. קישורים חיצוניים נפתחים רק כאשר המשתמש מפעיל אותם."
+      },
+      "rights": {
+        "title": "הזכויות שלך",
+        "content": "ניתן לבקש גישה, תיקון, מחיקה או הבהרה לגבי נתונים אישיים שנשלחו באמצעות הטופס דרך כתובת הדוא״ל הציבורית המוצגת באתר. ניתן גם למחוק העדפות מקומיות ישירות בדפדפן."
+      },
+      "changes": {
+        "title": "שינויים במדיניות",
+        "content": "מדיניות זו עשויה להתעדכן כאשר האתר, טופס יצירת הקשר או השירותים החיצוניים משתנים. התאריך לעיל מציין את הסקירה האחרונה שנרשמה."
+      },
+      "contact": {
+        "title": "יצירת קשר",
+        "content": "לשאלות על מדיניות זו או על נתונים שנשלחו באמצעות הטופס, השתמשו בדוא״ל הציבורי sergio.cordero.calvimontes@proton.me או בדף יצירת הקשר באתר."
+      }
+    }
+  },
+  "palettes": {
+    "system": "מערכת",
+    "classic": "קלאסית",
+    "alternative": "חלופית",
+    "editorial": "עריכתית",
+    "classicDark": "קלאסית כהה",
+    "alternativeDark": "חלופית כהה",
+    "editorialDark": "עריכתית כהה",
+    "blueprint": "בלופרינט",
+    "blueprintDark": "בלופרינט כהה"
+  },
+  "controls": {
+    "readMore": "קרא עוד",
+    "readLess": "קרא פחות",
+    "showMore": "הצג עוד",
+    "showLess": "הצג פחות",
+    "filterByYear": "סינון לפי שנה:",
+    "filterByCategory": "סינון לפי תחום:",
+    "filterByType": "סינון לפי סוג:",
+    "all": "הכול",
+    "previousImage": "תמונה קודמת",
+    "nextImage": "תמונה הבאה"
+  }
+}

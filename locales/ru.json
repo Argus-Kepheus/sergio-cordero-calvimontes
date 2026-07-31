@@ -1,0 +1,798 @@
+{
+  "site": {
+    "title": "SCC — Портфолио",
+    "description": "Технико-научное портфолио Calvimontes, S. C. с резюме, проектами и публикациями в области инженерии, компьютерного моделирования и научных вычислений.",
+    "ogTitle": "SCC — Портфолио Calvimontes, S. C.",
+    "ogDescription": "Ознакомьтесь с резюме, проектами и публикациями Calvimontes, S. C."
+  },
+  "ui": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "componentLoadError": "Ошибка загрузки компонента.",
+    "backToHome": "Вернуться на главную страницу",
+    "retry": "Повторить попытку",
+    "close": "Закрыть",
+    "yes": "Да",
+    "no": "Нет",
+    "accept": "Принять",
+    "decline": "Отклонить",
+    "success": "Успешно"
+  },
+  "nav": {
+    "home": "Главная",
+    "curriculo": "Резюме",
+    "projetos": "Проекты",
+    "publicacoes": "Публикации и исследования",
+    "contato": "Контакты"
+  },
+  "home": {
+    "pageTitle": "Главная",
+    "title": "Calvimontes, S. C.",
+    "intro": "Инженер-мехатроник со степенью магистра (stricto sensu) в области машиностроения и компьютерного моделирования. Работает в сфере численного моделирования, научных вычислений, разработки вычислительных инструментов, мультимасштабного моделирования, композитных материалов и термомеханических процессов, а также преподаёт электротехнические дисциплины.",
+    "navigation": "Используйте панель навигации выше, чтобы перейти к различным разделам сайта.",
+    "cta": {
+      "resume": "Смотреть резюме",
+      "projects": "Смотреть проекты"
+    },
+    "highlights": {
+      "title": "Основные направления",
+      "item1": {
+        "title": "Компьютерное моделирование",
+        "description": "Опыт в численном моделировании, вычислительной гомогенизации и мультимасштабном анализе."
+      },
+      "item2": {
+        "title": "Инженерия и вычислительная техника",
+        "description": "Образование в области мехатроники, машиностроения и информатики."
+      },
+      "item3": {
+        "title": "Публикации и преподавание",
+        "description": "Технико-научные публикации, учебные материалы и преподавание электротехнических дисциплин."
+      }
+    },
+    "description": "Технико-научный обзор Calvimontes, S. C. с акцентом на компьютерное моделирование, инженерию, научные вычисления, публикации и преподавание."
+  },
+  "curriculo": {
+    "pageTitle": "Резюме",
+    "title": "Резюме",
+    "experience": {
+      "title": "Профессиональный опыт",
+      "description": "Технико-научный опыт, составленный на основе редакционной версии резюме.",
+      "items": []
+    },
+    "education": {
+      "title": "Образование и проекты",
+      "description": "Академическое образование и избранные технико-научные проекты.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "Магистратура по компьютерному моделированию в науке и технике",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "Рио-де-Жанейро, Бразилия",
+          "projects": [
+            {
+              "title": "Процедуры вычислительной гомогенизации для мультимасштабного анализа.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "Магистратура по машиностроению",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "Рио-де-Жанейро, Бразилия",
+          "projects": [
+            {
+              "title": "Численное моделирование электротермомеханических процессов при сварке.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2013",
+          "degree": "Бакалавриат по мехатронике",
+          "institution": "CIE/UFSCar, UPB/USP",
+          "location": "Сан-Паулу, Бразилия / Кочабамба, Боливия",
+          "projects": [
+            {
+              "title": "Косвенное измерение сил резания в процессах ЧПУ.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–настоящее время",
+          "degree": "Бакалавриат по информатике, дистанционная форма обучения",
+          "institution": "Universidade Estácio de Sá",
+          "location": "Ангра-дус-Рейс, Бразилия"
+        },
+        {
+          "period": "2024",
+          "degree": "Техник по мехатронике",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "Параиба, Бразилия"
+        }
+      ]
+    },
+    "downloadButton": "Скачать резюме в PDF",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "Инженер-мехатроник | Компьютерное моделирование | Научные вычисления",
+      "location": "Рио-де-Жанейро, Бразилия",
+      "contactLabel": "Контактная информация и публичные профили",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "Сводка",
+      "text": "Инженер-мехатроник со степенью магистра (stricto sensu) в области машиностроения и компьютерного моделирования. Обладает опытом в численном моделировании, научных вычислениях и разработке вычислительных инструментов. Основная деятельность связана с мультимасштабным моделированием, композитными материалами и термомеханическими процессами. Дополнительно преподаёт электротехнические дисциплины."
+    },
+    "careerPerspective": {
+      "title": "Перспективы карьеры",
+      "items": [
+        {
+          "label": "Технико-научные исследования",
+          "text": "Подготовка рукописей и вспомогательных материалов для подачи статей в области вычислительной техники, моделирования материалов и численного моделирования."
+        },
+        {
+          "label": "Академическое развитие",
+          "text": "Формирование технико-научного портфолио для поступления в докторантуру по компьютерному моделированию в LNCC-MCTI, Петрополис, штат Рио-де-Жанейро."
+        },
+        {
+          "label": "Техническая деятельность",
+          "text": "Отслеживание возможностей в государственном и инженерном секторах, включая резервные списки в Itaipu Binacional, атомной станции Angra 3 и позиции военно-морского аналитика в EMGEPRON."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "Дополнительная подготовка",
+      "items": [
+        {
+          "label": "Программирование",
+          "text": "C; G/M-коды для ЧПУ; микроконтроллеры PIC, Arduino и ESP32; прототипирование и технико-промышленное проектирование с аддитивным производством из ABS-пластика и других полимерных материалов."
+        },
+        {
+          "label": "Автоматизация",
+          "text": "Ladder Logic для ПЛК; электротехнические команды и приводные цепи с реле, контакторами, кнопками, датчиками, селекторными переключателями, коммутаторами и блокировками."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS и Linkage."
+        },
+        {
+          "label": "Инженерия",
+          "text": "Электроустановки согласно нормам NBR 5410, NBR 5413, NBR 5419 и NBR 14039; анализ отказов и сопротивление материалов; металлография и прогнозирование свойств стали с использованием ИИ."
+        }
+      ]
+    },
+    "description": "Резюме Calvimontes, S. C., включающее образование, технико-научные проекты, профессиональный опыт и дополнительную подготовку."
+  },
+  "projetos": {
+    "pageTitle": "Проекты",
+    "title": "Технико-научные проекты",
+    "description": "Избранные академические и технические проекты из редакционной версии резюме.",
+    "demoButton": "Смотреть проект",
+    "codeButton": "Смотреть код",
+    "items": [
+      {
+        "slug": "exemplo-monitoramento-vibracao",
+        "category": "mecanica",
+        "title": "[Пример] Мониторинг вибрации для прогнозной диагностики",
+        "context": "Пример проекта (механика) — вымышленное содержание, использованное для проверки механизма страниц с подробным описанием",
+        "description": "Вымышленный прототип системы контроля вибрации вращающихся машин для раннего выявления механических неисправностей.",
+        "technologies": [
+          "Пьезоэлектрические датчики",
+          "Спектральный анализ",
+          "Предиктивное обслуживание"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Это пример проекта с вымышленными данными, созданный для проверки механизма страниц с подробным описанием проектов до добавления реального содержания по каждому направлению деятельности. В качестве иллюстрации описывается система непрерывного мониторинга вибрации промышленных вращающихся машин, способная выявлять аномальные паттерны, связанные с дисбалансом, несоосностью и износом подшипников.",
+          "role": "Вымышленная зона ответственности примера: определение архитектуры сбора данных, выбор датчиков и реализация алгоритмов спектрального анализа.",
+          "results": "Вымышленный результат примера: смоделированное снижение времени диагностики механических неисправностей на 30% в тестовом сценарии."
+        }
+      },
+      {
+        "slug": "exemplo-conversor-energia-solar",
+        "category": "eletroeletronica",
+        "title": "[Пример] Преобразователь электроэнергии для солнечной фотоэлектрической генерации",
+        "context": "Пример проекта (электротехника) — вымышленное содержание, использованное для проверки механизма страниц с подробным описанием",
+        "description": "Вымышленный прототип DC-DC преобразователя для оптимизации сбора энергии солнечных фотоэлектрических панелей.",
+        "technologies": [
+          "Силовая электроника",
+          "Отслеживание точки максимальной мощности",
+          "Солнечная фотоэлектрическая энергия"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Это пример проекта с вымышленными данными, созданный для проверки механизма страниц с подробным описанием проектов. Иллюстрирует разработку преобразователя силовой электроники для фотоэлектрической генерации с алгоритмом отслеживания точки максимальной мощности (MPPT) для повышения эффективности сбора энергии при переменных условиях освещённости.",
+          "role": "Вымышленная зона ответственности примера: проектирование силовой схемы, реализация алгоритма управления и стендовые испытания.",
+          "results": "Вымышленный результат примера: смоделированный прирост в 12% собранной энергии по сравнению с преобразователем без отслеживания точки максимальной мощности."
+        }
+      },
+      {
+        "slug": "exemplo-painel-monitoramento-dados",
+        "category": "informatica",
+        "title": "[Пример] Веб-панель мониторинга данных в реальном времени",
+        "context": "Пример проекта (информатика) — вымышленное содержание, использованное для проверки механизма страниц с подробным описанием",
+        "description": "Вымышленный прототип веб-панели для визуализации данных промышленных датчиков в реальном времени.",
+        "technologies": [
+          "Веб-разработка",
+          "Визуализация данных",
+          "Событийно-ориентированная архитектура"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "Это пример проекта с вымышленными данными, созданный для проверки механизма страниц с подробным описанием проектов. В качестве иллюстрации описывается веб-панель, получающая показания промышленных датчиков через поток событий и отображающая их на графиках, обновляемых в реальном времени, с поддержкой нескольких одновременных пользователей.",
+          "role": "Вымышленная зона ответственности примера: определение архитектуры системы, разработка бэкенда для приёма данных и веб-интерфейса.",
+          "results": "Вымышленный результат примера: смоделированная задержка менее 1 секунды между показанием датчика и отображением на панели."
+        }
+      }
+    ],
+    "viewDetails": "Подробнее",
+    "categories": {
+      "mecanica": "Механика",
+      "eletroeletronica": "Электротехника",
+      "informatica": "Информатика"
+    },
+    "detail": {
+      "categoryLabel": "Область",
+      "roleLabel": "Роль и обязанности",
+      "resultsLabel": "Результаты",
+      "backToProjects": "Назад к проектам"
+    },
+    "technologiesLabel": "Связанные технологии и темы"
+  },
+  "publicacoes": {
+    "pageTitle": "Публикации",
+    "title": "Избранные публикации",
+    "description": "Избранные публикации и технико-научные материалы, указанные в редакционной версии резюме.",
+    "noItems": "На данный момент публикации отсутствуют.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "1-е издание",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Техническая книга об основах, проектировании и технической документации базовых промышленных электроустановок.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Статья о вычислительной гомогенизации линейных вязкоупругих многофазных композитов и оценке эффективной релаксации в солнечных панелях на основе перовскита.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Альтернативный метод расчёта эффективных коэффициентов линейных вязкоупругих композитных материалов методом вычислительной асимптотической гомогенизации с использованием лямбда-функций вместо преобразования Лапласа — Карсона.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Вычислительный подход на основе метода асимптотической гомогенизации для оценки эффективных свойств линейных вязкоупругих композитов со слоистой периодической структурой, без использования интегральных преобразований.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Вычислительная гомогенизация для мультимасштабного анализа",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Процедуры вычислительной гомогенизации, применённые к мультимасштабному анализу материалов.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Предложение чисто резистивных электротермических элементов для вычислительного моделирования термомеханически-электрической связи в процессах контактной сварки сопротивлением (ERW).",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Математическая модель, реализованная в Octave®, для анализа температурного профиля при стыковой сварке оплавлением разнородных материалов, сопоставленная с экспериментальными данными из литературы.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Альтернативный метод, основанный на вычислительной математической модели, для расчёта скорости наплавки в процессах сварки плавлением плавящимся электродом.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Вычислительная математическая модель, реализованная в Octave®, для изучения влияния импеданса контактной поверхности на электротермическое поведение процесса сварки ERW.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Численное моделирование электротермомеханических процессов при сварке",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Исследование связанных процессов, включающих электрические, тепловые и механические эффекты при сварке.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Оценка факторов растрескивания при стыковой сварке оплавлением двухфазной стали DP600, с учётом химического состава, термомеханического процесса и влияния теплового воздействия на сварной шов.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Предложение математической модели процесса стыковой сварки оплавлением листовой стали с определением термо-электро-механических переменных процесса.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Работа о структурном расчёте и расчёте на усталость поворотного кулака переднего моста автомобиля Mini Baja SAE с использованием инструментов CAD/CAE.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Исследование структурной оптимизации трубчатого шасси автомобиля Baja SAE методом конечных элементов с моделированием лобового удара, опрокидывания и бокового удара.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Косвенное измерение сил резания в процессах ЧПУ",
+        "type": "Bachelor's thesis",
+        "journal": "CIE/UFSCar, UPB/USP",
+        "year": "2013",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Проект, посвящённый косвенному измерению сил резания в процессах ЧПУ.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "Контакты",
+    "title": "Контакты",
+    "description": "Публичная контактная информация и профессиональные профили.",
+    "sections": {
+      "message": "Отправить сообщение",
+      "file": "Отправить файл"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "Публичные профили",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "Контактная форма",
+      "name": "Имя",
+      "email": "Email",
+      "subject": "Тема",
+      "message": "Сообщение",
+      "attachment": "Вложение",
+      "chooseFile": "Выбрать файл",
+      "noFileChosen": "Файл не выбран",
+      "attachmentHint": "PDF, до 3 МБ.",
+      "send": "Отправить сообщение",
+      "sendFile": "Отправить файл",
+      "privacyPolicy": "Я прочитал(а) и принимаю <a href='#privacyPolicy'>политику конфиденциальности</a> и даю согласие на обработку моих персональных данных."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "Email",
+      "phone": "Телефон"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — Все права защищены.",
+    "contact": {
+      "title": "Контакты",
+      "email": "Email: "
+    },
+    "social": {
+      "title": "Публичные профили",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "Ошибка",
+    "notFound": {
+      "title": "Страница не найдена",
+      "message": "Страница, которую вы ищете, не существует или была перемещена.",
+      "backButton": "Вернуться на главную страницу"
+    },
+    "generic": {
+      "title": "Произошла ошибка",
+      "message": "Извините, при загрузке содержимого произошла ошибка. Пожалуйста, попробуйте снова.",
+      "backButton": "Вернуться на главную страницу"
+    },
+    "connection": {
+      "title": "Ошибка соединения",
+      "message": "Не удалось подключиться к серверу. Проверьте подключение к интернету.",
+      "retryButton": "Повторить попытку"
+    },
+    "appInitFailed": "Ошибка инициализации приложения. Пожалуйста, перезагрузите страницу.",
+    "langChangeFailed": "Ошибка смены языка. Пожалуйста, попробуйте снова.",
+    "pageLoadFailed": "Ошибка загрузки страницы. Пожалуйста, попробуйте снова.",
+    "description": "Страница ошибки, отображаемая, когда содержимое не может быть загружено или запрошенный маршрут недоступен."
+  },
+  "form": {
+    "validation": {
+      "required": "Пожалуйста, заполните это поле",
+      "invalidEmail": "Пожалуйста, введите корректный адрес электронной почты",
+      "invalidFileType": "Пожалуйста, загрузите файл в формате PDF.",
+      "fileTooLarge": "Файл должен быть не больше {{max}}.",
+      "email": "Пожалуйста, введите корректный адрес электронной почты",
+      "minLength": "Это поле должно содержать не менее {{min}} символов",
+      "maxLength": "Это поле должно содержать не более {{max}} символов",
+      "pattern": "Пожалуйста, введите корректный формат",
+      "number": "Пожалуйста, введите корректное число",
+      "url": "Пожалуйста, введите корректный URL",
+      "match": "Поля не совпадают"
+    },
+    "status": {
+      "sending": "Отправка сообщения...",
+      "success": "Сообщение успешно отправлено!",
+      "error": "Ошибка при отправке сообщения. Пожалуйста, попробуйте снова."
+    },
+    "placeholders": {
+      "name": "Введите ваше имя",
+      "email": "Введите ваш адрес электронной почты",
+      "subject": "Введите тему",
+      "message": "Напишите ваше сообщение здесь",
+      "phone": "Введите ваш номер телефона"
+    }
+  },
+  "aria": {
+    "languageSelector": "Выбрать язык",
+    "menuToggle": "Переключить меню навигации",
+    "closeMenu": "Закрыть меню",
+    "nextSlide": "Следующий слайд",
+    "previousSlide": "Предыдущий слайд",
+    "loadMore": "Загрузить больше контента",
+    "search": "Поиск",
+    "searchButton": "Кнопка поиска",
+    "closeButton": "Кнопка закрытия",
+    "expandButton": "Кнопка развернуть",
+    "collapseButton": "Кнопка свернуть",
+    "socialLinks": "Ссылки на социальные сети",
+    "contactForm": "Контактная форма",
+    "requiredField": "Обязательное поле",
+    "navigation": "Основная навигация",
+    "skipToContent": "Перейти к содержимому",
+    "darkModeToggle": "Переключить тёмный режим",
+    "backToTop": "Вернуться в начало страницы",
+    "openMenu": "Открыть меню",
+    "paletteSelector": "Выбрать цветовую палитру",
+    "paletteSelectorWithCurrent": "Выбрать цветовую палитру: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "Читать далее",
+    "viewAll": "Смотреть все",
+    "download": "Скачать",
+    "submit": "Отправить",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "confirm": "Подтвердить",
+    "apply": "Применить",
+    "filter": "Фильтр",
+    "clear": "Очистить",
+    "search": "Поиск",
+    "share": "Поделиться",
+    "print": "Печать",
+    "contactMe": "Связаться со мной",
+    "backToTop": "Наверх"
+  },
+  "formats": {
+    "date": {
+      "short": "ДД.ММ.ГГГГ",
+      "long": "D MMMM YYYY",
+      "monthYear": "MMMM YYYY",
+      "time": "HH:mm",
+      "dateTime": "D MMMM YYYY, HH:mm",
+      "relative": {
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "tomorrow": "Завтра",
+        "daysAgo": "{{days}} дн. назад",
+        "inDays": "через {{days}} дн."
+      }
+    },
+    "number": {
+      "decimal": ",",
+      "thousands": ".",
+      "percent": "{value}%",
+      "currency": "{value} ₽"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "Политика конфиденциальности",
+    "description": "Политика конфиденциальности, объясняющая данные контактной формы, локальные настройки языка и палитры, внешние ссылки и контроль пользователя над данными, сохранёнными в браузере."
+  },
+  "privacy": {
+    "title": "Политика конфиденциальности",
+    "description": "Эта политика описывает, какие данные использует сайт для контактов, локальных настроек и внешних ссылок.",
+    "consent": "Я прочитал(а) и принимаю",
+    "lastUpdated": "Последнее обновление",
+    "lastUpdatedDate": "30 июля 2026 г.",
+    "sections": {
+      "introduction": {
+        "title": "Введение",
+        "content": "Эта политика обобщает потоки данных, реализованные на этом статическом сайте. Её следует читать вместе с техническим описанием в docs/PRIVACY_DATA_FLOW.md."
+      },
+      "dataCollection": {
+        "title": "Обрабатываемые данные",
+        "content": "Сайт избегает излишнего сбора данных. Основные данные — это те, что добровольно отправляются через контактную форму, и настройки, сохранённые локально в браузере.",
+        "personalData": {
+          "title": "Контактная форма",
+          "content": "На сайте есть две контактные формы: при отправке формы сообщения на настроенный сайтом endpoint Formspree передаются имя, email, тема, сообщение и подтверждение согласия; при отправке формы файла на настроенный сайтом endpoint Forminit передаются имя, email, сообщение, вложение в формате PDF (до 3 МБ), фиксированная метка темы («inbox-document», недоступная для редактирования пользователем) и подтверждение согласия. Сервисы также могут обрабатывать технические метаданные запроса, необходимые для доставки сообщения."
+        },
+        "usage": {
+          "title": "Локальные настройки",
+          "content": "Сайт использует localStorage для запоминания выбранного языка и визуальной палитры. Эти значения хранятся в браузере пользователя и могут быть удалены при очистке данных сайта."
+        }
+      },
+      "lgpd": {
+        "title": "Общий закон Бразилии о защите данных (LGPD)",
+        "content": "В применимых случаях обработка персональных данных должна соответствовать LGPD. Эта страница описывает известные данные и отмечает нерешённые операционные вопросы в техническом описании до проверки учётной записи внешнего сервиса.",
+        "controller": {
+          "title": "Контролёр",
+          "content": "Владелец сайта определяет цель контактной формы и получает отправленные сообщения."
+        },
+        "operator": {
+          "title": "Оператор",
+          "content": "Formspree и Forminit выступают в качестве внешних сервисов, используемых для обработки и доставки сообщений контактных форм (формы сообщения и формы файла соответственно). Настройки хранения и удаления данных каждого сервиса ещё предстоит проверить в соответствующей учётной записи."
+        }
+      },
+      "cookies": {
+        "title": "Файлы cookie и локальное хранилище",
+        "content": "Собственный код сайта не устанавливает файлы cookie. Настройки языка и палитры сохраняются в localStorage, а не в cookie."
+      },
+      "thirdParty": {
+        "title": "Сторонние сервисы",
+        "content": "Сайт не загружает Google Analytics, reCAPTCHA, рекламные пиксели или встроенную аналитику. Запрос к Formspree выполняется только при отправке действительной формы. Внешние ссылки открываются только при активации пользователем."
+      },
+      "rights": {
+        "title": "Ваши права",
+        "content": "Вы можете запросить доступ, исправление, удаление или разъяснения относительно персональных данных, отправленных через форму, используя публичный контактный email, указанный на этом сайте. Локальные настройки также можно удалить непосредственно в браузере."
+      },
+      "changes": {
+        "title": "Изменения политики",
+        "content": "Эта политика может обновляться при изменении сайта, контактной формы или внешних сервисов. Дата выше указывает последнюю зафиксированную редакцию."
+      },
+      "contact": {
+        "title": "Контакты",
+        "content": "По вопросам об этой политике или о данных, отправленных через форму, используйте публичный email sergio.cordero.calvimontes@proton.me или страницу контактов на сайте."
+      }
+    }
+  },
+  "palettes": {
+    "system": "Системная",
+    "classic": "Классическая",
+    "alternative": "Альтернативная",
+    "editorial": "Редакционная",
+    "classicDark": "Классическая тёмная",
+    "alternativeDark": "Альтернативная тёмная",
+    "editorialDark": "Редакционная тёмная",
+    "blueprint": "Чертёжная",
+    "blueprintDark": "Чертёжная тёмная"
+  },
+  "controls": {
+    "readMore": "Читать далее",
+    "readLess": "Свернуть",
+    "showMore": "Показать больше",
+    "showLess": "Показать меньше",
+    "filterByYear": "Фильтр по году:",
+    "filterByCategory": "Фильтр по области:",
+    "filterByType": "Фильтр по типу:",
+    "all": "Все",
+    "previousImage": "Предыдущее изображение",
+    "nextImage": "Следующее изображение"
+  }
+}

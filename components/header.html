@@ -1,0 +1,34 @@
+<header class="site-header">
+  <div class="header-content">
+      <button class="hamburger" id="hamburger-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu" data-i18n-aria-label="aria.openMenu">&#9776;</button>
+
+      <nav class="site-nav" aria-label="Main navigation" data-i18n-aria-label="aria.navigation">
+          <ul id="nav-menu">
+              <li><a href="#home" class="nav-link" data-i18n="nav.home">Início</a></li>
+              <li><a href="#curriculo" class="nav-link" data-i18n="nav.curriculo">Currículo</a></li>
+              <li><a href="#projetos" class="nav-link" data-i18n="nav.projetos">Projetos</a></li>
+              <li><a href="#publicacoes" class="nav-link" data-i18n="nav.publicacoes">Publicações</a></li>
+              <li><a href="#contato" class="nav-link" data-i18n="nav.contato">Contato</a></li>
+              <li class="hidden"><a href="#privacyPolicy" data-nav-key="privacy.title" class="nav-link">Política de Privacidade</a></li>
+          </ul>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language selector" data-i18n-aria-label="aria.languageSelector">
+          <button type="button" class="lang-toggle" aria-expanded="false" aria-controls="language-options" aria-label="Selecionar idioma" data-i18n-aria-label="aria.languageSelector">
+            <span class="lang-badge current-lang-badge">PT</span>
+            <span class="lang-toggle-arrow" aria-hidden="true"></span>
+          </button>
+
+          <div class="lang-options" id="language-options" role="group" aria-label="Language options" data-i18n-aria-label="aria.languageSelector"></div>
+      </div>
+
+      <div class="palette-switcher" aria-label="Selecionar paleta de cores" data-i18n-aria-label="aria.paletteSelector">
+          <button type="button" class="palette-toggle" aria-expanded="false" aria-controls="palette-options" aria-label="Selecionar paleta de cores">
+            <img src="palettes/system.svg" alt="" class="palette-icon current-palette-icon" width="48" height="48" loading="lazy" decoding="async" />
+            <span class="palette-toggle-arrow" aria-hidden="true"></span>
+          </button>
+
+          <div class="palette-options" id="palette-options" role="group" aria-label="Palette options" data-i18n-aria-label="aria.paletteSelector"></div>
+      </div>
+  </div>
+</header>

@@ -1,0 +1,798 @@
+{
+  "site": {
+    "title": "SCC - ポートフォリオ",
+    "description": "Calvimontes, S. C. の技術・科学ポートフォリオ。工学、計算モデリング、科学計算に関する履歴書、プロジェクト、出版物を収録しています。",
+    "ogTitle": "SCC - Calvimontes, S. C. のポートフォリオ",
+    "ogDescription": "Calvimontes, S. C. の履歴書、プロジェクト、出版物をご覧ください。"
+  },
+  "ui": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "componentLoadError": "コンポーネントの読み込み中にエラーが発生しました。",
+    "backToHome": "ホームに戻る",
+    "retry": "再試行",
+    "close": "閉じる",
+    "yes": "はい",
+    "no": "いいえ",
+    "accept": "承諾",
+    "decline": "拒否",
+    "success": "成功"
+  },
+  "nav": {
+    "home": "ホーム",
+    "curriculo": "履歴書",
+    "projetos": "プロジェクト",
+    "publicacoes": "出版物と研究",
+    "contato": "連絡先"
+  },
+  "home": {
+    "pageTitle": "ホーム",
+    "title": "Calvimontes, S. C.",
+    "intro": "機械工学および計算モデリングのストリクト・センス修士号を有するメカトロニクスエンジニア。数値シミュレーション、科学計算、計算ツール開発、マルチスケールモデリング、複合材料、熱機械プロセス、ならびに電気電子分野の教育に取り組んでいます。",
+    "navigation": "上部のナビゲーションバーを使って、サイト内の各セクションをご覧ください。",
+    "cta": {
+      "resume": "履歴書を見る",
+      "projects": "プロジェクトを見る"
+    },
+    "highlights": {
+      "title": "ハイライト",
+      "item1": {
+        "title": "計算モデリング",
+        "description": "数値シミュレーション、計算均質化、マルチスケール解析の経験。"
+      },
+      "item2": {
+        "title": "工学と計算",
+        "description": "メカトロニクス工学、機械工学、計算機科学の学術的背景。"
+      },
+      "item3": {
+        "title": "出版と教育",
+        "description": "技術・科学出版物、教材作成、電気電子分野での教育経験。"
+      }
+    },
+    "description": "Calvimontes, S. C. の技術・科学分野の概要。計算モデリング、工学、科学計算、出版物、教育に関するハイライトを紹介します。"
+  },
+  "curriculo": {
+    "pageTitle": "履歴書",
+    "title": "履歴書",
+    "experience": {
+      "title": "職務経験",
+      "description": "履歴書の編集版に基づいて整理した技術・科学分野での経験。",
+      "items": []
+    },
+    "education": {
+      "title": "学歴とプロジェクト",
+      "description": "学歴と主要な技術・科学プロジェクト。",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "科学技術における計算モデリング修士",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "リオデジャネイロ、ブラジル",
+          "projects": [
+            {
+              "title": "マルチスケール解析のための計算均質化手法。",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "機械工学修士",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "リオデジャネイロ、ブラジル",
+          "projects": [
+            {
+              "title": "溶接における電気・熱・機械連成プロセスの数値シミュレーション。",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2013",
+          "degree": "メカトロニクス工学学士",
+          "institution": "CIE/UFSCar, UPB/USP",
+          "location": "サンパウロ、ブラジル / コチャバンバ、ボリビア",
+          "projects": [
+            {
+              "title": "CNC 加工における切削力の間接測定。",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–現在",
+          "degree": "計算機科学学士（遠隔教育）",
+          "institution": "Universidade Estácio de Sá",
+          "location": "アングラ・ドス・レイス、ブラジル"
+        },
+        {
+          "period": "2024",
+          "degree": "メカトロニクス技術課程",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "パライバ、ブラジル"
+        }
+      ]
+    },
+    "downloadButton": "PDF 履歴書をダウンロード",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "メカトロニクスエンジニア | 計算モデリング | 科学計算",
+      "location": "リオデジャネイロ、ブラジル",
+      "contactLabel": "連絡先情報と公開プロフィール",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "概要",
+      "text": "機械工学および計算モデリングのストリクト・センス修士号を有するメカトロニクスエンジニア。数値シミュレーション、科学計算、計算ツール開発の経験があります。主な活動分野はマルチスケールモデリング、複合材料、熱機械プロセスであり、副次的な活動分野は電気電子分野の教育です。"
+    },
+    "careerPerspective": {
+      "title": "キャリア展望",
+      "items": [
+        {
+          "label": "技術・科学研究",
+          "text": "計算、材料モデリング、数値シミュレーション分野の論文投稿に向けた原稿と支援資料の整備。"
+        },
+        {
+          "label": "学術的発展",
+          "text": "LNCC-MCTI（ペトロポリス、RJ）の計算モデリング博士課程への応募のため、技術・科学ポートフォリオを整理。"
+        },
+        {
+          "label": "技術分野での実務",
+          "text": "公共部門および工学分野の機会を継続的に追跡。Itaipu Binacional、Angra 3 原子力発電所、EMGEPRON の海軍アナリスト候補名簿を含む。"
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "追加研修",
+      "items": [
+        {
+          "label": "プログラミング",
+          "text": "C、CNC 用 G/M コード、PIC・Arduino・ESP32 マイコン、ABS やその他の高分子材料を用いた積層造形による試作と技術・産業設計。"
+        },
+        {
+          "label": "自動化",
+          "text": "PLC 向け Ladder Logic、リレー、コンタクタ、押しボタン、センサー、セレクタスイッチ、切替器、インターロックを用いた電気電子制御と駆動回路。"
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks、OnShape、FreeCAD、AutoCAD、ZWCAD、BricsCAD、MasterCAM、Vectric Aspire、VCarve、DIALux、Relux、DEFORM-3D、ANSYS、Linkage。"
+        },
+        {
+          "label": "工学",
+          "text": "NBR 5410、NBR 5413、NBR 5419、NBR 14039 に基づく電気設備、破損解析と材料力学、金属組織学、および AI による鋼材特性予測。"
+        }
+      ]
+    },
+    "description": "Calvimontes, S. C. の履歴書。学歴、技術・科学プロジェクト、職務経験、追加研修を収録しています。"
+  },
+  "projetos": {
+    "pageTitle": "プロジェクト",
+    "title": "技術・科学プロジェクト",
+    "description": "履歴書の編集版から選定した学術・技術プロジェクト。",
+    "demoButton": "プロジェクトを見る",
+    "codeButton": "コードを見る",
+    "items": [
+      {
+        "slug": "exemplo-monitoramento-vibracao",
+        "category": "mecanica",
+        "title": "[例] 予知診断のための振動モニタリング",
+        "context": "例示プロジェクト（機械工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
+        "description": "回転機械の振動を検知し、機械的な故障を事前に予測するための架空のプロトタイプ。",
+        "technologies": [
+          "圧電センサー",
+          "スペクトル解析",
+          "予知保全"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "これは、実際の各分野のコンテンツを追加する前に、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。産業用回転機械に適用する連続振動モニタリングシステムを例示的に説明しており、不釣り合い、芯出し不良、軸受摩耗に関連する異常パターンを検出できます。",
+          "role": "架空の例示的な役割: データ取得アーキテクチャの定義、センサーの選定、スペクトル解析アルゴリズムの実装。",
+          "results": "架空の例示的な成果: テストシナリオにおいて、機械故障の診断時間を模擬的に30%短縮。"
+        }
+      },
+      {
+        "slug": "exemplo-conversor-energia-solar",
+        "category": "eletroeletronica",
+        "title": "[例] 太陽光発電向けパワーエレクトロニクス変換器",
+        "context": "例示プロジェクト（電気電子工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
+        "description": "太陽光パネルからのエネルギー取得を最適化するための、架空のDC-DCコンバーターのプロトタイプ。",
+        "technologies": [
+          "パワーエレクトロニクス",
+          "最大電力点追従",
+          "太陽光発電"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "これは、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。太陽光発電向けのパワーエレクトロニクス変換器の開発を例示し、日射条件が変化する中でもエネルギー取得を改善するための最大電力点追従（MPPT）アルゴリズムを備えています。",
+          "role": "架空の例示的な役割: パワー回路の設計、制御アルゴリズムの実装、ベンチテスト。",
+          "results": "架空の例示的な成果: 最大電力点追従を行わない変換器と比較して、取得エネルギーが模擬的に12%向上。"
+        }
+      },
+      {
+        "slug": "exemplo-painel-monitoramento-dados",
+        "category": "informatica",
+        "title": "[例] リアルタイムデータ監視用Webダッシュボード",
+        "context": "例示プロジェクト（情報工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
+        "description": "産業用センサーデータをリアルタイムで可視化するための、架空のWebダッシュボードのプロトタイプ。",
+        "technologies": [
+          "Web開発",
+          "データ可視化",
+          "イベント駆動アーキテクチャ"
+        ],
+        "links": [],
+        "detail": {
+          "longDescription": "これは、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。産業用センサーの読み取り値をイベントストリームで受信し、リアルタイムで更新されるグラフに表示し、複数ユーザーの同時利用にも対応するWebダッシュボードを例示的に説明しています。",
+          "role": "架空の例示的な役割: システムアーキテクチャの定義、データ取り込みバックエンドとWebインターフェースの開発。",
+          "results": "架空の例示的な成果: センサーの読み取りからダッシュボード表示までの遅延を模擬的に1秒未満に短縮。"
+        }
+      }
+    ],
+    "viewDetails": "詳細を見る",
+    "categories": {
+      "mecanica": "機械工学",
+      "eletroeletronica": "電気電子工学",
+      "informatica": "情報工学"
+    },
+    "detail": {
+      "categoryLabel": "分野",
+      "roleLabel": "役割と担当範囲",
+      "resultsLabel": "成果",
+      "backToProjects": "プロジェクト一覧へ戻る"
+    },
+    "technologiesLabel": "関連技術とテーマ"
+  },
+  "publicacoes": {
+    "pageTitle": "出版物",
+    "title": "主な出版物",
+    "description": "履歴書の編集版で強調された出版物および技術・科学資料。",
+    "noItems": "現在公開中の出版物はありません。",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "第1版",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "基礎産業電気設計の基礎、サイジング、技術文書化を扱う技術書。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "線形粘弾性多相複合材料の計算均質化と、ペロブスカイト系太陽電池パネルにおける有効緩和推定に関する論文。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "ラプラス・カルソン変換の代わりにラムダ関数を用いた計算漸近均質化法により、線形粘弾性複合材料の有効係数を算出する代替手法。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "積分変換の使用を回避しつつ、層状周期構造を持つ線形粘弾性複合材料の有効特性を推定する、漸近均質化法に基づく計算的アプローチ。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "マルチスケール解析のための計算均質化",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "材料のマルチスケール解析に適用した計算均質化手法。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "電気抵抗溶接(ERW)プロセスにおける熱機械・電気連成の計算シミュレーションのための、純抵抗性電気熱要素の提案。",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "異種材料のフラッシュバット溶接における温度プロファイルを分析するため、Octave®で実装した数学モデル。文献の実験データと比較。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "消耗電極式融接プロセスにおける溶着速度を計算するための、計算数学モデルに基づく代替手法。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "ERW溶接プロセスの電気熱的挙動における界面インピーダンスの影響を研究するため、Octave®で実装した計算数学モデル。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "溶接における電気・熱・機械連成プロセスの数値シミュレーション",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "溶接における電気、熱、機械の各効果が連成するプロセスの研究。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "デュアルフェーズ鋼DP600のフラッシュバット溶接における割れ要因の評価。化学組成、熱機械プロセス、溶接部への入熱の影響を関連づけて分析。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "シート形鋼のフラッシュバット溶接プロセスに関する数学モデルの提案。プロセスに関わる熱・電気・機械変数を定義。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "CAD/CAEツールを用いた、ミニバハSAE車両のフロントアクスルナックルの構造・疲労設計に関する論文。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "有限要素法を用いたBaja SAE車両のチューブラーシャシーの構造最適化に関する研究。前面衝突、横転、側面衝突のシミュレーションを実施。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "CNC 加工における切削力の間接測定",
+        "type": "Bachelor's thesis",
+        "journal": "CIE/UFSCar, UPB/USP",
+        "year": "2013",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "CNC 加工における切削力の間接測定に焦点を当てたプロジェクト。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "連絡先",
+    "title": "連絡先",
+    "description": "公開されている連絡先情報と専門プロフィール。",
+    "sections": {
+      "message": "メッセージを送る",
+      "file": "ファイルを送る"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "公開プロフィール",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "お問い合わせフォーム",
+      "name": "氏名",
+      "email": "メール",
+      "subject": "件名",
+      "message": "メッセージ",
+      "attachment": "添付ファイル",
+      "chooseFile": "ファイルを選択",
+      "noFileChosen": "選択されていません",
+      "attachmentHint": "PDF、3 MBまで。",
+      "send": "メッセージを送信",
+      "sendFile": "ファイルを送信",
+      "privacyPolicy": "<a href='#privacyPolicy'>プライバシーポリシー</a>を読み、個人データ処理に同意します。"
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "メール",
+      "phone": "電話"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — 無断転載を禁じます。",
+    "contact": {
+      "title": "連絡先",
+      "email": "メール: "
+    },
+    "social": {
+      "title": "公開プロフィール",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "エラー",
+    "notFound": {
+      "title": "ページが見つかりません",
+      "message": "お探しのページは存在しないか、移動されました。",
+      "backButton": "ホームに戻る"
+    },
+    "generic": {
+      "title": "エラーが発生しました",
+      "message": "申し訳ありません。コンテンツの読み込み中にエラーが発生しました。もう一度お試しください。",
+      "backButton": "ホームに戻る"
+    },
+    "connection": {
+      "title": "接続エラー",
+      "message": "サーバーに接続できませんでした。インターネット接続をご確認ください。",
+      "retryButton": "再試行"
+    },
+    "appInitFailed": "アプリケーションの初期化中にエラーが発生しました。ページを再読み込みしてください。",
+    "langChangeFailed": "言語の切り替え中にエラーが発生しました。もう一度お試しください。",
+    "pageLoadFailed": "ページの読み込み中にエラーが発生しました。もう一度お試しください。",
+    "description": "コンテンツを読み込めない場合、または要求されたルートが利用できない場合に表示されるエラーページです。"
+  },
+  "form": {
+    "validation": {
+      "required": "このフィールドを入力してください",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "invalidFileType": "PDF形式のファイルをアップロードしてください。",
+      "fileTooLarge": "ファイルは最大{{max}}までです。",
+      "email": "有効なメールアドレスを入力してください",
+      "minLength": "このフィールドは少なくとも{{min}}文字必要です",
+      "maxLength": "このフィールドは最大{{max}}文字までです",
+      "pattern": "有効な形式を入力してください",
+      "number": "有効な数字を入力してください",
+      "url": "有効なURLを入力してください",
+      "match": "フィールドが一致しません"
+    },
+    "status": {
+      "sending": "メッセージを送信中...",
+      "success": "メッセージが正常に送信されました！",
+      "error": "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
+    },
+    "placeholders": {
+      "name": "お名前を入力",
+      "email": "メールアドレスを入力",
+      "subject": "件名を入力",
+      "message": "ここにメッセージを書いてください",
+      "phone": "電話番号を入力"
+    }
+  },
+  "aria": {
+    "languageSelector": "言語を選択",
+    "menuToggle": "ナビゲーションメニューの切り替え",
+    "closeMenu": "メニューを閉じる",
+    "nextSlide": "次のスライド",
+    "previousSlide": "前のスライド",
+    "loadMore": "さらにコンテンツを読み込む",
+    "search": "検索",
+    "searchButton": "検索ボタン",
+    "closeButton": "閉じるボタン",
+    "expandButton": "展開ボタン",
+    "collapseButton": "折りたたみボタン",
+    "socialLinks": "ソーシャルリンク",
+    "contactForm": "お問い合わせフォーム",
+    "requiredField": "必須項目",
+    "navigation": "メインナビゲーション",
+    "skipToContent": "コンテンツへスキップ",
+    "darkModeToggle": "ダークモード切り替え",
+    "backToTop": "ページ上部へ戻る",
+    "openMenu": "メニューを開く",
+    "paletteSelector": "カラーパレットを選択",
+    "paletteSelectorWithCurrent": "カラーパレットを選択: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "続きを読む",
+    "viewAll": "すべて表示",
+    "download": "ダウンロード",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "confirm": "確認",
+    "apply": "適用",
+    "filter": "絞り込み",
+    "clear": "クリア",
+    "search": "検索",
+    "share": "共有",
+    "print": "印刷",
+    "contactMe": "連絡する",
+    "backToTop": "トップへ戻る"
+  },
+  "formats": {
+    "date": {
+      "short": "YYYY/MM/DD",
+      "long": "YYYY年M月D日",
+      "monthYear": "YYYY年M月",
+      "time": "H:mm",
+      "dateTime": "YYYY年M月D日 H:mm",
+      "relative": {
+        "today": "今日",
+        "yesterday": "昨日",
+        "tomorrow": "明日",
+        "daysAgo": "{{days}}日前",
+        "inDays": "{{days}}日後"
+      }
+    },
+    "number": {
+      "decimal": ".",
+      "thousands": ",",
+      "percent": "{value}%",
+      "currency": "¥{value}"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "プライバシーポリシー",
+    "description": "お問い合わせフォームのデータ、言語とカラーパレットのローカル設定、外部リンク、ブラウザーに保存されたデータに対する利用者の管理について説明するプライバシーポリシーです。"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "description": "このポリシーは、当サイトが連絡、ローカル設定、外部リンクのために使用するデータを説明します。",
+    "consent": "読んで同意します:",
+    "lastUpdated": "最終更新日",
+    "lastUpdatedDate": "2026年7月30日",
+    "sections": {
+      "introduction": {
+        "title": "はじめに",
+        "content": "このポリシーは、この静的サイトで実装されているデータフローを要約するものです。技術的な一覧である docs/PRIVACY_DATA_FLOW.md と併せて読むことを想定しています。"
+      },
+      "dataCollection": {
+        "title": "取り扱うデータ",
+        "content": "当サイトは不要な収集を避けます。主なデータは、お問い合わせフォームから任意で送信される情報と、ブラウザー内に保存される設定です。",
+        "personalData": {
+          "title": "お問い合わせフォーム",
+          "content": "このサイトには2つのお問い合わせフォームがあります。メッセージフォームを送信すると、氏名、メールアドレス、件名、メッセージ、同意確認が、サイトで設定された Formspree エンドポイントに送信されます。ファイルフォームを送信すると、氏名、メールアドレス、メッセージ、PDF添付ファイル（最大3MB）、固定の件名ラベル（「inbox-document」、ユーザーによる編集不可）、同意確認が、サイトで設定された Forminit エンドポイントに送信されます。これらのサービスは、メッセージ配信に必要な技術的リクエストメタデータも処理する場合があります。"
+        },
+        "usage": {
+          "title": "ローカル設定",
+          "content": "当サイトは、選択された言語と表示パレットを記憶するために localStorage を使用します。これらの値は利用者のブラウザー内に残り、サイトデータを削除することで消去できます。"
+        }
+      },
+      "lgpd": {
+        "title": "ブラジル一般データ保護法（LGPD）",
+        "content": "適用される場合、個人データの処理は LGPD に従う必要があります。このページでは既知のデータを説明し、外部サービスのアカウント確認が終わるまで運用上の不明点を技術的な一覧に記録します。",
+        "controller": {
+          "title": "管理者",
+          "content": "サイト所有者はお問い合わせフォームの目的を決定し、送信されたメッセージを受け取ります。"
+        },
+        "operator": {
+          "title": "処理者",
+          "content": "Formspree と Forminit は、お問い合わせフォーム（それぞれメッセージフォームとファイルフォーム）のメッセージを処理して配信するために使用される外部サービスです。各サービスの保持および削除設定は、対応するアカウントで確認する必要があります。"
+        }
+      },
+      "cookies": {
+        "title": "クッキーとローカルストレージ",
+        "content": "当サイトのファーストパーティコードはクッキーを設定しません。言語とパレットの設定は、クッキーではなく localStorage に保存されます。"
+      },
+      "thirdParty": {
+        "title": "第三者サービス",
+        "content": "当サイトは Google Analytics、reCAPTCHA、広告ピクセル、埋め込み型 analytics を読み込みません。有効なフォームが送信された場合にのみ Formspree へのリクエストが発生します。外部リンクは利用者が操作した場合にのみ開かれます。"
+      },
+      "rights": {
+        "title": "利用者の権利",
+        "content": "フォームから送信した個人データについて、アクセス、修正、削除、説明を求める場合は、このサイトに表示されている公開メールアドレスを使用できます。ローカル設定はブラウザーから直接削除することもできます。"
+      },
+      "changes": {
+        "title": "ポリシーの変更",
+        "content": "このポリシーは、サイト、お問い合わせフォーム、外部サービスが変更された場合に更新されることがあります。上記の日付は最後に記録されたレビュー日です。"
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "content": "このポリシー、またはフォームから送信されたデータに関する質問は、公開メール sergio.cordero.calvimontes@proton.me またはサイトのお問い合わせページからご連絡ください。"
+      }
+    }
+  },
+  "palettes": {
+    "system": "システム",
+    "classic": "クラシック",
+    "alternative": "代替",
+    "editorial": "エディトリアル",
+    "classicDark": "クラシック ダーク",
+    "alternativeDark": "代替 ダーク",
+    "editorialDark": "エディトリアル ダーク",
+    "blueprint": "ブループリント",
+    "blueprintDark": "ブループリント ダーク"
+  },
+  "controls": {
+    "readMore": "もっと読む",
+    "readLess": "閉じる",
+    "showMore": "もっと見る",
+    "showLess": "表示を減らす",
+    "filterByYear": "年で絞り込み:",
+    "filterByCategory": "分野で絞り込み:",
+    "filterByType": "種類で絞り込み:",
+    "all": "すべて",
+    "previousImage": "前の画像",
+    "nextImage": "次の画像"
+  }
+}

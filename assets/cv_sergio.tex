@@ -1,0 +1,262 @@
+\documentclass[a4paper, 10pt]{article}
+
+% ---------- Pacotes essenciais ----------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, top=14mm, bottom=14mm, left=10mm, right=10mm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{parskip}
+
+% ---------- Fontes ----------
+\usepackage{mathpazo}      % Palatino — elegante e similar à Calluna
+\newcommand{\Calluna}{\rmfamily}
+\newcommand{\Courier}{\ttfamily}
+
+% ---------- Cor e hiperlinks ----------
+\definecolor{meuazul}{RGB}{0, 82, 155}
+\definecolor{cinzafundo}{RGB}{242, 242, 242}
+\definecolor{cinzaborda}{RGB}{190, 190, 190}
+
+\usepackage[
+colorlinks=true,
+urlcolor=meuazul,
+linkcolor=meuazul
+]{hyperref}
+
+% ---------- Caixa de fundo com mdframed ----------
+\usepackage[framemethod=tikz]{mdframed}
+
+\mdfdefinestyle{cvbox}{
+	backgroundcolor=cinzafundo,
+	linecolor=cinzaborda,
+	linewidth=0.7pt,
+	roundcorner=3pt,
+	innertopmargin=6pt,
+	innerbottommargin=6pt,
+	innerleftmargin=8pt,
+	innerrightmargin=8pt,
+	leftmargin=0pt,
+	rightmargin=0pt,
+	skipabove=4pt,
+	skipbelow=4pt,
+	nobreak=true
+}
+
+% ---------- Ajustes gerais ----------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\newlength{\lblwidth}
+\setlength{\lblwidth}{2.5cm}
+
+% sectionBlock: full-width box wrapping title and content
+\newcommand{\sectionBlock}[2]{%
+	\par\addvspace{3pt}%
+	\noindent%
+	\begin{mdframed}[style=cvbox]%
+		\noindent%
+		\begin{minipage}[t]{\lblwidth}%
+			\vspace{0pt}%
+			\setstretch{1.0}%
+			\raggedright%
+			\small\scshape\Calluna%
+			#1%
+		\end{minipage}%
+		\hspace{6pt}%
+		\begin{minipage}[t]{\dimexpr\linewidth-\lblwidth-6pt\relax}%
+			\vspace{0pt}%
+			\setlength{\parindent}{0pt}%
+			\setlength{\parskip}{2pt}%
+			#2%
+		\end{minipage}%
+	\end{mdframed}%
+	\par\addvspace{1pt}%
+}
+
+\renewcommand{\section}[1]{%
+	{\small\bfseries\scshape #1}%
+}
+
+% ---------- Content helpers ----------
+\newcommand{\cvBlock}{%
+	\justifying%
+	\setlength{\parindent}{0pt}%
+	\setlength{\parskip}{2pt}%
+	\noindent\ignorespaces%
+}
+
+\newcommand{\cvEntry}[4]{%
+	\noindent%
+	\begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+		\textbf{#1} & {\small #2} \\
+		\emph{#3} & {\small #4}
+	\end{tabular*}%
+	\par\vspace{1pt}%
+}
+
+\newenvironment{cvItems}{%
+	\begin{itemize}[
+		leftmargin=1.2em,
+		labelsep=0.4em,
+		itemsep=0pt,
+		topsep=1pt,
+		parsep=0pt,
+		partopsep=0pt
+		]
+	}{%
+	\end{itemize}
+}
+
+\newcommand{\cvLine}[1]{%
+	\noindent #1\par\vspace{1pt}%
+}
+
+% ============================================================
+\begin{document}
+	\pagestyle{empty}
+	
+	% -------------------- CABEÇALHO --------------------
+	\noindent
+	\begin{minipage}[t]{0.68\textwidth}
+		{\Calluna\fontsize{20pt}{26pt}\selectfont\textsc{Sergio Cordero Calvimontes}}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.28\textwidth}
+		\raggedleft
+		\begin{tabular}{@{}r@{}}
+			{\Calluna\small +55 24 99995-9556} \\
+			{\Calluna\small \href{http://lattes.cnpq.br/1576495718722378}{CV Lattes}}
+		\end{tabular}
+	\end{minipage}
+	
+	\par\vspace{1mm}
+	\noindent\rule{\textwidth}{0.4pt}\par
+	\vspace{2mm}
+	
+	% -------------------- RESUMO --------------------
+	\sectionBlock{
+		\section{Resumo}
+	}{
+		\cvBlock
+		\cvLine{Engenheiro Mecatrônico com mestrado \textit{stricto sensu} em Engenharia Mecânica
+			e Modelagem Computacional. Possui experiência em simulação numérica, computação científica
+			e desenvolvimento de ferramentas computacionais. Atuação principal voltada à modelagem multiescala,
+			materiais compósitos e processos termomecânicos. Atuação secundária voltada para o ensino de disciplinas
+			eletroeletrônicas.}
+	}
+	
+	% -------------------- FORMAÇÃO E PROJETOS --------------------
+	\sectionBlock{
+		\section{Formação\\[2pt]e Projetos}
+	}{
+		\cvBlock
+		
+		\cvEntry
+		{EEIMVR-MCCT, UFF}
+		{Rio de Janeiro, Brasil}
+		{Mestrado em Modelagem Computacional em Ciência e Tecnologia}
+		{2022--2024}
+		\begin{cvItems}
+			\item \href{https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing}
+			{Procedimentos de homogeneização computacional para análise multiescala.}
+		\end{cvItems}
+		
+		\cvEntry
+		{EEIMVR-PGMEC, UFF}
+		{Rio de Janeiro, Brasil}
+		{Mestrado em Engenharia Mecânica}
+		{2016--2018}
+		\begin{cvItems}
+			\item \href{https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing}
+			{Simulação numérica de processos eletrotérmico-mecânicos em soldagem.}
+		\end{cvItems}
+		
+		\cvEntry
+		{CIE / UFSCar, UPB / USP}
+		{São Paulo, Brasil / Cochabamba, Bolívia}
+		{Bacharelado em Engenharia Mecatrônica}
+		{2008--2013}
+		\begin{cvItems}
+			\item \href{https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing}
+			{Medição indireta de forças de corte em processos CNC.}
+		\end{cvItems}
+		
+		\cvEntry
+		{Universidade Estácio de Sá}
+		{Angra dos Reis, Brasil}
+		{Bacharelado em Ciência da Computação, modalidade EAD}
+		{2025--atual}
+		
+		\cvEntry
+		{FORMA BRASIL EDUCACIONAL, CNE/CEB}
+		{Paraíba, Brasil}
+		{Técnico em Mecatrônica}
+		{2024}
+	}
+	
+	% -------------------- PERSPECTIVA DE CARREIRA --------------------
+	\sectionBlock{
+		\section{Perspectiva\\[2pt]de Carreira}
+	}{
+		\cvBlock
+		\cvLine{\emph{Pesquisa técnico-científica}: Consolidação de manuscritos e materiais de apoio
+			para submissão de artigos em computação, modelagem de materiais e simulação numérica.}
+		\cvLine{\emph{Desenvolvimento acadêmico}: Organização de portfólio técnico-científico para
+			candidatura ao Doutorado em Modelagem Computacional no LNCC-MCTI, Petrópolis, RJ.}
+		\cvLine{\emph{Atuação técnica}: Acompanhamento de oportunidades na área pública e de engenharia,
+			incluindo cadastro de reserva na Itaipu Binacional, usina nuclear Angra 3 e analista naval na EMGEPRON.}
+	}
+	
+	% -------------------- PUBLICAÇÕES --------------------
+	\sectionBlock{
+		\section{Publicações\\[2pt]Destacadas}
+	}{
+		\cvBlock
+		
+		\cvLine{Calvimontes, S.\,C.
+			\textbf{Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica.}
+			1.\textsuperscript{a} ed. e-book.
+			Angra dos Reis: Editora Argus Kepheus, 2026.
+			[\href{https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing}{PDF}]
+			[\href{https://zenodo.org/records/20804262}{Zenodo}]
+			[\href{https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p}{Internet Archive}]
+			[\href{https://www.academia.edu/169042224/Projeto_el\%C3\%A9trico_industrial_b\%C3\%A1sico}{Academia.edu}]}
+		
+		\cvLine{Calvimontes, S.\,C. \textit{et al.}
+			\textbf{Computational homogenization of linear viscoelastic multi-phase composites:
+				Effective relaxation estimation in perovskite-based solar panels.}
+			\emph{Mechanics of Advanced Materials and Structures},
+			Vol.\,33, No.\,1, 2456105, 2026.
+			[\href{https://doi.org/10.1080/15376494.2025.2456105}{DOI}]
+			[\href{https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing}{PDF}]}
+	}
+	
+	% -------------------- HABILIDADES --------------------
+	\sectionBlock{
+		\section{Habilidades}
+	}{
+		\cvBlock
+		\cvLine{\emph{Idiomas}: Espanhol nativo; português fluente, Celpe-Bras: 7+; inglês avançado, IELTS: 7+.}
+		\cvLine{\emph{Linguagens de programação}: {\Courier MATLAB/GNU-Octave, Python, C++, Arduino/ESP32}.}
+		\cvLine{\emph{Ferramentas}: \LaTeX{} / TeXstudio, Git/\href{https://github.com/Argus-Kepheus}{GitHub}, MS Office, Inkscape.}
+	}
+	
+	% -------------------- FORMAÇÃO COMPLEMENTAR --------------------
+	\sectionBlock{
+		\section{Formação\\[2pt]Complementar}
+	}{
+		\cvBlock
+		\cvLine{\emph{Programação}: C; códigos G/M para CNC; microcontroladores PIC, Arduino e ESP32; prototipagem e desenho técnico-industrial com manufatura aditiva em ABS e outros materiais poliméricos.}
+		\cvLine{\emph{Automação}: Ladder Logic para CLPs; comandos eletroeletrônicos e circuitos de acionamento com relés, contatores, botoeiras, sensores, chaves seletoras, comutadores e intertravamentos.}
+		\cvLine{\emph{CAD/CAM/CAE}: SolidWorks/ OnShape/FreeCAD, AutoCAD/ZWCAD BricsCAD, MasterCAM/Vectric Aspire/ VCarve, DIALux/Relux, DEFORM-3D, ANSYS, Linkage.}
+		\cvLine{\emph{Engenharia}: instalações elétricas: NBR\,5410, NBR\,5413, NBR\,5419 e NBR\,14039;
+			análise de falhas e resistência de materiais; metalografia e previsão de propriedades de aço com IA.}
+	}
+	
+\end{document}
