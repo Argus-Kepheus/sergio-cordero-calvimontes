@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "Home",
     "title": "Calvimontes, S. C.",
-    "intro": "Mechatronics Engineer with stricto sensu master’s degrees in Mechanical Engineering and Computational Modeling. His work involves numerical simulation, scientific computing, computational tool development, multiscale modeling, composite materials, thermomechanical processes, and teaching in electro-electronic disciplines.",
+    "intro": "Mechatronics Engineer (UPB, 2013; validated by EESC-USP, 2017), with a master's degree in Mechanical Engineering (PGMEC-UFF, 2018) and in Computational Modeling in Science and Technology (MCCT-UFF, 2024), plus ongoing complementary training in Computer Science (Estácio). His research line spans computational simulation of feedback control in multiphysics systems, with a background in welding-process modeling, computational homogenization, and multiscale simulation. He works as an independent researcher at the interfaces of engineering, computational modeling, control, and computing, with additional experience in automation, instrumentation, robotics, and electrical-electronic systems, and is also the founder of Editora Argus Kepheus, dedicated to multilingual technical literature.",
     "navigation": "Use the navigation bar above to explore the different sections of the site.",
     "cta": {
       "resume": "View resume",
@@ -183,57 +183,61 @@
     "codeButton": "View code",
     "items": [
       {
-        "slug": "exemplo-monitoramento-vibracao",
-        "category": "mecanica",
-        "title": "[Example] Vibration monitoring for predictive diagnostics",
-        "context": "Example project (mechanical engineering) — fictional content used to validate the detail-page mechanism",
-        "description": "Fictional prototype for vibration sensing on rotating machinery to anticipate mechanical failures.",
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "Personal experiments with asynchronous processing (asyncio) on the ESP32 platform: LEDs, buttons, and multiple displays simulated in Wokwi.",
+        "image": "images/projects/esp32-asyncio.png",
         "technologies": [
-          "Piezoelectric sensors",
-          "Spectral analysis",
-          "Predictive maintenance"
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI (OLED SSD1306, TFT ILI9341)",
+          "Wokwi"
         ],
-        "links": [],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "Wokwi simulation",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
         "detail": {
-          "longDescription": "This is an example project, with fictional data, created to validate the detailed project-page mechanism before real content for each area of work is added. It illustratively describes a continuous vibration-monitoring system applied to industrial rotating machinery, capable of identifying abnormal patterns associated with imbalance, misalignment, and bearing wear.",
-          "role": "Fictional example responsibility: defining the data-acquisition architecture, selecting sensors, and implementing the spectral-analysis algorithms.",
-          "results": "Fictional example result: a simulated 30% reduction in mechanical-failure diagnosis time in a test scenario."
+          "longDescription": "Personal prototype to test the ESP32's asynchronous processing capabilities, starting from an original hands-on assessment (two LEDs, a button, and an OLED SSD1306 display) and experimentally extended: more LEDs, a second OLED, and a TFT ILI9341 display with live CPU and RAM usage graphs. The MicroPython firmware runs each task — LED blinking, button reading, display updates — as concurrent asyncio coroutines, with none blocking the others. Simulated on an ESP32-DevKitC V4 board in Wokwi.",
+          "role": "Development of the MicroPython firmware and the full circuit simulation in Wokwi, focused on validating asyncio concurrency patterns on the ESP32.",
+          "results": "Circuit validated with a progressive battery of tests (from the basic LED to full OLED diagnostics) and documented in a technical report and presentation. The thumbnail now reflects the extended version of the circuit, as simulated in Wokwi."
         }
       },
       {
-        "slug": "exemplo-conversor-energia-solar",
-        "category": "eletroeletronica",
-        "title": "[Example] Power electronics converter for solar photovoltaic generation",
-        "context": "Example project (electrical/electronics engineering) — fictional content used to validate the detail-page mechanism",
-        "description": "Fictional prototype of a DC-DC converter to optimize energy capture from photovoltaic solar panels.",
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "Control system for a two-axis Cartesian plotter for Arduino Uno, with joystick interface and OLED telemetry, simulated in Wokwi.",
+        "image": "images/projects/2d-plotter.jpg",
         "technologies": [
-          "Power electronics",
-          "Maximum power point tracking",
-          "Solar photovoltaic energy"
+          "Arduino Uno",
+          "A4988 drivers (stepper motor)",
+          "Servo motor",
+          "I2C / OLED",
+          "Wokwi"
         ],
-        "links": [],
-        "detail": {
-          "longDescription": "This is an example project, with fictional data, created to validate the detailed project-page mechanism. It illustrates the development of a power electronics converter for photovoltaic generation, with a maximum power point tracking (MPPT) algorithm to improve energy capture under varying irradiation conditions.",
-          "role": "Fictional example responsibility: power circuit design, control-algorithm implementation, and bench testing.",
-          "results": "Fictional example result: a simulated 12% gain in captured energy compared to a converter without maximum power point tracking."
-        }
-      },
-      {
-        "slug": "exemplo-painel-monitoramento-dados",
-        "category": "informatica",
-        "title": "[Example] Real-time data monitoring web dashboard",
-        "context": "Example project (computing) — fictional content used to validate the detail-page mechanism",
-        "description": "Fictional prototype of a web dashboard for real-time visualization of industrial sensor data.",
-        "technologies": [
-          "Web development",
-          "Data visualization",
-          "Event-driven architecture"
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "Wokwi simulation",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
         ],
-        "links": [],
         "detail": {
-          "longDescription": "This is an example project, with fictional data, created to validate the detailed project-page mechanism. It illustratively describes a web dashboard that receives industrial sensor readings through an event stream and displays them in charts updated in real time, with support for multiple simultaneous users.",
-          "role": "Fictional example responsibility: defining the system architecture, and developing the data-ingestion backend and the web interface.",
-          "results": "Fictional example result: a simulated latency of under 1 second between sensor reading and dashboard display."
+          "longDescription": "Control firmware for a two-axis Cartesian plotter: X/Y movement via A4988 drivers, pen height via servo motor, joystick interface, automatic homing, emergency stop, OLED display telemetry, speed bars, and relay-driven auxiliary loads. Travel limits are logical (no physical limit switches), designed for validation in simulation ahead of a future physical build.",
+          "role": "Development of the Arduino/C++ firmware, the circuit simulated in Wokwi, and the project's bilingual technical documentation.",
+          "results": "Validated with static consistency checks and documented in a LaTeX technical report."
         }
       }
     ],
@@ -241,7 +245,8 @@
     "categories": {
       "mecanica": "Mechanical Engineering",
       "eletroeletronica": "Electrical & Electronics",
-      "informatica": "Computing"
+      "informatica": "Computing",
+      "prototipagem-eletronica": "Electronics prototyping"
     },
     "detail": {
       "categoryLabel": "Area",
@@ -371,6 +376,52 @@
         ]
       },
       {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "One-dimensional computational mathematical model of the thermal problem in an Electric Resistance Welding (ERW) process."
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "Computational mathematical model of the displacement of the maximum-temperature region in a dissimilar-materials ERW welding process."
+      },
+      {
         "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
         "type": "Conference paper",
         "journal": "74º Congresso Anual da ABM — ABM Week",
@@ -428,6 +479,48 @@
         ]
       },
       {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Simplified Quarter Car simulation, with a comparative data spreadsheet, for the development and analysis of the vertical dynamics of Mini-Baja SAE type vehicles.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Reordered-authorship version of the study on the correlation between heat convection coefficients on contiguous surfaces, in the computational simulation (DEFORM®) of a cylindrical Inconel 718 part subjected to a virtual Jominy test.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Study of the correlation between heat convection coefficients on contiguous surfaces, in the computational simulation (DEFORM®, Heat Treatment Wizard module) of a cylindrical Inconel 718 part subjected to a virtual Jominy test.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
         "title": "Numerical simulation of electro-thermo-mechanical welding processes",
         "type": "Master's thesis",
         "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
@@ -440,6 +533,24 @@
             "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
           }
         ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Anais",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "Alternative computational implementation of boundary conditions and stability matrices for the Finite Differences Method, applied to solving Cartesian thermal problems in isotropic materials."
       },
       {
         "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",

@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "בית",
     "title": "⁦Calvimontes, S. C.⁩",
-    "intro": "מהנדס מכטרוניקה בעל תארים מתקדמים מסוג stricto sensu בהנדסת מכונות ובמידול חישובי. עוסק בסימולציה נומרית, מחשוב מדעי, פיתוח כלים חישוביים, מידול רב-סקאלי, חומרים מרוכבים, תהליכים תרמו-מכניים וכן בהוראה בתחומי האלקטרו-אלקטרוניקה.",
+    "intro": "מהנדס מכטרוניקה (UPB, 2013; הוכר על ידי EESC-USP, 2017), בעל תואר שני בהנדסת מכונות (PGMEC-UFF, 2018) ותואר שני במידול חישובי במדע וטכנולוגיה (MCCT-UFF, 2024), וכן השכלה משלימה מתמשכת במדעי המחשב (Estácio). תחום המחקר שלו כולל סימולציה חישובית של בקרה במשוב במערכות רב-פיזיקליות, על בסיס ניסיון במידול תהליכי ריתוך, הומוגניזציה חישובית וסימולציה רב-סקאלית. הוא פועל כחוקר עצמאי בממשקים שבין הנדסה, מידול חישובי, בקרה ומחשוב, עם ניסיון נוסף באוטומציה, מכשור, רובוטיקה ומערכות חשמל-אלקטרוניקה, והוא גם מייסד הוצאת Argus Kepheus, המתמחה בספרות טכנית רב-לשונית.",
     "navigation": "השתמשו בסרגל הניווט למעלה כדי לעבור בין חלקי האתר השונים.",
     "cta": {
       "resume": "צפה בקורות החיים",
@@ -183,57 +183,61 @@
     "codeButton": "צפה בקוד",
     "items": [
       {
-        "slug": "exemplo-monitoramento-vibracao",
-        "category": "mecanica",
-        "title": "[דוגמה] ניטור רטט לאבחון מונע",
-        "context": "פרויקט לדוגמה (הנדסת מכונות) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
-        "description": "אב-טיפוס בדיוני לחישת רטט במכונות מסתובבות במטרה לצפות כשלים מכניים מראש.",
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "ניסויים אישיים בעיבוד אסינכרוני (asyncio) על פלטפורמת ה-ESP32: נוריות, כפתורים ומספר תצוגות מדומות ב-Wokwi.",
+        "image": "images/projects/esp32-asyncio.png",
         "technologies": [
-          "חיישני פייזואלקטריים",
-          "ניתוח ספקטרלי",
-          "תחזוקה מונעת"
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI (OLED SSD1306, TFT ILI9341)",
+          "Wokwi"
         ],
-        "links": [],
+        "links": [
+          {
+            "label": "מאגר",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "סימולציית Wokwi",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
         "detail": {
-          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים לפני הוספת התוכן האמיתי של כל תחום עשייה. הוא מתאר, באופן המחשתי, מערכת ניטור רטט מתמשכת המיושמת על מכונות מסתובבות תעשייתיות, המסוגלת לזהות דפוסים חריגים הקשורים לחוסר איזון, אי-יישור וסחיקת מיסבים.",
-          "role": "אחריות בדיונית לדוגמה: הגדרת ארכיטקטורת רכישת הנתונים, בחירת החיישנים ויישום אלגוריתמי הניתוח הספקטרלי.",
-          "results": "תוצאה בדיונית לדוגמה: הפחתה מדומה של 30% בזמן אבחון כשלים מכניים בתרחיש בדיקה."
+          "longDescription": "אב-טיפוס אישי לבחינת יכולות העיבוד האסינכרוני של ה-ESP32, שמתחיל מהערכה מעשית מקורית (שתי נוריות, כפתור אחד ותצוגת OLED SSD1306) ומורחב באופן ניסיוני: נוריות נוספות, תצוגת OLED שנייה ותצוגת TFT ILI9341 עם גרפים חיים של ניצול CPU וזיכרון RAM. הקושחה ב-MicroPython מריצה כל משימה — הבהוב נוריות, קריאת הכפתור, עדכון התצוגות — כקורוטינות asyncio מקבילות, כך שאף אחת מהן אינה חוסמת את האחרות. מדומה על לוח ESP32-DevKitC V4 ב-Wokwi.",
+          "role": "פיתוח הקושחה ב-MicroPython וסימולציית המעגל המלאה ב-Wokwi, תוך התמקדות באימות דפוסי מקביליות של asyncio ב-ESP32.",
+          "results": "המעגל אומת בסדרה הדרגתית של בדיקות (מנורית בסיסית ועד אבחון מלא של ה-OLED) ותועד בדוח טכני ובמצגת. התמונה הממוזערת משקפת כעת את הגרסה המורחבת של המעגל, כפי שהיא מדומה ב-Wokwi."
         }
       },
       {
-        "slug": "exemplo-conversor-energia-solar",
-        "category": "eletroeletronica",
-        "title": "[דוגמה] ממיר אלקטרוני לייצור סולארי פוטו-וולטאי",
-        "context": "פרויקט לדוגמה (הנדסת חשמל ואלקטרוניקה) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
-        "description": "אב-טיפוס בדיוני של ממיר DC-DC לאופטימיזציה של קליטת אנרגיה מפאנלים סולאריים פוטו-וולטאיים.",
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "מערכת בקרה לפלוטר קרטזי דו-צירי עבור Arduino Uno, עם ממשק ג'ויסטיק וטלמטריה בתצוגת OLED, מדומה ב-Wokwi.",
+        "image": "images/projects/2d-plotter.jpg",
         "technologies": [
-          "אלקטרוניקת הספק",
-          "מעקב אחר נקודת ההספק המרבי",
-          "אנרגיה סולארית פוטו-וולטאית"
+          "Arduino Uno",
+          "דרייברים A4988 (מנוע צעד)",
+          "מנוע סרוו",
+          "I2C / OLED",
+          "Wokwi"
         ],
-        "links": [],
-        "detail": {
-          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים. הוא ממחיש את פיתוחו של ממיר אלקטרוניקת הספק לייצור פוטו-וולטאי, עם אלגוריתם מעקב אחר נקודת ההספק המרבי (MPPT) לשיפור ניצול האנרגיה בתנאי קרינה משתנים.",
-          "role": "אחריות בדיונית לדוגמה: תכנון מעגל ההספק, יישום אלגוריתם הבקרה ובדיקות מעבדה.",
-          "results": "תוצאה בדיונית לדוגמה: עלייה מדומה של 12% באנרגיה שנקלטה בהשוואה לממיר ללא מעקב אחר ההספק המרבי."
-        }
-      },
-      {
-        "slug": "exemplo-painel-monitoramento-dados",
-        "category": "informatica",
-        "title": "[דוגמה] לוח בקרה מקוון לניטור נתונים בזמן אמת",
-        "context": "פרויקט לדוגמה (מדעי המחשב) — תוכן בדיוני המשמש לאימות מנגנון דפי הפירוט",
-        "description": "אב-טיפוס בדיוני של לוח בקרה מקוון להצגת נתוני חיישנים תעשייתיים בזמן אמת.",
-        "technologies": [
-          "פיתוח אתרים",
-          "הדמיית נתונים",
-          "ארכיטקטורה מונעת אירועים"
+        "links": [
+          {
+            "label": "מאגר",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "סימולציית Wokwi",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
         ],
-        "links": [],
         "detail": {
-          "longDescription": "זהו פרויקט לדוגמה, עם נתונים בדיוניים, שנוצר כדי לאמת את מנגנון דפי הפרויקט המפורטים. הוא מתאר, באופן המחשתי, לוח בקרה מקוון המקבל קריאות מחיישנים תעשייתיים דרך זרם אירועים ומציג אותן בגרפים המתעדכנים בזמן אמת, עם תמיכה במספר משתמשים בו-זמנית.",
-          "role": "אחריות בדיונית לדוגמה: הגדרת ארכיטקטורת המערכת, פיתוח שרת קליטת הנתונים וממשק האתר.",
-          "results": "תוצאה בדיונית לדוגמה: זמן השהיה מדומה של פחות משנייה אחת בין קריאת החיישן להצגתה בלוח הבקרה."
+          "longDescription": "קושחת בקרה לפלוטר קרטזי דו-צירי: תנועת X/Y באמצעות דרייברים A4988, גובה העט באמצעות מנוע סרוו, ממשק ג'ויסטיק, חזרה אוטומטית לנקודת המוצא, עצירת חירום, טלמטריה בתצוגת OLED, פסי מהירות ועומסי עזר באמצעות ממסר. גבולות התנועה הם לוגיים (ללא מפסקי קצה פיזיים), ומיועדים לאימות בסימולציה לפני הרכבה פיזית עתידית.",
+          "role": "פיתוח הקושחה ב-Arduino/C++, המעגל המדומה ב-Wokwi והתיעוד הטכני הדו-לשוני של הפרויקט.",
+          "results": "אומת באמצעות בדיקות עקביות סטטיות ותועד בדוח טכני שנכתב ב-LaTeX."
         }
       }
     ],
@@ -241,7 +245,8 @@
     "categories": {
       "mecanica": "הנדסת מכונות",
       "eletroeletronica": "הנדסת חשמל ואלקטרוניקה",
-      "informatica": "מדעי המחשב"
+      "informatica": "מדעי המחשב",
+      "prototipagem-eletronica": "אבטיפוס אלקטרוני"
     },
     "detail": {
       "categoryLabel": "תחום",
@@ -371,6 +376,52 @@
         ]
       },
       {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "מודל מתמטי חישובי חד-ממדי לבעיה התרמית בתהליך ריתוך התנגדות חשמלית (⁦ERW⁩)."
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "מודל מתמטי חישובי לתזוזת אזור הטמפרטורות המרביות בתהליך ריתוך ⁦ERW⁩ בין חומרים שונים."
+      },
+      {
         "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
         "type": "Conference paper",
         "journal": "74º Congresso Anual da ABM — ABM Week",
@@ -428,6 +479,48 @@
         ]
       },
       {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "סימולציית ⁦Quarter Car⁩ מפושטת, עם טבלת נתונים השוואתית, לפיתוח ולניתוח הדינמיקה האנכית של רכבים מסוג ⁦Mini-Baja SAE⁩.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "גרסה עם סדר מחברים משוחזר של המחקר על הקורלציה בין מקדמי הסעת חום במשטחים סמוכים, בסימולציה חישובית (⁦DEFORM®⁩) של חלק גלילי מסגסוגת ⁦Inconel 718⁩ הנתון למבחן ⁦Jominy⁩ וירטואלי.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "מחקר הקורלציה בין מקדמי הסעת חום במשטחים סמוכים, בסימולציה חישובית (⁦DEFORM®⁩, מודול ⁦Heat Treatment Wizard⁩) של חלק גלילי מסגסוגת ⁦Inconel 718⁩ הנתון למבחן ⁦Jominy⁩ וירטואלי.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
         "title": "סימולציה נומרית של תהליכים אלקטרו-תרמו-מכניים בריתוך",
         "type": "Master's thesis",
         "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
@@ -440,6 +533,24 @@
             "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
           }
         ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Anais",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "חלופת יישום חישובי לתנאי גבול ומטריצות יציבות של שיטת ההפרשים הסופיים, ליישוב בעיות תרמיות קרטזיות בחומרים איזוטרופיים."
       },
       {
         "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",

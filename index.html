@@ -2,7 +2,7 @@
 <html lang="pt-BR"> <!-- Updated dynamically at runtime -->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <title>SCC - Portfólio de Calvimontes, S. C.</title> <!-- Replaced dynamically at runtime -->
 
         <!-- Favicons -->
@@ -11,8 +11,19 @@
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <link rel="icon" href="images/main_favicon_00.png">
 
+        <!-- PWA manifest ("Add to Home Screen") -->
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#075284">
+
+        <!-- Warm up the contact form's endpoints ahead of submit (DNS + TLS
+             handshake only; no request is sent until the user submits). -->
+        <link rel="preconnect" href="https://formspree.io" crossorigin>
+        <link rel="dns-prefetch" href="https://formspree.io">
+        <link rel="preconnect" href="https://forminit.com" crossorigin>
+        <link rel="dns-prefetch" href="https://forminit.com">
+
         <!-- Page styles -->
-        <link rel="stylesheet" href="assets/style-NPKDRCPQ.css">
+        <link rel="stylesheet" href="assets/style-OJ6QYC7E.css">
         
         <!-- SEO metadata -->
         <meta name="description" content="Portfólio técnico-científico de Calvimontes, S. C., com currículo, projetos, publicações e competências em engenharia, modelagem computacional e computação científica."> <!-- Extended dynamically at runtime -->
@@ -22,7 +33,7 @@
         <meta property="og:url" content="https://argus-kepheus.github.io/sergio-cordero-calvimontes/">
         <meta property="og:image" content="images/main_favicon_00.png">
         <link rel="canonical" href="https://argus-kepheus.github.io/sergio-cordero-calvimontes/"> <!-- Updated dynamically at runtime -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://formspree.io https://forminit.com; form-action 'self' https://formspree.io https://forminit.com; base-uri 'self'; object-src 'none';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://formspree.io https://forminit.com; form-action 'self' https://formspree.io https://forminit.com; worker-src 'self'; base-uri 'self'; object-src 'none';">
     </head>
 
     <body id="top">
@@ -44,6 +55,6 @@
         <script type="module" src="assets/app-AHIV7DQA.js"></script>
         
         <!-- Main module script -->
-        <script type="module" src="assets/app-JOXXONKG.js"></script>
+        <script type="module" src="assets/app-KZDFQI5S.js"></script>
     </body>
 </html>

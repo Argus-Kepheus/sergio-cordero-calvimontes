@@ -1,0 +1,23 @@
+{
+  "name": "Calvimontes, S. C. — Portfólio",
+  "short_name": "SCC Portfólio",
+  "description": "Portfólio técnico-científico de Calvimontes, S. C., com currículo, projetos e publicações em engenharia, modelagem computacional e computação científica.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "lang": "pt-BR",
+  "theme_color": "#075284",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

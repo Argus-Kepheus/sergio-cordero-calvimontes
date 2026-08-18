@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "ホーム",
     "title": "Calvimontes, S. C.",
-    "intro": "機械工学および計算モデリングのストリクト・センス修士号を有するメカトロニクスエンジニア。数値シミュレーション、科学計算、計算ツール開発、マルチスケールモデリング、複合材料、熱機械プロセス、ならびに電気電子分野の教育に取り組んでいます。",
+    "intro": "メカトロニクス工学士（UPB、2013年、EESC-USPにより2017年に学位認定）で、機械工学修士（PGMEC-UFF、2018年）と科学技術における計算モデリング修士（MCCT-UFF、2024年）を取得。現在はEstácioでコンピュータサイエンス学士課程を補完的な教育として履修中です。研究分野は多物理系のフィードバック制御に関する計算シミュレーションを中心とし、溶接プロセスのモデリング、計算均質化、マルチスケールシミュレーションの経験に基づいています。現在は工学、計算モデリング、制御、計算科学の接点で独立研究者として活動しており、自動化、計測、ロボティクス、電気電子システムの経験も有し、多言語技術文献を手がけるEditora Argus Kepheusの創設者でもあります。",
     "navigation": "上部のナビゲーションバーを使って、サイト内の各セクションをご覧ください。",
     "cta": {
       "resume": "履歴書を見る",
@@ -183,57 +183,61 @@
     "codeButton": "コードを見る",
     "items": [
       {
-        "slug": "exemplo-monitoramento-vibracao",
-        "category": "mecanica",
-        "title": "[例] 予知診断のための振動モニタリング",
-        "context": "例示プロジェクト（機械工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
-        "description": "回転機械の振動を検知し、機械的な故障を事前に予測するための架空のプロトタイプ。",
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "ESP32プラットフォームでの非同期処理（asyncio）に関する個人実験: LED、ボタン、複数のディスプレイをWokwiでシミュレーション。",
+        "image": "images/projects/esp32-asyncio.png",
         "technologies": [
-          "圧電センサー",
-          "スペクトル解析",
-          "予知保全"
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI（OLED SSD1306、TFT ILI9341）",
+          "Wokwi"
         ],
-        "links": [],
+        "links": [
+          {
+            "label": "リポジトリ",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "Wokwiシミュレーション",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
         "detail": {
-          "longDescription": "これは、実際の各分野のコンテンツを追加する前に、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。産業用回転機械に適用する連続振動モニタリングシステムを例示的に説明しており、不釣り合い、芯出し不良、軸受摩耗に関連する異常パターンを検出できます。",
-          "role": "架空の例示的な役割: データ取得アーキテクチャの定義、センサーの選定、スペクトル解析アルゴリズムの実装。",
-          "results": "架空の例示的な成果: テストシナリオにおいて、機械故障の診断時間を模擬的に30%短縮。"
+          "longDescription": "ESP32の非同期処理能力を検証するための個人プロトタイプ。当初の実習評価（LED2個、ボタン1個、OLED SSD1306ディスプレイ1台）から出発し、実験的に拡張しました：LEDの追加、2台目のOLED、CPUとRAM使用率をライブ表示するTFT ILI9341ディスプレイ。MicroPythonファームウェアは、LED点滅、ボタン読み取り、ディスプレイ更新といった各タスクをasyncioの並行コルーチンとして実行し、いずれも他をブロックしません。WokwiのESP32-DevKitC V4ボードでシミュレーションしました。",
+          "role": "MicroPythonファームウェアの開発と、Wokwiでの回路全体のシミュレーション構築を担当し、ESP32上でのasyncio並行処理パターンの検証に重点を置きました。",
+          "results": "基本的なLEDテストからOLEDの完全診断まで、段階的なテストを通じて回路を検証し、技術報告書とプレゼンテーションとして文書化しました。サムネイルは現在、Wokwiでシミュレーションされた拡張版の回路を反映しています。"
         }
       },
       {
-        "slug": "exemplo-conversor-energia-solar",
-        "category": "eletroeletronica",
-        "title": "[例] 太陽光発電向けパワーエレクトロニクス変換器",
-        "context": "例示プロジェクト（電気電子工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
-        "description": "太陽光パネルからのエネルギー取得を最適化するための、架空のDC-DCコンバーターのプロトタイプ。",
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "Arduino Uno向けの2軸直交プロッター制御システムで、ジョイスティックインターフェースとOLEDテレメトリを備え、Wokwiでシミュレーションしました。",
+        "image": "images/projects/2d-plotter.jpg",
         "technologies": [
-          "パワーエレクトロニクス",
-          "最大電力点追従",
-          "太陽光発電"
+          "Arduino Uno",
+          "A4988ドライバー（ステッピングモーター）",
+          "サーボモーター",
+          "I2C / OLED",
+          "Wokwi"
         ],
-        "links": [],
-        "detail": {
-          "longDescription": "これは、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。太陽光発電向けのパワーエレクトロニクス変換器の開発を例示し、日射条件が変化する中でもエネルギー取得を改善するための最大電力点追従（MPPT）アルゴリズムを備えています。",
-          "role": "架空の例示的な役割: パワー回路の設計、制御アルゴリズムの実装、ベンチテスト。",
-          "results": "架空の例示的な成果: 最大電力点追従を行わない変換器と比較して、取得エネルギーが模擬的に12%向上。"
-        }
-      },
-      {
-        "slug": "exemplo-painel-monitoramento-dados",
-        "category": "informatica",
-        "title": "[例] リアルタイムデータ監視用Webダッシュボード",
-        "context": "例示プロジェクト（情報工学）— 詳細ページの仕組みを検証するための架空のコンテンツ",
-        "description": "産業用センサーデータをリアルタイムで可視化するための、架空のWebダッシュボードのプロトタイプ。",
-        "technologies": [
-          "Web開発",
-          "データ可視化",
-          "イベント駆動アーキテクチャ"
+        "links": [
+          {
+            "label": "リポジトリ",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "Wokwiシミュレーション",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
         ],
-        "links": [],
         "detail": {
-          "longDescription": "これは、詳細プロジェクトページの仕組みを検証するために作成された、架空のデータを用いた例示プロジェクトです。産業用センサーの読み取り値をイベントストリームで受信し、リアルタイムで更新されるグラフに表示し、複数ユーザーの同時利用にも対応するWebダッシュボードを例示的に説明しています。",
-          "role": "架空の例示的な役割: システムアーキテクチャの定義、データ取り込みバックエンドとWebインターフェースの開発。",
-          "results": "架空の例示的な成果: センサーの読み取りからダッシュボード表示までの遅延を模擬的に1秒未満に短縮。"
+          "longDescription": "2軸直交プロッターの制御ファームウェア：A4988ドライバーによるX/Y移動、サーボモーターによるペンの上下、ジョイスティックインターフェース、自動原点復帰、非常停止、OLEDディスプレイによるテレメトリ、速度バー、リレーによる補助負荷制御。移動範囲の制限は物理的なリミットスイッチを使わずロジックで実装しており、将来の実機組み立てに先立ちシミュレーションで検証することを目的としています。",
+          "role": "Arduino/C++ファームウェア、Wokwiでシミュレーションした回路、プロジェクトのバイリンガル技術文書を開発しました。",
+          "results": "静的な整合性検証によって検証し、LaTeXによる技術報告書として文書化しました。"
         }
       }
     ],
@@ -241,7 +245,8 @@
     "categories": {
       "mecanica": "機械工学",
       "eletroeletronica": "電気電子工学",
-      "informatica": "情報工学"
+      "informatica": "情報工学",
+      "prototipagem-eletronica": "電子プロトタイピング"
     },
     "detail": {
       "categoryLabel": "分野",
@@ -371,6 +376,52 @@
         ]
       },
       {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "電気抵抗溶接(ERW)プロセスにおける熱問題の一次元計算数学モデル。"
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "異種材料ERW溶接プロセスにおける最高温度領域の変位に関する計算数学モデル。"
+      },
+      {
         "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
         "type": "Conference paper",
         "journal": "74º Congresso Anual da ABM — ABM Week",
@@ -428,6 +479,48 @@
         ]
       },
       {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "ミニバハSAE型車両の垂直方向の動力学の開発・分析のための、比較データ表を伴う簡易Quarter Carシミュレーション。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "隣接面における熱伝達係数の相関に関する研究の、著者順を入れ替えたバージョン。Inconel 718製の円筒部品に対する仮想ジョミニー試験の計算シミュレーション(DEFORM®)。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "隣接面における熱伝達係数の相関に関する研究。Inconel 718製の円筒部品に対する仮想ジョミニー試験の計算シミュレーション(DEFORM®、Heat Treatment Wizardモジュール)。",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
         "title": "溶接における電気・熱・機械連成プロセスの数値シミュレーション",
         "type": "Master's thesis",
         "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
@@ -440,6 +533,24 @@
             "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
           }
         ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Anais",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "等方性材料における直交座標系の熱問題を解くための、有限差分法の境界条件と安定性行列の代替的な計算実装。"
       },
       {
         "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",

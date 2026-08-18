@@ -1,10 +1,10 @@
-import"./chunk-BYXBJQAS.js";import{a as t}from"./chunk-55JHTTGY.js";import{a as i}from"./chunk-D2XV4R5X.js";import"./chunk-65ESAS5F.js";function m(){let h=`
+import"./chunk-OYHKDPRU.js";import{a as t}from"./chunk-55JHTTGY.js";import{a as i}from"./chunk-D2XV4R5X.js";import"./chunk-65ESAS5F.js";function g(){let h=`
     <h1 data-i18n="home.title">${i("home.title")}</h1>
     <div class="intro-section">
       <p data-i18n="home.intro">${i("home.intro")}</p>
       <div class="cta-buttons">
-        <a href="#curriculo" class="btn primary" data-i18n="home.cta.resume">${i("home.cta.resume")}</a>
-        ${""}
+        ${`<a href="#curriculo" class="btn primary" data-i18n="home.cta.resume">${i("home.cta.resume")}</a>`}
+        ${`<a href="#projetos" class="btn secondary" data-i18n="home.cta.projects">${i("home.cta.projects")}</a>`}
       </div>
     </div>
     <div class="highlights-section">
@@ -24,4 +24,4 @@ import"./chunk-BYXBJQAS.js";import{a as t}from"./chunk-55JHTTGY.js";import{a as 
         </div>
       </div>
     </div>
-  `;return t("home",h)}export{m as buildHomePage};
+  `;return t("home",h)}export{g as buildHomePage};

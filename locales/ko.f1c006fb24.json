@@ -1,0 +1,909 @@
+{
+  "site": {
+    "title": "SCC - 포트폴리오",
+    "description": "Calvimontes, S. C.의 기술·과학 포트폴리오. 공학, 계산 모델링, 과학 계산 분야의 이력서, 프로젝트, 출판물을 소개합니다.",
+    "ogTitle": "SCC - Calvimontes, S. C.의 포트폴리오",
+    "ogDescription": "Calvimontes, S. C.의 이력서, 프로젝트, 출판물을 확인해 보세요."
+  },
+  "ui": {
+    "loading": "불러오는 중...",
+    "error": "오류",
+    "componentLoadError": "구성 요소를 불러오는 중 오류가 발생했습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "retry": "다시 시도",
+    "close": "닫기",
+    "yes": "예",
+    "no": "아니요",
+    "accept": "동의",
+    "decline": "거부",
+    "success": "성공"
+  },
+  "nav": {
+    "home": "홈",
+    "curriculo": "이력서",
+    "projetos": "프로젝트",
+    "publicacoes": "출판물 및 연구",
+    "contato": "연락처"
+  },
+  "home": {
+    "pageTitle": "홈",
+    "title": "Calvimontes, S. C.",
+    "intro": "메카트로닉스 공학사(UPB, 2013년; EESC-USP 학력 인증, 2017년)로, 기계공학 석사(PGMEC-UFF, 2018년)와 과학기술 전산 모델링 석사(MCCT-UFF, 2024년)를 취득했으며, 현재 Estácio에서 컴퓨터과학 학사 과정을 보충 교육으로 이수 중입니다. 연구 분야는 다물리 시스템의 피드백 제어에 대한 전산 시뮬레이션을 중심으로 하며, 용접 공정 모델링, 전산 균질화, 다중 스케일 시뮬레이션 경험을 바탕으로 합니다. 현재 공학, 전산 모델링, 제어, 컴퓨팅의 접점에서 독립 연구자로 활동하고 있으며, 자동화, 계측, 로봇공학, 전기전자 시스템 분야의 경험도 갖추고 있고, 다국어 기술 문헌을 다루는 Editora Argus Kepheus의 창립자이기도 합니다.",
+    "navigation": "위쪽 내비게이션 바를 사용해 사이트의 다양한 섹션을 둘러보세요.",
+    "cta": {
+      "resume": "이력서 보기",
+      "projects": "프로젝트 보기"
+    },
+    "highlights": {
+      "title": "주요 분야",
+      "item1": {
+        "title": "계산 모델링",
+        "description": "수치 시뮬레이션, 계산 균질화, 멀티스케일 해석 경험."
+      },
+      "item2": {
+        "title": "공학 및 컴퓨팅",
+        "description": "메카트로닉스공학, 기계공학, 컴퓨터과학 전공."
+      },
+      "item3": {
+        "title": "출판 및 교육",
+        "description": "기술·과학 저술 활동, 교육 자료 제작, 전기전자 과목 강의 경험."
+      }
+    },
+    "description": "계산 모델링, 공학, 과학 계산, 출판, 교육 분야를 중심으로 한 Calvimontes, S. C.의 기술·과학 소개."
+  },
+  "curriculo": {
+    "pageTitle": "이력서",
+    "title": "이력서",
+    "experience": {
+      "title": "경력",
+      "description": "이력서 편집본을 바탕으로 정리한 기술·과학 분야 경력입니다.",
+      "items": []
+    },
+    "education": {
+      "title": "학력 및 프로젝트",
+      "description": "학력과 주요 기술·과학 프로젝트입니다.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "과학기술 계산 모델링 석사",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "리우데자네이루, 브라질",
+          "projects": [
+            {
+              "title": "멀티스케일 해석을 위한 계산 균질화 절차.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "기계공학 석사",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "리우데자네이루, 브라질",
+          "projects": [
+            {
+              "title": "용접 공정의 전기-열-기계 연성 수치 시뮬레이션.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2013",
+          "degree": "메카트로닉스공학 학사",
+          "institution": "CIE/UFSCar, UPB/USP",
+          "location": "상파울루, 브라질 / 코차밤바, 볼리비아",
+          "projects": [
+            {
+              "title": "CNC 가공 공정의 절삭력 간접 측정.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–현재",
+          "degree": "컴퓨터과학 학사 (원격 교육 과정)",
+          "institution": "Universidade Estácio de Sá",
+          "location": "앙그라두스헤이스, 브라질"
+        },
+        {
+          "period": "2024",
+          "degree": "메카트로닉스 기술 과정",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "파라이바, 브라질"
+        }
+      ]
+    },
+    "downloadButton": "이력서 PDF 다운로드",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "메카트로닉스 엔지니어 | 계산 모델링 | 과학 계산",
+      "location": "리우데자네이루, 브라질",
+      "contactLabel": "연락처 정보 및 공개 프로필",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "요약",
+      "text": "기계공학 및 계산 모델링 분야의 스트릭토 센수(stricto sensu) 석사 학위를 보유한 메카트로닉스 엔지니어입니다. 수치 시뮬레이션, 과학 계산, 계산 도구 개발 경험을 갖추고 있습니다. 주로 멀티스케일 모델링, 복합재료, 열-기계적 공정을 다루며, 부차적으로 전기전자 과목 교육을 담당하고 있습니다."
+    },
+    "careerPerspective": {
+      "title": "경력 전망",
+      "items": [
+        {
+          "label": "기술·과학 연구",
+          "text": "컴퓨팅, 재료 모델링, 수치 시뮬레이션 분야 논문 투고를 위한 원고 및 보조 자료 정리."
+        },
+        {
+          "label": "학술적 발전",
+          "text": "리우데자네이루주 페트로폴리스 소재 LNCC-MCTI 계산 모델링 박사 과정 지원을 위한 기술·과학 포트폴리오 정리."
+        },
+        {
+          "label": "기술 실무",
+          "text": "Itaipu Binacional, Angra 3 원자력 발전소 채용 예비 명단, EMGEPRON 해군 분석가 등 공공·공학 분야 기회 지속 모니터링."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "추가 교육",
+      "items": [
+        {
+          "label": "프로그래밍",
+          "text": "C 언어; CNC용 G/M 코드; PIC, Arduino, ESP32 마이크로컨트롤러; ABS 등 고분자 소재를 이용한 적층 제조 기반 프로토타이핑 및 기술·산업 설계."
+        },
+        {
+          "label": "자동화",
+          "text": "PLC용 래더 로직(Ladder Logic); 릴레이, 컨택터, 푸시버튼, 센서, 셀렉터 스위치, 전환 스위치, 인터록을 활용한 전기전자 제어 및 구동 회로."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS, Linkage."
+        },
+        {
+          "label": "공학",
+          "text": "NBR 5410, NBR 5413, NBR 5419, NBR 14039 기준 전기 설비; 파손 해석 및 재료 강도학; 금속 조직학 및 AI 기반 강재 물성 예측."
+        }
+      ]
+    },
+    "description": "학력, 기술·과학 프로젝트, 경력, 추가 교육을 포함한 Calvimontes, S. C.의 이력서."
+  },
+  "projetos": {
+    "pageTitle": "프로젝트",
+    "title": "기술·과학 프로젝트",
+    "description": "이력서 편집본에서 선정한 학술·기술 프로젝트입니다.",
+    "demoButton": "프로젝트 보기",
+    "codeButton": "코드 보기",
+    "items": [
+      {
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "ESP32 플랫폼에서의 비동기(asyncio) 처리 개인 실험: LED, 버튼, 여러 디스플레이를 Wokwi에서 시뮬레이션.",
+        "image": "images/projects/esp32-asyncio.png",
+        "technologies": [
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI (OLED SSD1306, TFT ILI9341)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "저장소",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "Wokwi 시뮬레이션",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
+        "detail": {
+          "longDescription": "ESP32의 비동기 처리 능력을 테스트하기 위한 개인 프로토타입으로, 원래의 실습 평가(LED 2개, 버튼 1개, OLED SSD1306 디스플레이 1개)에서 시작해 실험적으로 확장했습니다: LED 추가, 두 번째 OLED, CPU 및 RAM 사용량을 실시간 그래프로 보여주는 TFT ILI9341 디스플레이. MicroPython 펌웨어는 LED 점멸, 버튼 읽기, 디스플레이 업데이트 등 각 작업을 asyncio의 동시 코루틴으로 실행하며, 어느 것도 다른 작업을 차단하지 않습니다. Wokwi에서 ESP32-DevKitC V4 보드로 시뮬레이션했습니다.",
+          "role": "MicroPython 펌웨어 개발과 Wokwi에서의 전체 회로 시뮬레이션 구현을 담당했으며, ESP32에서의 asyncio 동시성 패턴 검증에 중점을 두었습니다.",
+          "results": "기본 LED 테스트부터 OLED 전체 진단까지 점진적인 테스트를 통해 회로를 검증했으며, 기술 보고서와 발표 자료로 문서화했습니다. 썸네일은 이제 Wokwi에서 시뮬레이션된 확장 버전의 회로를 반영합니다."
+        }
+      },
+      {
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "Arduino Uno 기반 2축 카르테시안 플로터 제어 시스템으로, 조이스틱 인터페이스와 OLED 텔레메트리를 갖추고 Wokwi에서 시뮬레이션했습니다.",
+        "image": "images/projects/2d-plotter.jpg",
+        "technologies": [
+          "Arduino Uno",
+          "A4988 드라이버(스테퍼 모터)",
+          "서보 모터",
+          "I2C / OLED",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "저장소",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "Wokwi 시뮬레이션",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
+        ],
+        "detail": {
+          "longDescription": "2축 카르테시안 플로터를 위한 제어 펌웨어: A4988 드라이버를 통한 X/Y 이동, 서보 모터를 통한 펜 높이 조절, 조이스틱 인터페이스, 자동 원점 복귀, 비상 정지, OLED 디스플레이 텔레메트리, 속도 바, 릴레이 기반 보조 부하 제어. 이동 한계는 물리적 리밋 스위치 없이 논리적으로 구현했으며, 향후 실물 조립에 앞서 시뮬레이션으로 검증하도록 설계했습니다.",
+          "role": "Arduino/C++ 펌웨어, Wokwi 시뮬레이션 회로, 프로젝트의 이중 언어 기술 문서를 개발했습니다.",
+          "results": "정적 일관성 검증을 통해 검증했으며, LaTeX로 작성한 기술 보고서로 문서화했습니다."
+        }
+      }
+    ],
+    "viewDetails": "상세 보기",
+    "categories": {
+      "mecanica": "기계공학",
+      "eletroeletronica": "전기전자공학",
+      "informatica": "정보공학",
+      "prototipagem-eletronica": "전자 프로토타이핑"
+    },
+    "detail": {
+      "categoryLabel": "분야",
+      "roleLabel": "역할 및 담당 업무",
+      "resultsLabel": "성과",
+      "backToProjects": "프로젝트 목록으로 돌아가기"
+    },
+    "technologiesLabel": "관련 기술 및 주제"
+  },
+  "publicacoes": {
+    "pageTitle": "출판물",
+    "title": "주요 출판물",
+    "description": "이력서 편집본에 소개된 주요 출판물 및 기술·과학 자료입니다.",
+    "noItems": "현재 이용 가능한 출판물이 없습니다.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "제1판",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "기초 산업 전기 설계의 기본 원리, 용량 산정, 기술 문서화를 다룬 기술 서적.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "선형 점탄성 다상 복합재료의 계산 균질화와 페로브스카이트 기반 태양전지 패널의 유효 이완 추정에 관한 논문.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "라플라스-카르송 변환 대신 람다 함수를 이용한 계산 점근 균질화법으로 선형 점탄성 복합재료의 유효 계수를 계산하는 대안적 방법.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "적분 변환 사용을 피하면서 층상 주기 구조를 갖는 선형 점탄성 복합재료의 유효 물성을 추정하는, 점근 균질화법 기반의 계산적 접근법.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "멀티스케일 해석을 위한 계산 균질화",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "재료의 멀티스케일 해석에 적용한 계산 균질화 절차.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "전기저항용접(ERW) 공정의 열-기계-전기 연성 전산 시뮬레이션을 위한 순수 저항성 전열 요소 제안.",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "전기저항용접(ERW) 공정의 열 문제에 관한 1차원 전산 수학 모델."
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "이종 재료 ERW 용접 공정에서 최고 온도 영역의 이동에 관한 전산 수학 모델."
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "이종 재료의 플래시버트 용접 온도 분포를 분석하기 위해 Octave®로 구현한 수학 모델로, 문헌의 실험 데이터와 비교.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "소모성 전극 용융 용접 공정의 용착 속도를 계산하기 위한, 전산 수학 모델 기반의 대안적 방법.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "ERW 용접 공정의 전열 거동에 계면 임피던스가 미치는 영향을 연구하기 위해 Octave®로 구현한 전산 수학 모델.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "미니 바하 SAE형 차량의 수직 동역학 개발 및 분석을 위한 비교 데이터 표를 포함한 간이 Quarter Car 시뮬레이션.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "인접 표면 간 열대류계수의 상관관계에 관한 연구의 저자 순서를 재배열한 버전. Inconel 718 원통형 시편에 대한 가상 조미니 시험의 전산 시뮬레이션(DEFORM®).",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "인접 표면 간 열대류계수의 상관관계 연구. Inconel 718 원통형 시편에 대한 가상 조미니 시험의 전산 시뮬레이션(DEFORM®, Heat Treatment Wizard 모듈).",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "용접 공정의 전기-열-기계 연성 수치 시뮬레이션",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "용접에서 전기적, 열적, 기계적 효과가 결합된 연성 공정에 관한 연구.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Anais",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "등방성 재료의 데카르트 열 문제 해결을 위한 유한차분법의 경계조건 및 안정성 행렬의 대안적 전산 구현."
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "DP600 이상조직강의 플래시버트 용접에서 균열 요인을 평가하고, 화학 조성, 열-기계적 공정, 용접부 입열 영향의 상관관계를 분석.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "판재 형태 강재의 플래시버트 용접 공정을 위한 수학적 모델링을 제안하고, 공정에 관여하는 열-전기-기계 변수를 정의.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "CAD/CAE 도구를 활용한 미니 바하 SAE 차량 전륜 조향 너클의 구조·피로 설계에 관한 논문.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "유한요소법을 이용한 Baja SAE 차량 튜브형 섀시의 구조 최적화 연구로, 전면 충돌, 전복, 측면 충돌 시뮬레이션을 수행.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "CNC 가공 공정의 절삭력 간접 측정",
+        "type": "Bachelor's thesis",
+        "journal": "CIE/UFSCar, UPB/USP",
+        "year": "2013",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "CNC 가공 공정의 절삭력 간접 측정을 다룬 프로젝트.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "연락처",
+    "title": "연락처",
+    "description": "공개된 연락처 정보와 전문 프로필입니다.",
+    "sections": {
+      "message": "메시지 보내기",
+      "file": "파일 보내기"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "공개 프로필",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "연락처 양식",
+      "name": "이름",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "메시지",
+      "attachment": "첨부 파일",
+      "chooseFile": "파일 선택",
+      "noFileChosen": "선택된 파일 없음",
+      "attachmentHint": "PDF, 최대 3MB.",
+      "send": "메시지 보내기",
+      "sendFile": "파일 보내기",
+      "privacyPolicy": "<a href='#privacyPolicy'>개인정보처리방침</a>을 읽었으며 개인정보 처리에 동의합니다."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "이메일",
+      "phone": "전화번호"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — 모든 권리 보유.",
+    "contact": {
+      "title": "연락처",
+      "email": "이메일: "
+    },
+    "social": {
+      "title": "공개 프로필",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "오류",
+    "notFound": {
+      "title": "페이지를 찾을 수 없습니다",
+      "message": "찾으시는 페이지가 존재하지 않거나 이동되었습니다.",
+      "backButton": "홈으로 돌아가기"
+    },
+    "generic": {
+      "title": "오류가 발생했습니다",
+      "message": "죄송합니다. 콘텐츠를 불러오는 중 오류가 발생했습니다. 다시 시도해 주세요.",
+      "backButton": "홈으로 돌아가기"
+    },
+    "connection": {
+      "title": "연결 오류",
+      "message": "서버에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요.",
+      "retryButton": "다시 시도"
+    },
+    "appInitFailed": "애플리케이션을 초기화하는 중 오류가 발생했습니다. 페이지를 새로고침해 주세요.",
+    "langChangeFailed": "언어를 변경하는 중 오류가 발생했습니다. 다시 시도해 주세요.",
+    "pageLoadFailed": "페이지를 불러오는 중 오류가 발생했습니다. 다시 시도해 주세요.",
+    "description": "콘텐츠를 불러올 수 없거나 요청한 경로를 사용할 수 없을 때 표시되는 오류 페이지입니다."
+  },
+  "form": {
+    "validation": {
+      "required": "이 항목을 입력해 주세요",
+      "invalidEmail": "올바른 이메일 주소를 입력해 주세요",
+      "invalidFileType": "PDF 형식의 파일을 업로드해 주세요.",
+      "fileTooLarge": "파일 크기는 최대 {{max}}까지 가능합니다.",
+      "email": "올바른 이메일 주소를 입력해 주세요",
+      "minLength": "이 항목은 최소 {{min}}자 이상이어야 합니다",
+      "maxLength": "이 항목은 최대 {{max}}자까지 가능합니다",
+      "pattern": "올바른 형식을 입력해 주세요",
+      "number": "올바른 숫자를 입력해 주세요",
+      "url": "올바른 URL을 입력해 주세요",
+      "match": "입력한 값이 일치하지 않습니다"
+    },
+    "status": {
+      "sending": "메시지를 보내는 중...",
+      "success": "메시지가 성공적으로 전송되었습니다!",
+      "error": "메시지 전송 중 오류가 발생했습니다. 다시 시도해 주세요."
+    },
+    "placeholders": {
+      "name": "이름을 입력하세요",
+      "email": "이메일 주소를 입력하세요",
+      "subject": "제목을 입력하세요",
+      "message": "메시지를 입력하세요",
+      "phone": "전화번호를 입력하세요"
+    }
+  },
+  "aria": {
+    "languageSelector": "언어 선택",
+    "menuToggle": "내비게이션 메뉴 전환",
+    "closeMenu": "메뉴 닫기",
+    "nextSlide": "다음 슬라이드",
+    "previousSlide": "이전 슬라이드",
+    "loadMore": "콘텐츠 더 보기",
+    "search": "검색",
+    "searchButton": "검색 버튼",
+    "closeButton": "닫기 버튼",
+    "expandButton": "펼치기 버튼",
+    "collapseButton": "접기 버튼",
+    "socialLinks": "소셜 미디어 링크",
+    "contactForm": "연락처 양식",
+    "requiredField": "필수 입력 항목",
+    "navigation": "주 내비게이션",
+    "skipToContent": "본문으로 건너뛰기",
+    "darkModeToggle": "다크 모드 전환",
+    "backToTop": "페이지 상단으로 이동",
+    "openMenu": "메뉴 열기",
+    "paletteSelector": "색상 팔레트 선택",
+    "paletteSelectorWithCurrent": "색상 팔레트 선택: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "더 읽기",
+    "viewAll": "전체 보기",
+    "download": "다운로드",
+    "submit": "제출",
+    "cancel": "취소",
+    "close": "닫기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "save": "저장",
+    "edit": "수정",
+    "delete": "삭제",
+    "confirm": "확인",
+    "apply": "적용",
+    "filter": "필터",
+    "clear": "초기화",
+    "search": "검색",
+    "share": "공유",
+    "print": "인쇄",
+    "contactMe": "연락하기",
+    "backToTop": "맨 위로"
+  },
+  "formats": {
+    "date": {
+      "short": "YYYY. MM. DD.",
+      "long": "YYYY년 M월 D일",
+      "monthYear": "YYYY년 M월",
+      "time": "HH:mm",
+      "dateTime": "YYYY년 M월 D일 HH:mm",
+      "relative": {
+        "today": "오늘",
+        "yesterday": "어제",
+        "tomorrow": "내일",
+        "daysAgo": "{{days}}일 전",
+        "inDays": "{{days}}일 후"
+      }
+    },
+    "number": {
+      "decimal": ".",
+      "thousands": ",",
+      "percent": "{value}%",
+      "currency": "₩{value}"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "개인정보처리방침",
+    "description": "연락처 양식 데이터, 언어·팔레트 로컬 설정, 외부 링크, 브라우저에 저장된 데이터에 대한 사용자 제어를 설명하는 개인정보처리방침입니다."
+  },
+  "privacy": {
+    "title": "개인정보처리방침",
+    "description": "이 방침은 본 사이트가 연락, 로컬 설정, 외부 링크를 위해 사용하는 데이터를 설명합니다.",
+    "consent": "읽고 동의합니다:",
+    "lastUpdated": "최종 수정일",
+    "lastUpdatedDate": "2026년 7월 30일",
+    "sections": {
+      "introduction": {
+        "title": "소개",
+        "content": "이 방침은 이 정적 사이트에 구현된 데이터 흐름을 요약한 것입니다. docs/PRIVACY_DATA_FLOW.md의 기술 목록과 함께 읽으시기 바랍니다."
+      },
+      "dataCollection": {
+        "title": "처리하는 데이터",
+        "content": "이 사이트는 불필요한 데이터 수집을 지양합니다. 주로 다루는 데이터는 연락처 양식을 통해 자발적으로 제출되는 정보와 브라우저에 로컬로 저장되는 설정입니다.",
+        "personalData": {
+          "title": "연락처 양식",
+          "content": "이 사이트에는 두 개의 연락처 양식이 있습니다. 메시지 양식을 제출하면 이름, 이메일, 제목, 메시지, 동의 확인 정보가 사이트에 설정된 Formspree 엔드포인트로 전송됩니다. 파일 양식을 제출하면 이름, 이메일, 메시지, PDF 첨부 파일(최대 3MB), 고정된 제목 라벨(\"inbox-document\", 사용자가 수정 불가), 동의 확인 정보가 사이트에 설정된 Forminit 엔드포인트로 전송됩니다. 이들 서비스는 메시지 전달에 필요한 기술적 요청 메타데이터도 처리할 수 있습니다."
+        },
+        "usage": {
+          "title": "로컬 설정",
+          "content": "이 사이트는 선택한 언어와 표시 팔레트를 기억하기 위해 localStorage를 사용합니다. 이 값들은 사용자의 브라우저에 저장되며, 사이트 데이터를 삭제하면 함께 제거됩니다."
+        }
+      },
+      "lgpd": {
+        "title": "브라질 일반데이터보호법(LGPD)",
+        "content": "적용 대상인 경우, 개인 데이터 처리는 LGPD를 준수해야 합니다. 이 페이지는 알려진 데이터를 설명하며, 외부 서비스 계정 확인이 끝날 때까지 운영상 불확실한 사항은 기술 목록에 표시해 둡니다.",
+        "controller": {
+          "title": "처리 책임자",
+          "content": "사이트 소유자가 연락처 양식의 목적을 결정하고 제출된 메시지를 수신합니다."
+        },
+        "operator": {
+          "title": "수탁 처리자",
+          "content": "Formspree와 Forminit은 각각 메시지 양식과 파일 양식의 연락처 데이터를 처리·전달하는 데 사용되는 외부 서비스입니다. 각 서비스의 데이터 보관 및 삭제 설정은 해당 계정에서 아직 확인이 필요합니다."
+        }
+      },
+      "cookies": {
+        "title": "쿠키 및 로컬 저장소",
+        "content": "이 사이트의 자체 코드는 쿠키를 설정하지 않습니다. 언어와 팔레트 설정은 쿠키가 아닌 localStorage에 저장됩니다."
+      },
+      "thirdParty": {
+        "title": "제3자 서비스",
+        "content": "이 사이트는 Google Analytics, reCAPTCHA, 광고 픽셀, 내장 분석 도구를 불러오지 않습니다. 유효한 양식이 제출될 때만 Formspree로 요청이 전송됩니다. 외부 링크는 사용자가 직접 클릭했을 때만 열립니다."
+      },
+      "rights": {
+        "title": "사용자의 권리",
+        "content": "이 페이지에 표시된 공개 이메일을 통해 양식으로 제출한 개인 데이터에 대한 열람, 정정, 삭제, 설명을 요청할 수 있습니다. 로컬 설정은 브라우저에서 직접 삭제할 수도 있습니다."
+      },
+      "changes": {
+        "title": "방침 변경",
+        "content": "이 방침은 사이트, 연락처 양식, 외부 서비스가 변경될 경우 갱신될 수 있습니다. 위 날짜는 마지막으로 기록된 검토일입니다."
+      },
+      "contact": {
+        "title": "문의",
+        "content": "이 방침이나 양식으로 제출된 데이터에 관한 문의는 공개 이메일 sergio.cordero.calvimontes@proton.me 또는 이 사이트의 연락처 페이지를 이용해 주세요."
+      }
+    }
+  },
+  "palettes": {
+    "system": "시스템",
+    "classic": "클래식",
+    "alternative": "대체",
+    "editorial": "에디토리얼",
+    "classicDark": "클래식 다크",
+    "alternativeDark": "대체 다크",
+    "editorialDark": "에디토리얼 다크",
+    "blueprint": "블루프린트",
+    "blueprintDark": "블루프린트 다크"
+  },
+  "controls": {
+    "readMore": "더 읽기",
+    "readLess": "접기",
+    "showMore": "더 보기",
+    "showLess": "간략히 보기",
+    "filterByYear": "연도별 필터:",
+    "filterByCategory": "분야별 필터:",
+    "filterByType": "유형별 필터:",
+    "all": "전체",
+    "previousImage": "이전 이미지",
+    "nextImage": "다음 이미지"
+  }
+}
