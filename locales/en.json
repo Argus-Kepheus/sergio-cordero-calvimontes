@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "Home",
     "title": "Calvimontes, S. C.",
-    "intro": "Mechatronics Engineer (UPB, 2013; validated by EESC-USP, 2017), with a master's degree in Mechanical Engineering (PGMEC-UFF, 2018) and in Computational Modeling in Science and Technology (MCCT-UFF, 2024), plus ongoing complementary training in Computer Science (Estácio). His research line spans computational simulation of feedback control in multiphysics systems, with a background in welding-process modeling, computational homogenization, and multiscale simulation. He works as an independent researcher at the interfaces of engineering, computational modeling, control, and computing, with additional experience in automation, instrumentation, robotics, and electrical-electronic systems, and is also the founder of Editora Argus Kepheus, dedicated to multilingual technical literature.",
+    "intro": "Mechatronics Engineer (UPB, 2014; validated by EESC-USP, 2018), with a master's degree in Mechanical Engineering (PGMEC-UFF, 2018) and in Computational Modeling in Science and Technology (MCCT-UFF, 2024), plus ongoing complementary training in Computer Science (Estácio). His research line spans computational simulation of feedback control in multiphysics systems, with a background in welding-process modeling, computational homogenization, and multiscale simulation. He works as an independent researcher at the interfaces of engineering, computational modeling, control, and computing, with additional experience in automation, instrumentation, robotics, and electrical-electronic systems, and is also the founder of Editora Argus Kepheus, dedicated to multilingual technical literature.",
     "navigation": "Use the navigation bar above to explore the different sections of the site.",
     "cta": {
       "resume": "View resume",
@@ -88,10 +88,10 @@
           ]
         },
         {
-          "period": "2008–2013",
-          "degree": "Bachelor’s in Mechatronics Engineering",
-          "institution": "CIE/UFSCar, UPB/USP",
-          "location": "São Paulo, Brazil / Cochabamba, Bolivia",
+          "period": "2008–2014",
+          "degree": "Bachelor's in Electromechanical Engineering (UPB); revalidated in Brazil as Mechatronics Engineering by EESC-USP in 2018",
+          "institution": "Universidad Privada Boliviana (UPB)",
+          "location": "Cochabamba, Bolivia",
           "projects": [
             {
               "title": "Indirect measurement of cutting forces in CNC processes.",
@@ -239,6 +239,36 @@
           "role": "Development of the Arduino/C++ firmware, the circuit simulated in Wokwi, and the project's bilingual technical documentation.",
           "results": "Validated with static consistency checks and documented in a LaTeX technical report."
         }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Native cooperative scheduler in C++ for Arduino Uno, no RTOS, controlling LEDs, buttons and two displays with timing and memory instrumentation, simulated in Wokwi.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "Native cooperative scheduler",
+          "Software SPI (ILI9341 TFT)",
+          "I2C (SSD1306 OLED)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Wokwi simulation",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "Firmware exploring cooperative concurrency on an Arduino Uno R3/ATmega328P, without an RTOS, threads, or off-the-shelf scheduling libraries. A native, static cooperative scheduler runs eleven tasks: six independent blue LEDs sharing an adjustable interval, debounced scanning of three buttons, a diagnostic SSD1306 OLED, a primary ILI9341 TFT (over software SPI), and continuous instrumentation of CPU usage, free SRAM, lateness, and overruns. The project conceptually derives from esp32-asyncio, adapting the same idea of independent concurrent tasks to the ATmega328P's 8-bit, 2 KiB-SRAM constraints.",
+          "role": "Development of the Arduino/C++ firmware, the native cooperative scheduler, the circuit simulated in Wokwi, and the project's bilingual technical documentation.",
+          "results": "Validated with isolated diagnostic sketches for Wokwi and an acceptance checklist for the integrated build, documented in a LaTeX technical report."
+        }
       }
     ],
     "viewDetails": "View details",
@@ -339,6 +369,21 @@
           {
             "label": "PDF",
             "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, article 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Journal version of the study presented at MECSOL 2024: a computational approach based on the Asymptotic Homogenization Method to estimate the overall properties of linear viscoelastic composites with a layered periodic structure, avoiding the use of integral transforms.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
           }
         ]
       },
@@ -631,8 +676,8 @@
       {
         "title": "Indirect measurement of cutting forces in CNC processes",
         "type": "Bachelor's thesis",
-        "journal": "CIE/UFSCar, UPB/USP",
-        "year": "2013",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
         "authors": "Calvimontes, S. C.",
         "abstract": "Project focused on indirect measurement of cutting forces in CNC processes.",
         "links": [
@@ -681,6 +726,7 @@
       "privacyPolicy": "I have read and accept the <a href='#privacyPolicy'>privacy policy</a> and give my consent for the processing of my personal data."
     },
     "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
     "github": "https://github.com/Argus-Kepheus",
     "labels": {
       "email": "Email",

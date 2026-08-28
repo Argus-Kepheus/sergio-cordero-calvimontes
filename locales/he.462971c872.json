@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "בית",
     "title": "⁦Calvimontes, S. C.⁩",
-    "intro": "מהנדס מכטרוניקה (UPB, 2013; הוכר על ידי EESC-USP, 2017), בעל תואר שני בהנדסת מכונות (PGMEC-UFF, 2018) ותואר שני במידול חישובי במדע וטכנולוגיה (MCCT-UFF, 2024), וכן השכלה משלימה מתמשכת במדעי המחשב (Estácio). תחום המחקר שלו כולל סימולציה חישובית של בקרה במשוב במערכות רב-פיזיקליות, על בסיס ניסיון במידול תהליכי ריתוך, הומוגניזציה חישובית וסימולציה רב-סקאלית. הוא פועל כחוקר עצמאי בממשקים שבין הנדסה, מידול חישובי, בקרה ומחשוב, עם ניסיון נוסף באוטומציה, מכשור, רובוטיקה ומערכות חשמל-אלקטרוניקה, והוא גם מייסד הוצאת Argus Kepheus, המתמחה בספרות טכנית רב-לשונית.",
+    "intro": "מהנדס מכטרוניקה (UPB, 2014; הוכר על ידי EESC-USP, 2018), בעל תואר שני בהנדסת מכונות (PGMEC-UFF, 2018) ותואר שני במידול חישובי במדע וטכנולוגיה (MCCT-UFF, 2024), וכן השכלה משלימה מתמשכת במדעי המחשב (Estácio). תחום המחקר שלו כולל סימולציה חישובית של בקרה במשוב במערכות רב-פיזיקליות, על בסיס ניסיון במידול תהליכי ריתוך, הומוגניזציה חישובית וסימולציה רב-סקאלית. הוא פועל כחוקר עצמאי בממשקים שבין הנדסה, מידול חישובי, בקרה ומחשוב, עם ניסיון נוסף באוטומציה, מכשור, רובוטיקה ומערכות חשמל-אלקטרוניקה, והוא גם מייסד הוצאת Argus Kepheus, המתמחה בספרות טכנית רב-לשונית.",
     "navigation": "השתמשו בסרגל הניווט למעלה כדי לעבור בין חלקי האתר השונים.",
     "cta": {
       "resume": "צפה בקורות החיים",
@@ -88,10 +88,10 @@
           ]
         },
         {
-          "period": "2008–2013",
-          "degree": "תואר ראשון בהנדסת מכטרוניקה",
-          "institution": "CIE/UFSCar, UPB/USP",
-          "location": "סאו פאולו, ברזיל / קוצ'במבה, בוליביה",
+          "period": "2008–2014",
+          "degree": "תואר ראשון בהנדסת אלקטרומכניקה (UPB); הוכר בברזיל כהנדסת מכטרוניקה על ידי EESC-USP ב-2018",
+          "institution": "Universidad Privada Boliviana (UPB)",
+          "location": "קוצ'במבה, בוליביה",
           "projects": [
             {
               "title": "מדידה עקיפה של כוחות חיתוך בתהליכי CNC.",
@@ -239,6 +239,36 @@
           "role": "פיתוח הקושחה ב-Arduino/C++, המעגל המדומה ב-Wokwi והתיעוד הטכני הדו-לשוני של הפרויקט.",
           "results": "אומת באמצעות בדיקות עקביות סטטיות ותועד בדוח טכני שנכתב ב-LaTeX."
         }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "מתזמן שיתופי (cooperative) מובנה בשפת C++ עבור Arduino Uno, ללא RTOS, השולט בנוריות, כפתורים ושתי תצוגות עם מדידת זמן וזיכרון, מדומה ב-Wokwi.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "מתזמן שיתופי מובנה",
+          "SPI תוכנתי (TFT ILI9341)",
+          "I2C (OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "מאגר",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "סימולציית Wokwi",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "קושחה הבוחנת מקביליות שיתופית ב-Arduino Uno R3/ATmega328P, ללא RTOS, תהליכונים או ספריות תזמון מוכנות. מתזמן שיתופי מובנה וסטטי מריץ אחת עשרה משימות: שש נוריות כחולות עצמאיות עם מרווח משותף וניתן לכיוון, סריקה עם ביטול קפיצות (debounce) של שלושה כפתורים, תצוגת OLED SSD1306 לאבחון, תצוגת TFT ILI9341 ראשית (באמצעות SPI תוכנתי), ומדידה רציפה של ניצול המעבד, זיכרון SRAM פנוי, עיכובים וחריגות (overruns). הפרויקט נגזר באופן רעיוני מ-esp32-asyncio, ומתאים את אותו רעיון של משימות מקביליות עצמאיות למגבלות של 8 סיביות ו-2KiB זיכרון SRAM של ה-ATmega328P.",
+          "role": "פיתוח הקושחה ב-Arduino/C++, המתזמן השיתופי המובנה, המעגל המדומה ב-Wokwi והתיעוד הטכני הדו-לשוני של הפרויקט.",
+          "results": "אומת באמצעות סקיצות אבחון מבודדות עבור Wokwi ורשימת בדיקה לאישור הגרסה המשולבת, ותועד בדוח טכני שנכתב ב-LaTeX."
+        }
       }
     ],
     "viewDetails": "לצפייה בפרטים",
@@ -339,6 +369,21 @@
           {
             "label": "PDF",
             "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, מאמר 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "⁦Calvimontes, S. C. et al.⁩",
+        "abstract": "גרסת כתב העת של המחקר שהוצג ב-MECSOL 2024: גישה חישובית המבוססת על שיטת ההומוגניזציה האסימפטוטית להערכת התכונות הכוללות של קומפוזיטים צמיג-אלסטיים ליניאריים בעלי מבנה מחזורי מרובד, תוך הימנעות משימוש בהתמרות אינטגרליות.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
           }
         ]
       },
@@ -631,8 +676,8 @@
       {
         "title": "מדידה עקיפה של כוחות חיתוך בתהליכי CNC",
         "type": "Bachelor's thesis",
-        "journal": "CIE/UFSCar, UPB/USP",
-        "year": "2013",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
         "authors": "⁦Calvimontes, S. C.⁩",
         "abstract": "פרויקט המתמקד במדידה עקיפה של כוחות חיתוך בתהליכי CNC.",
         "links": [
@@ -681,6 +726,7 @@
       "privacyPolicy": "קראתי ואני מקבל את <a href='#privacyPolicy'>מדיניות הפרטיות</a> ונותן את הסכמתי לעיבוד הנתונים האישיים שלי."
     },
     "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
     "github": "https://github.com/Argus-Kepheus",
     "labels": {
       "email": "דוא״ל",

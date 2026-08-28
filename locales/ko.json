@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "홈",
     "title": "Calvimontes, S. C.",
-    "intro": "메카트로닉스 공학사(UPB, 2013년; EESC-USP 학력 인증, 2017년)로, 기계공학 석사(PGMEC-UFF, 2018년)와 과학기술 전산 모델링 석사(MCCT-UFF, 2024년)를 취득했으며, 현재 Estácio에서 컴퓨터과학 학사 과정을 보충 교육으로 이수 중입니다. 연구 분야는 다물리 시스템의 피드백 제어에 대한 전산 시뮬레이션을 중심으로 하며, 용접 공정 모델링, 전산 균질화, 다중 스케일 시뮬레이션 경험을 바탕으로 합니다. 현재 공학, 전산 모델링, 제어, 컴퓨팅의 접점에서 독립 연구자로 활동하고 있으며, 자동화, 계측, 로봇공학, 전기전자 시스템 분야의 경험도 갖추고 있고, 다국어 기술 문헌을 다루는 Editora Argus Kepheus의 창립자이기도 합니다.",
+    "intro": "메카트로닉스 공학사(UPB, 2014년; EESC-USP 학력 인증, 2018년)로, 기계공학 석사(PGMEC-UFF, 2018년)와 과학기술 전산 모델링 석사(MCCT-UFF, 2024년)를 취득했으며, 현재 Estácio에서 컴퓨터과학 학사 과정을 보충 교육으로 이수 중입니다. 연구 분야는 다물리 시스템의 피드백 제어에 대한 전산 시뮬레이션을 중심으로 하며, 용접 공정 모델링, 전산 균질화, 다중 스케일 시뮬레이션 경험을 바탕으로 합니다. 현재 공학, 전산 모델링, 제어, 컴퓨팅의 접점에서 독립 연구자로 활동하고 있으며, 자동화, 계측, 로봇공학, 전기전자 시스템 분야의 경험도 갖추고 있고, 다국어 기술 문헌을 다루는 Editora Argus Kepheus의 창립자이기도 합니다.",
     "navigation": "위쪽 내비게이션 바를 사용해 사이트의 다양한 섹션을 둘러보세요.",
     "cta": {
       "resume": "이력서 보기",
@@ -88,10 +88,10 @@
           ]
         },
         {
-          "period": "2008–2013",
-          "degree": "메카트로닉스공학 학사",
-          "institution": "CIE/UFSCar, UPB/USP",
-          "location": "상파울루, 브라질 / 코차밤바, 볼리비아",
+          "period": "2008–2014",
+          "degree": "전자기계공학 학사(UPB); 2018년 EESC-USP에서 메카트로닉스공학으로 학력 인증",
+          "institution": "Universidad Privada Boliviana(UPB)",
+          "location": "코차밤바, 볼리비아",
           "projects": [
             {
               "title": "CNC 가공 공정의 절삭력 간접 측정.",
@@ -239,6 +239,36 @@
           "role": "Arduino/C++ 펌웨어, Wokwi 시뮬레이션 회로, 프로젝트의 이중 언어 기술 문서를 개발했습니다.",
           "results": "정적 일관성 검증을 통해 검증했으며, LaTeX로 작성한 기술 보고서로 문서화했습니다."
         }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Arduino Uno용 네이티브 협력형 스케줄러(C++)로, RTOS 없이 LED, 버튼, 두 개의 디스플레이를 제어하며 시간·메모리 계측 기능을 갖추고 Wokwi에서 시뮬레이션했습니다.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "네이티브 협력형 스케줄러",
+          "소프트웨어 SPI(TFT ILI9341)",
+          "I2C(OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "저장소",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Wokwi 시뮬레이션",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "RTOS, 스레드, 기성 스케줄링 라이브러리 없이 Arduino Uno R3/ATmega328P에서 협력형 동시성을 탐구하는 펌웨어입니다. 네이티브 정적 협력형 스케줄러가 11개의 작업을 실행합니다: 공유되는 조절 가능한 간격으로 동작하는 6개의 독립적인 파란색 LED, 디바운스 처리된 3개 버튼의 스캔, 진단용 OLED SSD1306, 주 디스플레이인 TFT ILI9341(소프트웨어 SPI 사용), 그리고 CPU 사용률, 여유 SRAM, 지연, 오버런에 대한 지속적인 계측입니다. 이 프로젝트는 esp32-asyncio에서 개념적으로 파생되었으며, 독립적인 동시 작업이라는 동일한 아이디어를 ATmega328P의 8비트, 2KiB SRAM 제약에 맞게 적용했습니다.",
+          "role": "Arduino/C++ 펌웨어, 네이티브 협력형 스케줄러, Wokwi 시뮬레이션 회로, 프로젝트의 이중 언어 기술 문서를 개발했습니다.",
+          "results": "Wokwi용으로 분리된 진단 스케치와 통합 버전의 인수 체크리스트로 검증했으며, LaTeX로 작성한 기술 보고서로 문서화했습니다."
+        }
       }
     ],
     "viewDetails": "상세 보기",
@@ -339,6 +369,21 @@
           {
             "label": "PDF",
             "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, article 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "MECSOL 2024에서 발표된 연구의 저널 버전으로, 적분 변환을 사용하지 않고 점근 균질화법(Asymptotic Homogenization Method)을 기반으로 층상 주기 구조를 가진 선형 점탄성 복합재료의 전체 물성을 추정하는 계산적 접근법을 다룹니다.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
           }
         ]
       },
@@ -631,8 +676,8 @@
       {
         "title": "CNC 가공 공정의 절삭력 간접 측정",
         "type": "Bachelor's thesis",
-        "journal": "CIE/UFSCar, UPB/USP",
-        "year": "2013",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
         "authors": "Calvimontes, S. C.",
         "abstract": "CNC 가공 공정의 절삭력 간접 측정을 다룬 프로젝트.",
         "links": [
@@ -681,6 +726,7 @@
       "privacyPolicy": "<a href='#privacyPolicy'>개인정보처리방침</a>을 읽었으며 개인정보 처리에 동의합니다."
     },
     "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
     "github": "https://github.com/Argus-Kepheus",
     "labels": {
       "email": "이메일",

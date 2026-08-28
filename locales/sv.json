@@ -1,0 +1,955 @@
+{
+  "site": {
+    "title": "SCC - Portfolio",
+    "description": "Tekniskt-vetenskaplig portfolio för Calvimontes, S. C., med CV, projekt och publikationer inom teknik, datormodellering och vetenskaplig databehandling.",
+    "ogTitle": "SCC - Portfolio för Calvimontes, S. C.",
+    "ogDescription": "Upptäck CV, projekt och publikationer från Calvimontes, S. C."
+  },
+  "ui": {
+    "loading": "Laddar...",
+    "error": "Fel",
+    "componentLoadError": "Fel vid inläsning av komponent.",
+    "backToHome": "Tillbaka till startsidan",
+    "retry": "Försök igen",
+    "close": "Stäng",
+    "yes": "Ja",
+    "no": "Nej",
+    "accept": "Acceptera",
+    "decline": "Avböj",
+    "success": "Lyckades"
+  },
+  "nav": {
+    "home": "Hem",
+    "curriculo": "CV",
+    "projetos": "Projekt",
+    "publicacoes": "Publikationer och forskning",
+    "contato": "Kontakt"
+  },
+  "home": {
+    "pageTitle": "Hem",
+    "title": "Calvimontes, S. C.",
+    "intro": "Mekatronikingenjör (UPB, 2014; validerad av EESC-USP, 2018), med magisterexamen i maskinteknik (PGMEC-UFF, 2018) och i datormodellering inom vetenskap och teknik (MCCT-UFF, 2024), samt pågående kompletterande utbildning i datavetenskap (Estácio). Hans forskningsinriktning omfattar datorsimulering av återkopplad styrning av multifysikaliska system, med erfarenhet av modellering av svetsprocesser, beräkningsmässig homogenisering och multiskalig simulering. Han arbetar som oberoende forskare i gränssnittet mellan teknik, datormodellering, styrsystem och databehandling, med ytterligare erfarenhet inom automation, instrumentering, robotik och elektroniksystem, samt är grundare av Editora Argus Kepheus, inriktad på flerspråkig teknisk litteratur.",
+    "navigation": "Använd navigeringsfältet ovan för att utforska webbplatsens olika avsnitt.",
+    "cta": {
+      "resume": "Se CV",
+      "projects": "Se projekt"
+    },
+    "highlights": {
+      "title": "Höjdpunkter",
+      "item1": {
+        "title": "Datormodellering",
+        "description": "Erfarenhet av numerisk simulering, beräkningsmässig homogenisering och multiskalig analys."
+      },
+      "item2": {
+        "title": "Teknik och databehandling",
+        "description": "Utbildning inom mekatronikteknik, maskinteknik och datavetenskap."
+      },
+      "item3": {
+        "title": "Publikationer och undervisning",
+        "description": "Teknisk-vetenskaplig produktion, undervisningsmaterial och arbete inom elektronikämnen."
+      }
+    },
+    "description": "Teknisk-vetenskaplig översikt av Calvimontes, S. C., med fokus på datormodellering, teknik, vetenskaplig databehandling, publikationer och undervisning."
+  },
+  "curriculo": {
+    "pageTitle": "CV",
+    "title": "CV",
+    "experience": {
+      "title": "Yrkeserfarenhet",
+      "description": "Teknisk-vetenskaplig erfarenhet organiserad utifrån CV:ts redaktionella version.",
+      "items": []
+    },
+    "education": {
+      "title": "Utbildning och projekt",
+      "description": "Akademisk utbildning och utvalda teknisk-vetenskapliga projekt.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "Magisterexamen i datormodellering inom vetenskap och teknik",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "Rio de Janeiro, Brasilien",
+          "projects": [
+            {
+              "title": "Metoder för beräkningsmässig homogenisering vid multiskalig analys.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "Magisterexamen i maskinteknik",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "Rio de Janeiro, Brasilien",
+          "projects": [
+            {
+              "title": "Numerisk simulering av elektrotermomekaniska processer vid svetsning.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2014",
+          "degree": "Kandidatexamen i elektromekanisk ingenjörsvetenskap (UPB); validerad i Brasilien som mekatronikteknik av EESC-USP 2018",
+          "institution": "Universidad Privada Boliviana (UPB)",
+          "location": "Cochabamba, Bolivia",
+          "projects": [
+            {
+              "title": "Indirekt mätning av skärkrafter i CNC-processer.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–pågående",
+          "degree": "Kandidatexamen i datavetenskap, distansutbildning",
+          "institution": "Universidade Estácio de Sá",
+          "location": "Angra dos Reis, Brasilien"
+        },
+        {
+          "period": "2024",
+          "degree": "Tekniker inom mekatronik",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "Paraíba, Brasilien"
+        }
+      ]
+    },
+    "downloadButton": "Ladda ner CV som PDF",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "Mekatronikingenjör | Datormodellering | Vetenskaplig databehandling",
+      "location": "Rio de Janeiro, Brasilien",
+      "contactLabel": "Kontaktuppgifter och offentliga profiler",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "Sammanfattning",
+      "text": "Mekatronikingenjör med magisterexamen (stricto sensu) i maskinteknik och datormodellering. Har erfarenhet av numerisk simulering, vetenskaplig databehandling och utveckling av beräkningsverktyg. Huvudsaklig inriktning mot multiskalig modellering, kompositmaterial och termomekaniska processer. Sekundär inriktning mot undervisning i elektronikämnen."
+    },
+    "careerPerspective": {
+      "title": "Karriärperspektiv",
+      "items": [
+        {
+          "label": "Teknisk-vetenskaplig forskning",
+          "text": "Sammanställning av manuskript och stödmaterial för inlämning av artiklar inom databehandling, materialmodellering och numerisk simulering."
+        },
+        {
+          "label": "Akademisk utveckling",
+          "text": "Organisering av teknisk-vetenskaplig portfolio för ansökan till doktorandprogrammet i datormodellering vid LNCC-MCTI, Petrópolis, RJ."
+        },
+        {
+          "label": "Tekniskt arbete",
+          "text": "Bevakning av möjligheter inom offentlig sektor och teknik, inklusive reservlista hos Itaipu Binacional, kärnkraftverket Angra 3 och som marinanalytiker hos EMGEPRON."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "Kompletterande utbildning",
+      "items": [
+        {
+          "label": "Programmering",
+          "text": "C; G/M-koder för CNC; mikrokontroller PIC, Arduino och ESP32; prototyptillverkning och teknisk-industriell design med additiv tillverkning i ABS och andra polymera material."
+        },
+        {
+          "label": "Automation",
+          "text": "Ladder Logic för PLC:er; elektroniska styrkommandon och manöverkretsar med reläer, kontaktorer, tryckknappar, sensorer, väljarbrytare, omkopplare och förreglingar."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS och Linkage."
+        },
+        {
+          "label": "Teknik",
+          "text": "Elinstallationer enligt NBR 5410, NBR 5413, NBR 5419 och NBR 14039; felanalys och materialhållfasthet; metallografi och förutsägelse av stålegenskaper med AI."
+        }
+      ]
+    },
+    "description": "CV för Calvimontes, S. C., med akademisk utbildning, teknisk-vetenskapliga projekt, yrkeserfarenhet och kompletterande utbildning."
+  },
+  "projetos": {
+    "pageTitle": "Projekt",
+    "title": "Teknisk-vetenskapliga projekt",
+    "description": "Akademiska och tekniska projekt utvalda utifrån CV:ts redaktionella version.",
+    "demoButton": "Se projekt",
+    "codeButton": "Se kod",
+    "items": [
+      {
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "Personliga experiment med asynkron bearbetning (asyncio) på ESP32-plattformen: lysdioder, knappar och flera skärmar simulerade i Wokwi.",
+        "image": "images/projects/esp32-asyncio.png",
+        "technologies": [
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI (OLED SSD1306, TFT ILI9341)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "Wokwi-simulering",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
+        "detail": {
+          "longDescription": "Personligt prototyp för att testa ESP32:ns kapacitet för asynkron bearbetning, med utgångspunkt i en ursprunglig praktisk bedömning (två lysdioder, en knapp och en OLED SSD1306-skärm) och experimentellt utökad: fler lysdioder, en andra OLED och en TFT ILI9341-skärm, med realtidsgrafer för CPU- och RAM-användning. Firmware i MicroPython kör varje uppgift — blinkande lysdioder, avläsning av knappen, uppdatering av skärmarna — som samverkande asyncio-korutiner, utan att någon blockerar de andra. Simulerad på ett ESP32-DevKitC V4-kort i Wokwi.",
+          "role": "Utveckling av MicroPython-firmware och av den fullständiga kretssimuleringen i Wokwi, med fokus på att validera samverkansmönster med asyncio på ESP32.",
+          "results": "Kretsen validerad med en stegvis serie tester (från den grundläggande lysdioden till fullständig OLED-diagnostik) och dokumenterad i en teknisk rapport och presentation. Miniatyrbilden återspeglar redan den utökade versionen av kretsen, simulerad i Wokwi."
+        }
+      },
+      {
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "Styrsystem för en tvåaxlig kartesisk plotter för Arduino Uno, med joystick-gränssnitt och OLED-telemetri, simulerat i Wokwi.",
+        "image": "images/projects/2d-plotter.jpg",
+        "technologies": [
+          "Arduino Uno",
+          "A4988-drivrutiner (stegmotor)",
+          "Servomotor",
+          "I2C / OLED",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "Wokwi-simulering",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
+        ],
+        "detail": {
+          "longDescription": "Styrfirmware för en tvåaxlig kartesisk plotter: X/Y-rörelse via A4988-drivrutiner, pennhöjd via servomotor, joystick-gränssnitt, automatisk återgång till nollpunkten, nödstopp, telemetri på OLED-skärm, hastighetsstaplar och extra laster via relä. Rörelsegränserna är logiska (inga fysiska ändlägesbrytare), avsedda för validering i simulering inför en framtida fysisk montering.",
+          "role": "Utveckling av Arduino/C++-firmware, av kretsen simulerad i Wokwi och av projektets tvåspråkiga tekniska dokumentation.",
+          "results": "Validerat med statiska konsistenskontroller och dokumenterat i en teknisk rapport i LaTeX."
+        }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Inbyggd kooperativ schemaläggare i C++ för Arduino Uno, utan RTOS, som styr lysdioder, knappar och två skärmar med tids- och minnesinstrumentering, simulerat i Wokwi.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "Inbyggd kooperativ schemaläggare",
+          "SPI via mjukvara (TFT ILI9341)",
+          "I2C (OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Wokwi-simulering",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "Firmware som utforskar kooperativ samtidighet på ett Arduino Uno R3/ATmega328P, utan RTOS, trådar eller färdiga schemaläggningsbibliotek. En inbyggd, statisk kooperativ schemaläggare kör elva uppgifter: sex oberoende blå lysdioder med ett delat, justerbart intervall, avsökning med avstudsning av tre knappar, en diagnostisk OLED SSD1306, en huvudsaklig TFT ILI9341 (via mjukvaru-SPI) och kontinuerlig instrumentering av CPU-användning, ledigt SRAM, förseningar och överskridanden. Projektet härstammar konceptuellt från esp32-asyncio och anpassar samma idé om oberoende samtidiga uppgifter till ATmega328P:s begränsningar på 8 bitar och 2 KiB SRAM.",
+          "role": "Utveckling av Arduino/C++-firmware, av den inbyggda kooperativa schemaläggaren, av kretsen simulerad i Wokwi och av projektets tvåspråkiga tekniska dokumentation.",
+          "results": "Validerat med isolerade diagnostiska sketcher för Wokwi och en checklista för godkännande av den integrerade versionen, dokumenterat i en teknisk rapport i LaTeX."
+        }
+      }
+    ],
+    "viewDetails": "Se detaljer",
+    "categories": {
+      "mecanica": "Mekanik",
+      "eletroeletronica": "Elektroteknik",
+      "informatica": "Datavetenskap",
+      "prototipagem-eletronica": "Elektronikprototyper"
+    },
+    "detail": {
+      "categoryLabel": "Område",
+      "roleLabel": "Roll och ansvar",
+      "resultsLabel": "Resultat",
+      "backToProjects": "Tillbaka till projekt"
+    },
+    "technologiesLabel": "Tillhörande teknologier och ämnen"
+  },
+  "publicacoes": {
+    "pageTitle": "Publikationer",
+    "title": "Utvalda publikationer",
+    "description": "Publikationer och teknisk-vetenskapligt material som lyfts fram i CV:ts redaktionella version.",
+    "noItems": "Inga publikationer är tillgängliga för närvarande.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "1:a upplagan",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Teknisk bok om grunder, dimensionering och teknisk dokumentation för grundläggande industriella elprojekt.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Artikel om beräkningsmässig homogenisering av linjärt viskoelastiska flerfaskompositer och uppskattning av effektiv relaxation i perovskitbaserade solpaneler.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Alternativ metod för att beräkna effektiva koefficienter för linjärt viskoelastiska kompositmaterial via beräkningsmässig asymptotisk homogenisering, med lambdafunktioner i stället för Laplace-Carson-transformen.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Beräkningsmässig metod baserad på den asymptotiska homogeniseringsmetoden för att uppskatta effektiva egenskaper hos linjärt viskoelastiska kompositer med skiktad periodisk struktur, utan användning av integraltransformer.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, artikel 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Tidskriftsversion av studien som presenterades vid MECSOL 2024: en beräkningsmässig metod baserad på den asymptotiska homogeniseringsmetoden för att uppskatta de effektiva egenskaperna hos linjärt viskoelastiska kompositer med skiktad periodisk struktur, utan användning av integraltransformer.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização computacional para análise multiescala",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Metoder för beräkningsmässig homogenisering tillämpade på multiskalig analys av material.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Förslag på rent resistiva elektrotermiska element för datorsimulering av den termomekanisk-elektriska kopplingen i elmotståndssvetsning (ERW).",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Proceedings",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "Endimensionell beräkningsmässig matematisk modell av det termiska problemet i en elmotståndssvetsprocess (ERW)."
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Proceedings",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "Beräkningsmässig matematisk modell av förskjutningen av området med högsta temperatur i en ERW-svetsprocess mellan olika material."
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Matematisk modell, implementerad i Octave®, för analys av temperaturprofilen vid flash-butt-svetsning av olika material, jämförd med experimentella data från litteraturen.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Alternativ metod, baserad på en beräkningsmässig matematisk modell, för att beräkna avsättningshastigheten vid smältsvetsning med avsmältande elektrod.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Beräkningsmässig matematisk modell, implementerad i Octave®, för att studera gränssnittsimpedansens inverkan på det elektrotermiska beteendet vid ERW-svetsning.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Förenklad Quarter Car-simulering, med kalkylblad för jämförande data, för utveckling och analys av vertikal dynamik hos fordon av typen Mini-Baja SAE.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Version med omordnat författarskap av studien om sambandet mellan värmeövergångskoefficienter på angränsande ytor, i datorsimuleringen (DEFORM®) av en cylindrisk Inconel 718-detalj som genomgår ett virtuellt Jominy-prov.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Studie av sambandet mellan värmeövergångskoefficienter på angränsande ytor, i datorsimuleringen (DEFORM®, modulen Heat Treatment Wizard) av en cylindrisk Inconel 718-detalj som genomgår ett virtuellt Jominy-prov.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulação numérica de processos eletrotérmico-mecânicos em soldagem",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Studie av kopplade processer med elektriska, termiska och mekaniska effekter vid svetsning.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "Alternativ beräkningsmässig implementering av randvillkor och stabilitetsmatriser för finita differensmetoden, tillämpad på lösning av termiska problem i kartesiska isotropa material."
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Utvärdering av sprickbildningsfaktorer vid flash-butt-svetsning av tvåfasstål DP600, med koppling mellan kemisk sammansättning, termomekanisk process och effekter av värmetillförsel i det svetsade området.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Förslag på matematisk modellering av flash-butt-svetsprocessen för stål i plåtformat, med definition av de termo-elektro-mekaniska variabler som ingår i processen.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Arbete om den strukturella och utmattningsmässiga dimensioneringen av framaxelhylsan på ett Mini Baja SAE-fordon, med hjälp av CAD/CAE-verktyg.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Studie om den strukturella optimeringen av chassit på ett Baja SAE-fordon med finita elementmetoden, med simuleringar av frontalkrock, vältning och sidokrock.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Medição indireta de forças de corte em processos CNC",
+        "type": "Bachelor's thesis",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Projekt inriktat på indirekt mätning av skärkrafter i CNC-processer.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "Kontakt",
+    "title": "Kontakt",
+    "description": "Offentlig kontaktinformation och yrkesprofiler.",
+    "sections": {
+      "message": "Skicka ett meddelande",
+      "file": "Skicka en fil"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "Offentliga profiler",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "Kontaktformulär",
+      "name": "Namn",
+      "email": "E-post",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "attachment": "Bilaga",
+      "chooseFile": "Välj fil",
+      "noFileChosen": "Ingen fil vald",
+      "attachmentHint": "PDF, max 3 MB.",
+      "send": "Skicka meddelande",
+      "sendFile": "Skicka fil",
+      "privacyPolicy": "Jag har läst och godkänner <a href='#privacyPolicy'>integritetspolicyn</a> och samtycker till behandling av mina personuppgifter."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "E-post",
+      "phone": "Telefon"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — Alla rättigheter förbehållna.",
+    "contact": {
+      "title": "Kontakt",
+      "email": "E-post: "
+    },
+    "social": {
+      "title": "Offentliga profiler",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "Fel",
+    "notFound": {
+      "title": "Sidan hittades inte",
+      "message": "Sidan du letar efter finns inte eller har flyttats.",
+      "backButton": "Tillbaka till startsidan"
+    },
+    "generic": {
+      "title": "Ett fel har inträffat",
+      "message": "Tyvärr uppstod ett fel vid inläsning av innehållet. Försök igen.",
+      "backButton": "Tillbaka till startsidan"
+    },
+    "connection": {
+      "title": "Anslutningsfel",
+      "message": "Det gick inte att ansluta till servern. Kontrollera din internetanslutning.",
+      "retryButton": "Försök igen"
+    },
+    "appInitFailed": "Fel vid start av applikationen. Ladda om sidan.",
+    "langChangeFailed": "Fel vid byte av språk. Försök igen.",
+    "pageLoadFailed": "Fel vid inläsning av sidan. Försök igen.",
+    "description": "Felsida som visas när innehållet inte kan laddas eller den begärda rutten inte är tillgänglig."
+  },
+  "form": {
+    "validation": {
+      "required": "Fyll i det här fältet",
+      "invalidEmail": "Ange en giltig e-postadress",
+      "invalidFileType": "Ladda upp en fil i PDF-format.",
+      "fileTooLarge": "Filen får vara högst {{max}}.",
+      "email": "Ange en giltig e-postadress",
+      "minLength": "Det här fältet måste innehålla minst {{min}} tecken",
+      "maxLength": "Det här fältet får innehålla högst {{max}} tecken",
+      "pattern": "Ange ett giltigt format",
+      "number": "Ange ett giltigt nummer",
+      "url": "Ange en giltig URL",
+      "match": "Fälten stämmer inte överens"
+    },
+    "status": {
+      "sending": "Skickar meddelande...",
+      "success": "Meddelandet har skickats!",
+      "error": "Fel vid sändning av meddelande. Försök igen."
+    },
+    "placeholders": {
+      "name": "Ange ditt namn",
+      "email": "Ange din e-postadress",
+      "subject": "Ange ämnet",
+      "message": "Skriv ditt meddelande här",
+      "phone": "Ange ditt telefonnummer"
+    }
+  },
+  "aria": {
+    "languageSelector": "Välj språk",
+    "menuToggle": "Växla navigeringsmeny",
+    "closeMenu": "Stäng meny",
+    "nextSlide": "Nästa bild",
+    "previousSlide": "Föregående bild",
+    "loadMore": "Läs in mer innehåll",
+    "search": "Sök",
+    "searchButton": "Sökknapp",
+    "closeButton": "Stängknapp",
+    "expandButton": "Expandera-knapp",
+    "collapseButton": "Fäll ihop-knapp",
+    "socialLinks": "Länkar till sociala medier",
+    "contactForm": "Kontaktformulär",
+    "requiredField": "Obligatoriskt fält",
+    "navigation": "Huvudnavigering",
+    "skipToContent": "Hoppa till innehållet",
+    "darkModeToggle": "Växla mörkt läge",
+    "backToTop": "Tillbaka till sidans topp",
+    "openMenu": "Öppna meny",
+    "paletteSelector": "Välj färgpalett",
+    "paletteSelectorWithCurrent": "Välj färgpalett: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "Läs mer",
+    "viewAll": "Se alla",
+    "download": "Ladda ner",
+    "submit": "Skicka",
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "previous": "Föregående",
+    "save": "Spara",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "confirm": "Bekräfta",
+    "apply": "Tillämpa",
+    "filter": "Filtrera",
+    "clear": "Rensa",
+    "search": "Sök",
+    "share": "Dela",
+    "print": "Skriv ut",
+    "contactMe": "Kontakta mig",
+    "backToTop": "Tillbaka till toppen"
+  },
+  "formats": {
+    "date": {
+      "short": "YYYY-MM-DD",
+      "long": "D MMMM YYYY",
+      "monthYear": "MMMM YYYY",
+      "time": "HH:mm",
+      "dateTime": "D MMMM YYYY [kl.] HH:mm",
+      "relative": {
+        "today": "Idag",
+        "yesterday": "Igår",
+        "tomorrow": "Imorgon",
+        "daysAgo": "för {{days}} dagar sedan",
+        "inDays": "om {{days}} dagar"
+      }
+    },
+    "number": {
+      "decimal": ",",
+      "thousands": ".",
+      "percent": "{value} %",
+      "currency": "{value} kr"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "Integritetspolicy",
+    "description": "Integritetspolicy som förklarar data från kontaktformuläret, lokala inställningar för språk och färgpalett, externa länkar och användarens kontroll över data som sparas i webbläsaren."
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "description": "Denna policy beskriver vilka data den här webbplatsen använder för kontakt, lokala inställningar och externa länkar.",
+    "consent": "Jag har läst och godkänner",
+    "lastUpdated": "Senast uppdaterad",
+    "lastUpdatedDate": "30 juli 2026",
+    "sections": {
+      "introduction": {
+        "title": "Inledning",
+        "content": "Denna policy sammanfattar dataflödena som implementerats på denna statiska webbplats. Den bör läsas tillsammans med den tekniska inventeringen i docs/PRIVACY_DATA_FLOW.md."
+      },
+      "dataCollection": {
+        "title": "Behandlade data",
+        "content": "Webbplatsen undviker onödig datainsamling. De huvudsakliga data som berörs är de som skickas frivilligt via kontaktformuläret samt inställningar som sparas lokalt i webbläsaren.",
+        "personalData": {
+          "title": "Kontaktformulär",
+          "content": "Webbplatsen har två kontaktformulär: när meddelandeformuläret skickas in skickas namn, e-post, ämne, meddelande och samtyckesbekräftelse till den Formspree-slutpunkt som konfigurerats för webbplatsen; när filformuläret skickas in skickas namn, e-post, meddelande, en PDF-bilaga (upp till 3 MB), en fast ämnesetikett (\"inbox-document\", ej redigerbar av användaren) och samtyckesbekräftelse till den Forminit-slutpunkt som konfigurerats för webbplatsen. Tjänsterna kan även behandla tekniska metadata från förfrågan som krävs för att leverera meddelandet."
+        },
+        "usage": {
+          "title": "Lokala inställningar",
+          "content": "Webbplatsen använder localStorage för att komma ihåg valt språk och vald visuell palett. Dessa värden lagras i användarens webbläsare och kan tas bort genom att rensa webbplatsens data."
+        }
+      },
+      "lgpd": {
+        "title": "Brasiliens dataskyddslag (LGPD)",
+        "content": "I tillämpliga fall ska behandlingen av personuppgifter följa LGPD. Denna sida beskriver kända data och håller kvarstående operativa frågor markerade i den tekniska inventeringen tills den externa tjänstens konto har verifierats.",
+        "controller": {
+          "title": "Personuppgiftsansvarig",
+          "content": "Den ansvarige för webbplatsen beslutar om syftet med kontaktformuläret och tar emot de meddelanden som skickas in."
+        },
+        "operator": {
+          "title": "Personuppgiftsbiträde",
+          "content": "Formspree och Forminit fungerar som externa tjänster som används för att behandla och leverera meddelanden från kontaktformulären (meddelande respektive fil). Tjänsternas inställningar för lagring och radering behöver fortfarande verifieras i respektive konto."
+        }
+      },
+      "cookies": {
+        "title": "Cookies och lokal lagring",
+        "content": "Webbplatsens förstapartskod sätter inga cookies. Inställningarna för språk och palett sparas i localStorage, inte i cookies."
+      },
+      "thirdParty": {
+        "title": "Tredjepartstjänster",
+        "content": "Webbplatsen laddar inte Google Analytics, reCAPTCHA, annonspixlar eller inbyggd analys. En förfrågan till Formspree sker endast när ett giltigt formulär skickas in. Externa länkar öppnas endast när användaren klickar på dem."
+      },
+      "rights": {
+        "title": "Dina rättigheter",
+        "content": "Du kan begära åtkomst, rättelse, radering eller förtydliganden om personuppgifter som skickats via formuläret genom att använda den offentliga kontaktinformationen på denna sida. Det går även att radera lokala inställningar direkt i webbläsaren."
+      },
+      "changes": {
+        "title": "Ändringar av policyn",
+        "content": "Denna policy kan uppdateras när webbplatsen, kontaktformuläret eller de externa tjänsterna ändras. Datumet ovan anger den senast registrerade revideringen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Vid frågor om denna policy eller om data som skickats via formuläret, använd den offentliga e-postadressen sergio.cordero.calvimontes@proton.me eller webbplatsens kontaktflik."
+      }
+    }
+  },
+  "palettes": {
+    "system": "System",
+    "classic": "Klassisk",
+    "alternative": "Alternativ",
+    "editorial": "Redaktionell",
+    "classicDark": "Klassisk mörk",
+    "alternativeDark": "Alternativ mörk",
+    "editorialDark": "Redaktionell mörk",
+    "blueprint": "Blueprint",
+    "blueprintDark": "Blueprint mörk"
+  },
+  "controls": {
+    "readMore": "Läs mer",
+    "readLess": "Läs mindre",
+    "showMore": "Visa mer",
+    "showLess": "Visa mindre",
+    "filterByYear": "Filtrera efter år:",
+    "filterByCategory": "Filtrera efter område:",
+    "filterByType": "Filtrera efter typ:",
+    "all": "Alla",
+    "previousImage": "Föregående bild",
+    "nextImage": "Nästa bild"
+  }
+}

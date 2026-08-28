@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "ホーム",
     "title": "Calvimontes, S. C.",
-    "intro": "メカトロニクス工学士（UPB、2013年、EESC-USPにより2017年に学位認定）で、機械工学修士（PGMEC-UFF、2018年）と科学技術における計算モデリング修士（MCCT-UFF、2024年）を取得。現在はEstácioでコンピュータサイエンス学士課程を補完的な教育として履修中です。研究分野は多物理系のフィードバック制御に関する計算シミュレーションを中心とし、溶接プロセスのモデリング、計算均質化、マルチスケールシミュレーションの経験に基づいています。現在は工学、計算モデリング、制御、計算科学の接点で独立研究者として活動しており、自動化、計測、ロボティクス、電気電子システムの経験も有し、多言語技術文献を手がけるEditora Argus Kepheusの創設者でもあります。",
+    "intro": "メカトロニクス工学士（UPB、2014年、EESC-USPにより2018年に学位認定）で、機械工学修士（PGMEC-UFF、2018年）と科学技術における計算モデリング修士（MCCT-UFF、2024年）を取得。現在はEstácioでコンピュータサイエンス学士課程を補完的な教育として履修中です。研究分野は多物理系のフィードバック制御に関する計算シミュレーションを中心とし、溶接プロセスのモデリング、計算均質化、マルチスケールシミュレーションの経験に基づいています。現在は工学、計算モデリング、制御、計算科学の接点で独立研究者として活動しており、自動化、計測、ロボティクス、電気電子システムの経験も有し、多言語技術文献を手がけるEditora Argus Kepheusの創設者でもあります。",
     "navigation": "上部のナビゲーションバーを使って、サイト内の各セクションをご覧ください。",
     "cta": {
       "resume": "履歴書を見る",
@@ -88,10 +88,10 @@
           ]
         },
         {
-          "period": "2008–2013",
-          "degree": "メカトロニクス工学学士",
-          "institution": "CIE/UFSCar, UPB/USP",
-          "location": "サンパウロ、ブラジル / コチャバンバ、ボリビア",
+          "period": "2008–2014",
+          "degree": "電気機械工学学士(UPB); 2018年にEESC-USPによりメカトロニクス工学として学位認定",
+          "institution": "Universidad Privada Boliviana(UPB)",
+          "location": "コチャバンバ、ボリビア",
           "projects": [
             {
               "title": "CNC 加工における切削力の間接測定。",
@@ -239,6 +239,36 @@
           "role": "Arduino/C++ファームウェア、Wokwiでシミュレーションした回路、プロジェクトのバイリンガル技術文書を開発しました。",
           "results": "静的な整合性検証によって検証し、LaTeXによる技術報告書として文書化しました。"
         }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Arduino Uno向けのネイティブな協調スケジューラ(C++)で、RTOSを使わずにLED、ボタン、2つのディスプレイを制御し、時間とメモリの計測機能を備え、Wokwiでシミュレーションしました。",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "ネイティブ協調スケジューラ",
+          "ソフトウェアSPI(TFT ILI9341)",
+          "I2C(OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "リポジトリ",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Wokwiシミュレーション",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "RTOSやスレッド、既製のスケジューリングライブラリを使わずに、Arduino Uno R3/ATmega328P上で協調的な並行処理を探求するファームウェアです。ネイティブな静的協調スケジューラが11個のタスクを実行します:共有され調整可能な間隔で動作する6個の独立した青色LED、デバウンス処理された3個のボタンのスキャン、診断用のOLED SSD1306、ソフトウェアSPIを使用する主要ディスプレイのTFT ILI9341、そしてCPU使用率、空きSRAM、遅延、オーバーランの継続的な計測です。本プロジェクトはesp32-asyncioから概念的に派生しており、独立した並行タスクという同じ考え方をATmega328Pの8ビット・2KiBのSRAM制約に適応させています。",
+          "role": "Arduino/C++ファームウェア、ネイティブ協調スケジューラ、Wokwiでシミュレーションした回路、プロジェクトのバイリンガル技術文書を開発しました。",
+          "results": "Wokwi向けの独立した診断スケッチと統合版の受け入れチェックリストによって検証し、LaTeXによる技術報告書として文書化しました。"
+        }
       }
     ],
     "viewDetails": "詳細を見る",
@@ -339,6 +369,21 @@
           {
             "label": "PDF",
             "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, article 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "MECSOL 2024で発表された研究のジャーナル版で、積分変換を用いずに漸近均質化法(Asymptotic Homogenization Method)に基づき、層状周期構造を持つ線形粘弾性複合材料の全体物性を推定する計算的アプローチを扱っています。",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
           }
         ]
       },
@@ -631,8 +676,8 @@
       {
         "title": "CNC 加工における切削力の間接測定",
         "type": "Bachelor's thesis",
-        "journal": "CIE/UFSCar, UPB/USP",
-        "year": "2013",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
         "authors": "Calvimontes, S. C.",
         "abstract": "CNC 加工における切削力の間接測定に焦点を当てたプロジェクト。",
         "links": [
@@ -681,6 +726,7 @@
       "privacyPolicy": "<a href='#privacyPolicy'>プライバシーポリシー</a>を読み、個人データ処理に同意します。"
     },
     "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
     "github": "https://github.com/Argus-Kepheus",
     "labels": {
       "email": "メール",

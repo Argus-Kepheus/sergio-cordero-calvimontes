@@ -1,7 +1,7 @@
-import{a as c}from"./chunk-55JHTTGY.js";import{a as e,d as l}from"./chunk-D2XV4R5X.js";import"./chunk-65ESAS5F.js";var f="sergio.cordero.calvimontes@proton.me";function s(t,o=void 0){let i=t.split("."),a=l();for(let n of i)if(a&&Object.prototype.hasOwnProperty.call(a,n))a=a[n];else return o;return a!=null?a:o}function r(t=""){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}function p(t,o,i=""){if(!o)return"";let a=`<bdi dir="ltr">${r(o)}</bdi>`,d=/^https?:\/\//i.test(i)?' target="_blank" rel="noopener noreferrer"':"";return`
-    <p><strong>${r(t)}:</strong> ${i?`<a href="${r(i)}" dir="ltr"${d}>${a}</a>`:a}
+import{a as d}from"./chunk-55JHTTGY.js";import{a as e,d as m}from"./chunk-D2XV4R5X.js";import"./chunk-65ESAS5F.js";var f="sergio.cordero.calvimontes@proton.me";function s(a,o=void 0){let n=a.split("."),t=m();for(let i of n)if(t&&Object.prototype.hasOwnProperty.call(t,i))t=t[i];else return o;return t!=null?t:o}function r(a=""){return String(a).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}function p(a,o,n=""){if(!o)return"";let t=`<bdi dir="ltr">${r(o)}</bdi>`,l=/^https?:\/\//i.test(n)?' target="_blank" rel="noopener noreferrer"':"";return`
+    <p><strong>${r(a)}:</strong> ${n?`<a href="${r(n)}" dir="ltr"${l}>${t}</a>`:t}
     </p>
-  `}function m(t,o,i="secondary"){return o?`<a href="${r(o)}" class="btn ${i}" target="_blank" rel="noopener noreferrer">${r(t)}</a>`:""}function u(){return`
+  `}function c(a,o,n="secondary"){return o?`<a href="${r(o)}" class="btn ${n}" target="_blank" rel="noopener noreferrer">${r(a)}</a>`:""}function u(){return`
     <details class="contact-section">
       <summary data-i18n="contato.sections.message">${e("contato.sections.message")}</summary>
       <div class="contact-form">
@@ -77,17 +77,18 @@ import{a as c}from"./chunk-55JHTTGY.js";import{a as e,d as l}from"./chunk-D2XV4R
         <div id="form-status-file" class="form-status hidden" role="status" aria-live="polite"></div>
       </div>
     </details>
-  `}function g(){let t=e("contato.email")||f,o=s("contato.lattes",""),i=s("contato.github",""),a=t&&t!=="contato.email",n=`
+  `}function g(){let a=e("contato.email")||f,o=s("contato.lattes",""),n=s("contato.europass",""),t=s("contato.github",""),i=a&&a!=="contato.email",l=`
     <h1 data-i18n="contato.title">${e("contato.title")}</h1>
 
     <div class="contact-info">
-      ${a?p(e("contato.labels.email"),t,`mailto:${t}`):""}
+      ${i?p(e("contato.labels.email"),a,`mailto:${a}`):""}
     </div>
 
-    ${o||i?`
+    ${o||n||t?`
       <div class="contact-buttons">
-        ${m("CV Lattes",o,"secondary")}
-        ${m("GitHub",i,"outline")}
+        ${c("CV Lattes",o,"secondary")}
+        ${c("Europass",n,"outline")}
+        ${c("GitHub",t,"outline")}
       </div>
     `:""}
 
@@ -95,4 +96,4 @@ import{a as c}from"./chunk-55JHTTGY.js";import{a as e,d as l}from"./chunk-D2XV4R
       ${u()}
       ${h()}
     </div>
-  `;return c("contato",n)}export{g as buildContatoPage};
+  `;return d("contato",l)}export{g as buildContatoPage};

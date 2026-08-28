@@ -28,7 +28,7 @@
   "home": {
     "pageTitle": "Inicio",
     "title": "Calvimontes, S. C.",
-    "intro": "Ingeniero Mecatrónico (UPB, 2013; convalidado por la EESC-USP, 2017), con maestría en Ingeniería Mecánica (PGMEC-UFF, 2018) y en Modelado Computacional en Ciencia y Tecnología (MCCT-UFF, 2024), además de formación complementaria en curso en Ciencias de la Computación (Estácio). Su línea de investigación abarca la simulación computacional del control realimentado de sistemas multifísicos, con antecedentes en modelado de procesos de soldadura, homogeneización computacional y simulación multiescala. Actúa como investigador independiente en las interfaces entre ingeniería, modelado computacional, control y computación, con experiencia adicional en automatización, instrumentación, robótica y sistemas electroelectrónicos, además de ser fundador de la Editora Argus Kepheus, dedicada a la literatura técnica multilingüe.",
+    "intro": "Ingeniero Mecatrónico (UPB, 2014; convalidado por la EESC-USP, 2018), con maestría en Ingeniería Mecánica (PGMEC-UFF, 2018) y en Modelado Computacional en Ciencia y Tecnología (MCCT-UFF, 2024), además de formación complementaria en curso en Ciencias de la Computación (Estácio). Su línea de investigación abarca la simulación computacional del control realimentado de sistemas multifísicos, con antecedentes en modelado de procesos de soldadura, homogeneización computacional y simulación multiescala. Actúa como investigador independiente en las interfaces entre ingeniería, modelado computacional, control y computación, con experiencia adicional en automatización, instrumentación, robótica y sistemas electroelectrónicos, además de ser fundador de la Editora Argus Kepheus, dedicada a la literatura técnica multilingüe.",
     "navigation": "Usa la barra de navegación superior para explorar las distintas secciones del sitio.",
     "cta": {
       "resume": "Ver currículum",
@@ -88,10 +88,10 @@
           ]
         },
         {
-          "period": "2008–2013",
-          "degree": "Licenciatura en Ingeniería Mecatrónica",
-          "institution": "CIE/UFSCar, UPB/USP",
-          "location": "São Paulo, Brasil / Cochabamba, Bolivia",
+          "period": "2008–2014",
+          "degree": "Licenciatura en Ingeniería Electromecánica (UPB); revalidada en Brasil como Ingeniería Mecatrónica por la EESC-USP en 2018",
+          "institution": "Universidad Privada Boliviana (UPB)",
+          "location": "Cochabamba, Bolivia",
           "projects": [
             {
               "title": "Medición indirecta de fuerzas de corte en procesos CNC.",
@@ -239,6 +239,36 @@
           "role": "Desarrollo del firmware en Arduino/C++, del circuito simulado en Wokwi y de la documentación técnica bilingüe del proyecto.",
           "results": "Validado con verificaciones estáticas de consistencia y documentado en un informe técnico en LaTeX."
         }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Planificador cooperativo nativo en C++ para Arduino Uno, sin RTOS, que controla LEDs, botones y dos pantallas con instrumentación de tiempo y memoria, simulado en Wokwi.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "Planificador cooperativo nativo",
+          "SPI por software (TFT ILI9341)",
+          "I2C (OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repositorio",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Simulación en Wokwi",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "Firmware que explora la concurrencia cooperativa en un Arduino Uno R3/ATmega328P, sin RTOS, hilos ni bibliotecas de planificación ya hechas. Un planificador cooperativo nativo y estático ejecuta once tareas: seis LEDs azules independientes con un intervalo compartido y ajustable, barrido con antirrebote de tres botones, una OLED SSD1306 de diagnóstico, una TFT ILI9341 principal (por SPI de software) e instrumentación continua del uso de CPU, SRAM libre, retrasos y overruns. El proyecto deriva conceptualmente de esp32-asyncio, adaptando la misma idea de tareas concurrentes independientes a las restricciones de 8 bits y 2 KiB de SRAM del ATmega328P.",
+          "role": "Desarrollo del firmware en Arduino/C++, del planificador cooperativo nativo, del circuito simulado en Wokwi y de la documentación técnica bilingüe del proyecto.",
+          "results": "Validado con sketches de diagnóstico aislados para Wokwi y una lista de verificación de aceptación de la versión integrada, documentado en un informe técnico en LaTeX."
+        }
       }
     ],
     "viewDetails": "Ver detalles",
@@ -339,6 +369,21 @@
           {
             "label": "PDF",
             "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, artículo 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Versión en revista del estudio presentado en el MECSOL 2024: un enfoque computacional basado en el Método de Homogeneización Asintótica para estimar las propiedades efectivas de compuestos viscoelásticos lineales con estructura periódica en capas, evitando el uso de transformadas integrales.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
           }
         ]
       },
@@ -631,8 +676,8 @@
       {
         "title": "Medición indirecta de fuerzas de corte en procesos CNC",
         "type": "Bachelor's thesis",
-        "journal": "CIE/UFSCar, UPB/USP",
-        "year": "2013",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
         "authors": "Calvimontes, S. C.",
         "abstract": "Proyecto orientado a la medición indirecta de fuerzas de corte en procesos CNC.",
         "links": [
@@ -681,6 +726,7 @@
       "privacyPolicy": "He leído y acepto la <a href='#privacyPolicy'>política de privacidad</a> y doy mi consentimiento para el procesamiento de mis datos personales."
     },
     "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": null,
     "github": "https://github.com/Argus-Kepheus",
     "labels": {
       "email": "Email",
