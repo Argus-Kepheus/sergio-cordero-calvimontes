@@ -1,0 +1,955 @@
+{
+  "site": {
+    "title": "SCC - Portfolio",
+    "description": "Technisch-wetenschappelijk portfolio van Calvimontes, S. C., met cv, projecten en publicaties op het gebied van engineering, computationele modellering en wetenschappelijke informatica.",
+    "ogTitle": "SCC - Portfolio van Calvimontes, S. C.",
+    "ogDescription": "Ontdek het cv, de projecten en de publicaties van Calvimontes, S. C."
+  },
+  "ui": {
+    "loading": "Laden...",
+    "error": "Fout",
+    "componentLoadError": "Fout bij het laden van de component.",
+    "backToHome": "Terug naar de startpagina",
+    "retry": "Opnieuw proberen",
+    "close": "Sluiten",
+    "yes": "Ja",
+    "no": "Nee",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "success": "Succes"
+  },
+  "nav": {
+    "home": "Home",
+    "curriculo": "Cv",
+    "projetos": "Projecten",
+    "publicacoes": "Publicaties en onderzoek",
+    "contato": "Contact"
+  },
+  "home": {
+    "pageTitle": "Home",
+    "title": "Calvimontes, S. C.",
+    "intro": "Mechatronica-ingenieur (UPB, 2014; erkend door de EESC-USP, 2018), met een masterdiploma in Werktuigbouwkunde (PGMEC-UFF, 2018) en in Computationele Modellering in Wetenschap en Technologie (MCCT-UFF, 2024), naast een aanvullende, lopende opleiding Informatica (Estácio). Zijn onderzoekslijn omvat computersimulatie van teruggekoppelde besturing van multifysische systemen, met ervaring in de modellering van lasprocessen, computationele homogenisatie en multischaalsimulatie. Hij werkt als onafhankelijk onderzoeker op het raakvlak van engineering, computationele modellering, besturing en informatica, met aanvullende ervaring in automatisering, instrumentatie, robotica en elektro-elektronische systemen, en is daarnaast oprichter van Editora Argus Kepheus, gewijd aan meertalige technische literatuur.",
+    "navigation": "Gebruik de navigatiebalk hierboven om de verschillende secties van de site te verkennen.",
+    "cta": {
+      "resume": "Bekijk cv",
+      "projects": "Bekijk projecten"
+    },
+    "highlights": {
+      "title": "Hoogtepunten",
+      "item1": {
+        "title": "Computationele Modellering",
+        "description": "Ervaring met numerieke simulatie, computationele homogenisatie en multischaalanalyse."
+      },
+      "item2": {
+        "title": "Engineering en Informatica",
+        "description": "Opleiding in Mechatronica, Werktuigbouwkunde en Informatica."
+      },
+      "item3": {
+        "title": "Publicaties en Onderwijs",
+        "description": "Technisch-wetenschappelijke productie, lesmateriaal en onderwijs in elektro-elektronische vakken."
+      }
+    },
+    "description": "Technisch-wetenschappelijk overzicht van Calvimontes, S. C., met de nadruk op computationele modellering, engineering, wetenschappelijke informatica, publicaties en onderwijs."
+  },
+  "curriculo": {
+    "pageTitle": "Cv",
+    "title": "Cv",
+    "experience": {
+      "title": "Beroepservaring",
+      "description": "Technisch-wetenschappelijke ervaring, samengesteld op basis van de redactionele versie van het cv.",
+      "items": []
+    },
+    "education": {
+      "title": "Opleiding en projecten",
+      "description": "Academische opleiding en uitgelichte technisch-wetenschappelijke projecten.",
+      "items": [
+        {
+          "period": "2022–2024",
+          "degree": "Master in Computationele Modellering in Wetenschap en Technologie",
+          "institution": "EEIMVR-MCCT, UFF",
+          "location": "Rio de Janeiro, Brazilië",
+          "projects": [
+            {
+              "title": "Procedures voor computationele homogenisatie voor multischaalanalyse.",
+              "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2016–2018",
+          "degree": "Master in Werktuigbouwkunde",
+          "institution": "EEIMVR-PGMEC, UFF",
+          "location": "Rio de Janeiro, Brazilië",
+          "projects": [
+            {
+              "title": "Numerieke simulatie van elektro-thermo-mechanische lasprocessen.",
+              "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2008–2014",
+          "degree": "Bachelor in Elektromechanische Techniek (UPB); in Brazilië erkend als Mechatronica-techniek door de EESC-USP in 2018",
+          "institution": "Universidad Privada Boliviana (UPB)",
+          "location": "Cochabamba, Bolivia",
+          "projects": [
+            {
+              "title": "Indirecte meting van snijkrachten in CNC-processen.",
+              "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+            }
+          ]
+        },
+        {
+          "period": "2025–heden",
+          "degree": "Bachelor Informatica, afstandsonderwijs",
+          "institution": "Universidade Estácio de Sá",
+          "location": "Angra dos Reis, Brazilië"
+        },
+        {
+          "period": "2024",
+          "degree": "Mbo-opleiding Mechatronica",
+          "institution": "FORMA BRASIL EDUCACIONAL, CNE/CEB",
+          "location": "Paraíba, Brazilië"
+        }
+      ]
+    },
+    "downloadButton": "Cv downloaden als PDF",
+    "downloadLink": "https://drive.google.com/file/d/1nOMZKDaU09Rb21jzcDtmaLSrTCbH-1bS/view?usp=sharing",
+    "profile": {
+      "name": "Calvimontes, S. C.",
+      "professionalTitle": "Mechatronica-ingenieur | Computationele Modellering | Wetenschappelijke Informatica",
+      "location": "Rio de Janeiro, Brazilië",
+      "contactLabel": "Contactgegevens en openbare profielen",
+      "links": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "summary": {
+      "title": "Samenvatting",
+      "text": "Mechatronica-ingenieur met een stricto sensu master in Werktuigbouwkunde en Computationele Modellering. Heeft ervaring met numerieke simulatie, wetenschappelijke informatica en de ontwikkeling van computationele hulpmiddelen. Voornamelijk gericht op multischaalmodellering, composietmaterialen en thermomechanische processen. Daarnaast actief in het onderwijs van elektro-elektronische vakken."
+    },
+    "careerPerspective": {
+      "title": "Carrièreperspectief",
+      "items": [
+        {
+          "label": "Technisch-wetenschappelijk onderzoek",
+          "text": "Consolidatie van manuscripten en ondersteunend materiaal voor de indiening van artikelen op het gebied van informatica, materiaalmodellering en numerieke simulatie."
+        },
+        {
+          "label": "Academische ontwikkeling",
+          "text": "Samenstelling van een technisch-wetenschappelijk portfolio voor de sollicitatie naar een promotietraject in Computationele Modellering bij het LNCC-MCTI, Petrópolis, RJ."
+        },
+        {
+          "label": "Technische werkzaamheden",
+          "text": "Volgen van kansen in de publieke en technische sector, waaronder opname in de wervingsreserve van Itaipu Binacional, de kerncentrale Angra 3 en scheepsbouwkundig analist bij EMGEPRON."
+        }
+      ]
+    },
+    "additionalTraining": {
+      "title": "Aanvullende opleiding",
+      "items": [
+        {
+          "label": "Programmeren",
+          "text": "C; G/M-codes voor CNC; PIC-, Arduino- en ESP32-microcontrollers; prototyping en technisch-industrieel ontwerp met additieve fabricage in ABS en andere polymeermaterialen."
+        },
+        {
+          "label": "Automatisering",
+          "text": "Ladderlogica voor PLC's; elektro-elektronische besturingen en schakelcircuits met relais, magneetschakelaars, drukknoppen, sensoren, keuzeschakelaars, omschakelaars en vergrendelingen."
+        },
+        {
+          "label": "CAD/CAM/CAE",
+          "text": "SolidWorks, OnShape, FreeCAD, AutoCAD, ZWCAD, BricsCAD, MasterCAM, Vectric Aspire, VCarve, DIALux, Relux, DEFORM-3D, ANSYS en Linkage."
+        },
+        {
+          "label": "Engineering",
+          "text": "Elektrische installaties volgens NBR 5410, NBR 5413, NBR 5419 en NBR 14039; storingsanalyse en materiaalsterkte; metallografie en voorspelling van staaleigenschappen met AI."
+        }
+      ]
+    },
+    "description": "Cv van Calvimontes, S. C., met academische opleiding, technisch-wetenschappelijke projecten, beroepservaring en aanvullende opleiding."
+  },
+  "projetos": {
+    "pageTitle": "Projecten",
+    "title": "Technisch-wetenschappelijke projecten",
+    "description": "Academische en technische projecten, geselecteerd op basis van de redactionele versie van het cv.",
+    "demoButton": "Bekijk project",
+    "codeButton": "Bekijk code",
+    "items": [
+      {
+        "slug": "esp32-asyncio-playground",
+        "category": "prototipagem-eletronica",
+        "title": "ESP32 Asyncio Playground",
+        "description": "Persoonlijke experimenten met asynchrone verwerking (asyncio) op het ESP32-platform: LED's, knoppen en meerdere displays, gesimuleerd in Wokwi.",
+        "image": "images/projects/esp32-asyncio.png",
+        "technologies": [
+          "ESP32",
+          "MicroPython",
+          "asyncio",
+          "I2C / SPI (OLED SSD1306, TFT ILI9341)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/esp32-asyncio"
+          },
+          {
+            "label": "Wokwi-simulatie",
+            "url": "https://wokwi.com/projects/471528241540407297"
+          }
+        ],
+        "detail": {
+          "longDescription": "Persoonlijk prototype om de mogelijkheden van asynchrone verwerking op de ESP32 te testen, uitgaande van een oorspronkelijke praktijkopdracht (twee LED's, een knop en een OLED SSD1306-display) en experimenteel uitgebreid: meer LED's, een tweede OLED en een TFT ILI9341-display, met live grafieken van CPU- en RAM-gebruik. De firmware in MicroPython voert elke taak — knipperen van LED's, uitlezen van de knop, bijwerken van de displays — uit als gelijktijdige asyncio-coroutines, zonder dat een taak de andere blokkeert. Gesimuleerd op een ESP32-DevKitC V4-bord in Wokwi.",
+          "role": "Ontwikkeling van de MicroPython-firmware en van de volledige circuitsimulatie in Wokwi, met de nadruk op het valideren van concurrency-patronen met asyncio op de ESP32.",
+          "results": "Circuit gevalideerd met een oplopende reeks tests (van de basis-LED tot de volledige OLED-diagnose) en gedocumenteerd in een technisch rapport en presentatie. De miniatuur toont al de uitgebreide versie van het circuit, zoals gesimuleerd in Wokwi."
+        }
+      },
+      {
+        "slug": "2d-plotter",
+        "category": "prototipagem-eletronica",
+        "title": "2D Plotter",
+        "description": "Besturingssysteem voor een cartesiaanse tweeassige plotter voor Arduino Uno, met joystickbediening en OLED-telemetrie, gesimuleerd in Wokwi.",
+        "image": "images/projects/2d-plotter.jpg",
+        "technologies": [
+          "Arduino Uno",
+          "A4988-stappenmotordrivers",
+          "Servomotor",
+          "I2C / OLED",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/2d-plotter"
+          },
+          {
+            "label": "Wokwi-simulatie",
+            "url": "https://wokwi.com/projects/472168224663835649"
+          }
+        ],
+        "detail": {
+          "longDescription": "Besturingsfirmware voor een cartesiaanse tweeassige plotter: X/Y-beweging via A4988-drivers, penhoogte via een servomotor, joystickbediening, automatische terugkeer naar de oorsprong, noodstop, telemetrie op een OLED-display, snelheidsbalken en hulplasten via relais. De eindposities zijn logisch bepaald (zonder fysieke eindschakelaars), bedoeld om in simulatie te worden gevalideerd vóór een toekomstige fysieke opbouw.",
+          "role": "Ontwikkeling van de Arduino/C++-firmware, het in Wokwi gesimuleerde circuit en de tweetalige technische documentatie van het project.",
+          "results": "Gevalideerd met statische consistentiecontroles en gedocumenteerd in een technisch rapport in LaTeX."
+        }
+      },
+      {
+        "slug": "arduino-uno-cooperative",
+        "category": "prototipagem-eletronica",
+        "title": "Arduino Uno Cooperative",
+        "description": "Native coöperatieve scheduler in C++ voor Arduino Uno, zonder RTOS, die LED's, knoppen en twee displays aanstuurt met tijd- en geheugeninstrumentatie, gesimuleerd in Wokwi.",
+        "image": "images/projects/arduino-uno-cooperative.png",
+        "technologies": [
+          "Arduino Uno",
+          "C++",
+          "Native coöperatieve scheduler",
+          "Software-SPI (TFT ILI9341)",
+          "I2C (OLED SSD1306)",
+          "Wokwi"
+        ],
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Argus-Kepheus/arduino-uno-cooperative"
+          },
+          {
+            "label": "Wokwi-simulatie",
+            "url": "https://wokwi.com/projects/472743544463123457"
+          }
+        ],
+        "detail": {
+          "longDescription": "Firmware die coöperatieve concurrency verkent op een Arduino Uno R3/ATmega328P, zonder RTOS, threads of kant-en-klare scheduling-bibliotheken. Een native, statische coöperatieve scheduler voert elf taken uit: zes onafhankelijke blauwe LED's met een gedeeld en instelbaar interval, ontdenderende aftasting van drie knoppen, een diagnostische OLED SSD1306, een hoofd-TFT ILI9341 (via software-SPI) en continue instrumentatie van CPU-gebruik, vrij SRAM, vertragingen en overruns. Het project is conceptueel afgeleid van esp32-asyncio en past hetzelfde idee van onafhankelijke, gelijktijdige taken toe binnen de 8-bit- en 2 KiB-SRAM-beperkingen van de ATmega328P.",
+          "role": "Ontwikkeling van de Arduino/C++-firmware, de native coöperatieve scheduler, het in Wokwi gesimuleerde circuit en de tweetalige technische documentatie van het project.",
+          "results": "Gevalideerd met geïsoleerde diagnostische sketches voor Wokwi en een acceptatiechecklist voor de geïntegreerde versie, gedocumenteerd in een technisch rapport in LaTeX."
+        }
+      }
+    ],
+    "viewDetails": "Bekijk details",
+    "categories": {
+      "mecanica": "Werktuigbouwkunde",
+      "eletroeletronica": "Elektro-elektronica",
+      "informatica": "Informatica",
+      "prototipagem-eletronica": "Elektronica-prototyping"
+    },
+    "detail": {
+      "categoryLabel": "Gebied",
+      "roleLabel": "Rol en verantwoordelijkheden",
+      "resultsLabel": "Resultaten",
+      "backToProjects": "Terug naar projecten"
+    },
+    "technologiesLabel": "Technologieën en gerelateerde onderwerpen"
+  },
+  "publicacoes": {
+    "pageTitle": "Publicaties",
+    "title": "Uitgelichte publicaties",
+    "description": "Technisch-wetenschappelijke publicaties en materialen, uitgelicht in de redactionele versie van het cv.",
+    "noItems": "Er zijn op dit moment geen publicaties beschikbaar.",
+    "items": [
+      {
+        "title": "Projeto elétrico industrial básico: fundamentos, dimensionamento e documentação técnica",
+        "type": "E-book",
+        "publisher": "Angra dos Reis: Editora Argus Kepheus",
+        "year": "2026",
+        "edition": "1e druk",
+        "isbn": "978-65-976344-0-8",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Technisch boek over de grondslagen, dimensionering en technische documentatie van elementaire industriële elektrische installaties.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1j6KBMzZnQOnWV1OI968__dmG1RZcZ-Jl/view?usp=sharing"
+          },
+          {
+            "label": "Zenodo",
+            "url": "https://zenodo.org/records/20804262"
+          },
+          {
+            "label": "Internet Archive",
+            "url": "https://archive.org/details/calvimontes-s.-c.-projeto-eletrico-fundamentos-dimensionamento-e-documentacao-tecnica-2026-1ed-182p"
+          },
+          {
+            "label": "Academia.edu",
+            "url": "https://www.academia.edu/169042224/Projeto_el%C3%A9trico_industrial_b%C3%A1sico"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization of linear viscoelastic multi-phase composites: Effective relaxation estimation in perovskite-based solar panels",
+        "type": "Journal article",
+        "journal": "Mechanics of Advanced Materials and Structures, Vol. 33, No. 1, 2456105",
+        "year": "2026",
+        "doi": "10.1080/15376494.2025.2456105",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Artikel over computationele homogenisatie van lineair-viscoelastische meerfasencomposieten en de schatting van effectieve relaxatie in zonnepanelen op basis van perovskiet.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1080/15376494.2025.2456105"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1LJM0_6I7H_WkGn2Orc6aN3Xmn1YhA52J/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização assintótica computacional aplicada a problemas viscoelásticos lineares",
+        "type": "Conference paper",
+        "journal": "Congresso Nacional de Matemática Aplicada e Computacional (CNMAC)",
+        "year": "2024",
+        "doi": "10.5540/03.2025.011.01.0406",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Alternatieve methode voor de berekening van de effectieve coëfficiënten van lineair-viscoelastische composietmaterialen via computationele asymptotische homogenisatie, met gebruik van lambdafuncties in plaats van de Laplace-Carsontransformatie.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5540/03.2025.011.01.0406"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1ot774bmjfmoK7GxgAzp5VgEc3Fc7toOU/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational homogenization for the estimation of overall properties in linear viscoelastic composites",
+        "type": "Conference paper",
+        "journal": "9th International Symposium on Solid Mechanics (MECSOL)",
+        "year": "2024",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Computationele benadering, gebaseerd op de Asymptotische Homogenisatiemethode, om effectieve eigenschappen te schatten van lineair-viscoelastische composieten met een periodieke gelaagde structuur, zonder gebruik van integraaltransformaties.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1nCYhcX_cLzWf944Bc2yKK2a8Isle9bJ-/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Computational Homogenization for the Estimation of Overall Properties in Linear Viscoelastic Composites",
+        "type": "Journal article",
+        "journal": "Archive of Applied Mechanics, Vol. 95, artigo 191",
+        "year": "2025",
+        "doi": "10.1007/s00419-025-02904-6",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Tijdschriftversie van de studie die op MECSOL 2024 werd gepresenteerd: computationele benadering, gebaseerd op de Asymptotische Homogenisatiemethode, om effectieve eigenschappen te schatten van lineair-viscoelastische composieten met een periodieke gelaagde structuur, zonder gebruik van integraaltransformaties.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s00419-025-02904-6"
+          }
+        ]
+      },
+      {
+        "title": "Homogeneização computacional para análise multiescala",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-MCCT",
+        "year": "2024",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Procedures voor computationele homogenisatie toegepast op de multischaalanalyse van materialen.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fEubSSA7-rU-PD5rEgxHuHVYjIQxUjx9/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Aplicação de Elementos Eletrotérmicos Puramente Resistivos na Simulação de Processos ERW",
+        "type": "Conference paper",
+        "journal": "7ª Semana METALMAT e Painel PEMM",
+        "year": "2021",
+        "isbn": "978-65-87065-72-4",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Voorstel voor zuiver resistieve elektrothermische elementen voor de computersimulatie van de thermomechanisch-elektrische koppeling in weerstandslasprocessen (ERW).",
+        "links": [
+          {
+            "label": "Proceedings",
+            "url": "https://www.semanametalmat.org/_files/ugd/77a17e_34c7856f97ef4435aff6530930b00a39.pdf"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11QadTtbJZWmgD1B4mi_l6u3oXkVf1XOt/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Modelo matemático computacional unidimensional de um processo de soldagem por resistência elétrica – problema térmico",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.415252",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.415252"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/415252/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Q3pYzOQf0T1vig4Z_LTycnLjZLpozNyP/view?usp=sharing"
+          }
+        ],
+        "abstract": "Eendimensionaal computationeel wiskundig model van het thermische probleem in een weerstandslasproces (ERW)."
+      },
+      {
+        "title": "Modelo matemático computacional do deslocamento da região de temperaturas máximas em um processo de soldagem ERW dissimilar",
+        "type": "Conference paper",
+        "journal": "III SEMMat",
+        "year": "2021",
+        "doi": "10.29327/semmat2021.419707",
+        "authors": "Calvimontes, S. C.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.29327/semmat2021.419707"
+          },
+          {
+            "label": "Anais",
+            "url": "https://www.even3.com.br/anais/semmat2021/419707/"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1Uuf8U0UdXffMg5OJsAwJ8GvYUGIQXcfU/view?usp=sharing"
+          }
+        ],
+        "abstract": "Computationeel wiskundig model van de verplaatsing van het gebied met maximale temperaturen in een ERW-lasproces tussen ongelijksoortige materialen."
+      },
+      {
+        "title": "Análise do Perfil de Temperatura na Soldagem Flash-Butt de Materiais Dissimilares, Baseada em um Modelo Matemático",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33503",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Wiskundig model, geïmplementeerd in Octave®, voor de analyse van het temperatuurprofiel bij het flash-butt-lassen van ongelijksoortige materialen, vergeleken met experimentele gegevens uit de literatuur.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33503"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/19bquxy4wVxKam1IO8oKOnaclZ7xoU0ro/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Método Alternativo para o Cálculo da Taxa de Deposição em Processos de Soldagem por Fusão com Eletrodo Consumível",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33650",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Alternatieve methode, gebaseerd op een computationeel wiskundig model, voor de berekening van de afzettingssnelheid in smeltlasprocessen met een afsmeltende elektrode.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33650"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1fdfiVTk_7Q2WWpl0wO_4pNGMMlwiUL5F/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência Numérica da Impedância de Interface no Processo ERW, Baseada em um Modelo Matemático do Perfil de Temperatura",
+        "type": "Conference paper",
+        "journal": "74º Congresso Anual da ABM — ABM Week",
+        "year": "2019",
+        "doi": "10.5151/2594-5327-33339",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Computationeel wiskundig model, geïmplementeerd in Octave®, om de invloed van de grensvlakimpedantie op het elektrothermisch gedrag van het ERW-lasproces te bestuderen.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.5151/2594-5327-33339"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1r15R3IPGAVs2TPHT3mPkGyA5IEOhSnPv/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulação Quarter Car simplificada para desenvolvimento e análise de dinâmica vertical de veículos do tipo Mini-Baja",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Vereenvoudigde Quarter-Car-simulatie, met een vergelijkend gegevensblad, voor de ontwikkeling en analyse van de verticale dynamica van voertuigen van het type Mini-Baja SAE.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1mz1YBEG0X9Hca9mAI3dwx2coLIEAIgET/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "XXII ENMC / X ECTM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Versie met een gewijzigde auteursvolgorde van de studie naar de correlatie tussen convectieve warmteoverdrachtscoëfficiënten op aangrenzende oppervlakken, in de computersimulatie (DEFORM®) van een cilindrisch onderdeel van Inconel 718 dat aan een virtuele Jominy-proef wordt onderworpen.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/123n4oGF9Y_niPlPKlVxLBWdw0iVOjhge/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Influência numérica entre coeficientes de convecção de calor nas superfícies de uma peça em resfriamento, baseada na simulação computacional do processo",
+        "type": "Conference paper",
+        "journal": "5ª Semana METALMAT e Painel PEMM",
+        "year": "2019",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Studie van de correlatie tussen convectieve warmteoverdrachtscoëfficiënten op aangrenzende oppervlakken, in de computersimulatie (DEFORM®, module Heat Treatment Wizard) van een cilindrisch onderdeel van Inconel 718 dat aan een virtuele Jominy-proef wordt onderworpen.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/11TWaetDOAg4hEQtO1JAlQq62Io1667yC/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Simulação numérica de processos eletrotérmico-mecânicos em soldagem",
+        "type": "Master's thesis",
+        "journal": "Universidade Federal Fluminense (UFF) — EEIMVR-PGMEC",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Studie van gekoppelde processen met elektrische, thermische en mechanische effecten bij lassen.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1VzLID_a9mXDkNc7g3mvkYC9unA0O9GqH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Alternativa de implementação computacional de condições de contorno e matrizes de estabilidade do método das diferenças finitas para resolução de problemas térmicos em materiais isotrópicos no sistema cartesiano",
+        "type": "Conference paper",
+        "journal": "XXI ENMC / IX ECTM",
+        "year": "2018",
+        "authors": "Calvimontes, S. C.; Lopes, R. F. D.",
+        "links": [
+          {
+            "label": "Anais",
+            "url": "https://editoraessentia.iff.edu.br/index.php/enmc-ectm/article/view/12404"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1AWUjhQa0-cOEydli-BufKQtDLtvYDMHG/view?usp=sharing"
+          }
+        ],
+        "abstract": "Alternatieve computationele implementatie van randvoorwaarden en stabiliteitsmatrices voor de eindige-differentiemethode, toegepast op de oplossing van cartesische thermische problemen in isotrope materialen."
+      },
+      {
+        "title": "Cracking Factors Evaluation on Flash-Butt Welding of 600 Grade Dual Phase Steel",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0433",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Evaluatie van de scheurvormingsfactoren bij het flash-butt-lassen van DP600-tweefasenstaal, waarbij de chemische samenstelling, het thermomechanisch proces en de effecten van de warmte-inbreng in het lasgebied met elkaar in verband worden gebracht.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0433"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1sdE2TMXHuni6E5q2RjSS2JDG4Nq8wL2w/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Sheet Format Steel Flash-Butt Welding Variables Inquiry for Mathematical Modeling",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-1542",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Voorstel voor wiskundige modellering van het flash-butt-lasproces bij staal in plaatvorm, waarbij de thermo-elektro-mechanische variabelen van het proces worden gedefinieerd.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-1542"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/10Kqd4ik5LTXRGSwP1xdbdmUM22cCHNEH/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionamento de Manga de Eixo Dianteiro para Veículo Baja SAE",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0255",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Werk over de structurele en vermoeiingsdimensionering van de voorste asstomp van een Mini Baja SAE-voertuig, met gebruik van CAD/CAE-hulpmiddelen.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0255"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1-KXhwh-fXBYne2bvc94gLu1INgIXt0Xu/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Otimização de uma Gaiola de Veículo Baja SAE Utilizando o Método dos Elementos Finitos",
+        "type": "Conference paper",
+        "journal": "9º Congresso Brasileiro de Engenharia de Fabricação (COBEF)",
+        "year": "2017",
+        "doi": "10.26678/ABCM.COBEF2017.COF2017-0259",
+        "authors": "Calvimontes, S. C. et al.",
+        "abstract": "Studie over de structurele optimalisatie van het buisvormige chassis van een Baja SAE-voertuig met de eindige-elementenmethode, met simulaties van frontale botsing, kanteling en zijdelingse botsing.",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.26678/ABCM.COBEF2017.COF2017-0259"
+          },
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1KDP-i8od9J19JwWHtqD42hj7ZBCDaJhr/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Medição indireta de forças de corte em processos CNC",
+        "type": "Bachelor's thesis",
+        "journal": "Universidad Privada Boliviana (UPB)",
+        "year": "2014",
+        "authors": "Calvimontes, S. C.",
+        "abstract": "Project gericht op de indirecte meting van snijkrachten in CNC-processen.",
+        "links": [
+          {
+            "label": "PDF",
+            "url": "https://drive.google.com/file/d/1wrtvWqw3lqqCWRn2qyCXGSgvPKS-htit/view?usp=sharing"
+          }
+        ]
+      }
+    ]
+  },
+  "contato": {
+    "pageTitle": "Contact",
+    "title": "Contact",
+    "description": "Openbare contactgegevens en professionele profielen.",
+    "sections": {
+      "message": "Een bericht sturen",
+      "file": "Een bestand versturen"
+    },
+    "email": "sergio.cordero.calvimontes@proton.me",
+    "socialMedia": {
+      "title": "Openbare profielen",
+      "items": [
+        {
+          "label": "CV Lattes",
+          "url": "http://lattes.cnpq.br/1576495718722378"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Argus-Kepheus"
+        }
+      ]
+    },
+    "form": {
+      "title": "Contactformulier",
+      "name": "Naam",
+      "email": "E-mail",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "attachment": "Bijlage",
+      "chooseFile": "Bestand kiezen",
+      "noFileChosen": "Geen bestand gekozen",
+      "attachmentHint": "PDF, max. 3 MB.",
+      "send": "Bericht versturen",
+      "sendFile": "Bestand versturen",
+      "privacyPolicy": "Ik heb het <a href='#privacyPolicy'>privacybeleid</a> gelezen en geaccepteerd, en geef toestemming voor de verwerking van mijn persoonsgegevens."
+    },
+    "lattes": "http://lattes.cnpq.br/1576495718722378",
+    "europass": "https://europa.eu/europass/eportfolio/screen/share/c1b4a8dd-7d11-46f2-ac91-40ba4281167a?lang=en",
+    "github": "https://github.com/Argus-Kepheus",
+    "labels": {
+      "email": "E-mail",
+      "phone": "Telefoon"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Calvimontes, S. C. — Alle rechten voorbehouden.",
+    "contact": {
+      "title": "Contact",
+      "email": "E-mail: "
+    },
+    "social": {
+      "title": "Openbare profielen",
+      "lattes": {
+        "text": "CV Lattes",
+        "url": "http://lattes.cnpq.br/1576495718722378"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/Argus-Kepheus"
+      }
+    }
+  },
+  "error": {
+    "pageTitle": "Fout",
+    "notFound": {
+      "title": "Pagina niet gevonden",
+      "message": "De pagina die u zoekt, bestaat niet of is verplaatst.",
+      "backButton": "Terug naar de startpagina"
+    },
+    "generic": {
+      "title": "Er is een fout opgetreden",
+      "message": "Sorry, er is een fout opgetreden bij het laden van de inhoud. Probeer het opnieuw.",
+      "backButton": "Terug naar de startpagina"
+    },
+    "connection": {
+      "title": "Verbindingsfout",
+      "message": "Er kon geen verbinding met de server worden gemaakt. Controleer uw internetverbinding.",
+      "retryButton": "Opnieuw proberen"
+    },
+    "appInitFailed": "Fout bij het initialiseren van de applicatie. Laad de pagina opnieuw.",
+    "langChangeFailed": "Fout bij het wijzigen van de taal. Probeer het opnieuw.",
+    "pageLoadFailed": "Fout bij het laden van de pagina. Probeer het opnieuw.",
+    "description": "Foutpagina die wordt weergegeven wanneer de inhoud niet kan worden geladen of de opgevraagde route niet beschikbaar is."
+  },
+  "form": {
+    "validation": {
+      "required": "Vul dit veld in",
+      "invalidEmail": "Voer een geldig e-mailadres in",
+      "invalidFileType": "Upload een bestand in PDF-formaat.",
+      "fileTooLarge": "Het bestand mag maximaal {{max}} groot zijn.",
+      "email": "Voer een geldig e-mailadres in",
+      "minLength": "Dit veld moet minimaal {{min}} tekens bevatten",
+      "maxLength": "Dit veld mag maximaal {{max}} tekens bevatten",
+      "pattern": "Voer een geldig formaat in",
+      "number": "Voer een geldig getal in",
+      "url": "Voer een geldige URL in",
+      "match": "De velden komen niet overeen"
+    },
+    "status": {
+      "sending": "Bericht wordt verzonden...",
+      "success": "Bericht succesvol verzonden!",
+      "error": "Fout bij het verzenden van het bericht. Probeer het opnieuw."
+    },
+    "placeholders": {
+      "name": "Voer uw naam in",
+      "email": "Voer uw e-mailadres in",
+      "subject": "Voer het onderwerp in",
+      "message": "Schrijf hier uw bericht",
+      "phone": "Voer uw telefoonnummer in"
+    }
+  },
+  "aria": {
+    "languageSelector": "Taal selecteren",
+    "menuToggle": "Navigatiemenu in-/uitschakelen",
+    "closeMenu": "Menu sluiten",
+    "nextSlide": "Volgende slide",
+    "previousSlide": "Vorige slide",
+    "loadMore": "Meer inhoud laden",
+    "search": "Zoeken",
+    "searchButton": "Zoekknop",
+    "closeButton": "Sluitknop",
+    "expandButton": "Uitvouwknop",
+    "collapseButton": "Inklapknop",
+    "socialLinks": "Links naar sociale media",
+    "contactForm": "Contactformulier",
+    "requiredField": "Verplicht veld",
+    "navigation": "Hoofdnavigatie",
+    "skipToContent": "Naar de inhoud springen",
+    "darkModeToggle": "Donkere modus in-/uitschakelen",
+    "backToTop": "Terug naar de bovenkant van de pagina",
+    "openMenu": "Menu openen",
+    "paletteSelector": "Kleurenpalet selecteren",
+    "paletteSelectorWithCurrent": "Kleurenpalet selecteren: {{palette}}"
+  },
+  "buttons": {
+    "readMore": "Lees meer",
+    "viewAll": "Alles bekijken",
+    "download": "Downloaden",
+    "submit": "Verzenden",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "save": "Opslaan",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "confirm": "Bevestigen",
+    "apply": "Toepassen",
+    "filter": "Filteren",
+    "clear": "Wissen",
+    "search": "Zoeken",
+    "share": "Delen",
+    "print": "Afdrukken",
+    "contactMe": "Neem contact op",
+    "backToTop": "Terug naar boven"
+  },
+  "formats": {
+    "date": {
+      "short": "DD-MM-YYYY",
+      "long": "D MMMM YYYY",
+      "monthYear": "MMMM YYYY",
+      "time": "HH:mm",
+      "dateTime": "D MMMM YYYY [om] HH:mm",
+      "relative": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "tomorrow": "Morgen",
+        "daysAgo": "{{days}} dagen geleden",
+        "inDays": "over {{days}} dagen"
+      }
+    },
+    "number": {
+      "decimal": ",",
+      "thousands": ".",
+      "percent": "{value}%",
+      "currency": "€ {value}"
+    }
+  },
+  "privacyPolicy": {
+    "pageTitle": "Privacybeleid",
+    "description": "Privacybeleid dat gegevens van het contactformulier, lokale taal- en paletvoorkeuren, externe links en gebruikerscontrole over in de browser opgeslagen gegevens toelicht."
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "description": "Dit beleid beschrijft welke gegevens deze site gebruikt voor contact, lokale voorkeuren en externe links.",
+    "consent": "Ik heb het gelezen en ga akkoord met het",
+    "lastUpdated": "Laatst bijgewerkt",
+    "lastUpdatedDate": "30 juli 2026",
+    "sections": {
+      "introduction": {
+        "title": "Inleiding",
+        "content": "Dit beleid vat de gegevensstromen samen die op deze statische website zijn geïmplementeerd. Het moet samen met de technische inventarisatie in docs/PRIVACY_DATA_FLOW.md worden gelezen."
+      },
+      "dataCollection": {
+        "title": "Verwerkte gegevens",
+        "content": "De site vermijdt onnodige gegevensverzameling. De belangrijkste gegevens betreffen wat vrijwillig via het contactformulier wordt verstrekt en de voorkeuren die lokaal in de browser worden opgeslagen.",
+        "personalData": {
+          "title": "Contactformulier",
+          "content": "De site heeft twee contactformulieren: bij het versturen van het berichtformulier worden naam, e-mail, onderwerp, bericht en toestemmingsbevestiging verzonden naar het op de site geconfigureerde Formspree-eindpunt; bij het versturen van het bestandsformulier worden naam, e-mail, bericht, een PDF-bijlage (tot 3 MB), een vast onderwerplabel (\"inbox-document\", niet door de gebruiker te wijzigen) en toestemmingsbevestiging verzonden naar het op de site geconfigureerde Forminit-eindpunt. De diensten kunnen ook technische metadata van het verzoek verwerken die nodig zijn om het bericht af te leveren."
+        },
+        "usage": {
+          "title": "Lokale voorkeuren",
+          "content": "De site gebruikt localStorage om de geselecteerde taal en het gekozen visuele palet te onthouden. Deze waarden blijven in de browser van de gebruiker en kunnen worden verwijderd door de sitegegevens te wissen."
+        }
+      },
+      "lgpd": {
+        "title": "Algemene Wet Gegevensbescherming (LGPD)",
+        "content": "Waar van toepassing moet de verwerking van persoonsgegevens voldoen aan de LGPD (de Braziliaanse wet op de gegevensbescherming). Deze pagina beschrijft de bekende gegevens en houdt operationele twijfels bij in de technische inventarisatie totdat het account van de externe dienst is geverifieerd.",
+        "controller": {
+          "title": "Verwerkingsverantwoordelijke",
+          "content": "De verantwoordelijke voor de site bepaalt het doel van het contactformulier en ontvangt de verzonden berichten."
+        },
+        "operator": {
+          "title": "Verwerker",
+          "content": "Formspree en Forminit fungeren als externe diensten die worden gebruikt om berichten van de contactformulieren (respectievelijk bericht en bestand) te verwerken en af te leveren. De bewaar- en verwijderingsinstellingen van de diensten moeten nog in de bijbehorende accounts worden geverifieerd."
+        }
+      },
+      "cookies": {
+        "title": "Cookies en lokale opslag",
+        "content": "De eigen code van deze site plaatst geen cookies. De taal- en paletvoorkeuren worden opgeslagen in localStorage, niet in cookies."
+      },
+      "thirdParty": {
+        "title": "Diensten van derden",
+        "content": "De site laadt geen Google Analytics, reCAPTCHA, advertentiepixels of ingebouwde analytics. Er wordt alleen een verzoek naar Formspree gestuurd wanneer een geldig formulier wordt verzonden. Externe links worden alleen geopend wanneer de gebruiker erop klikt."
+      },
+      "rights": {
+        "title": "Uw rechten",
+        "content": "U kunt toegang tot, correctie, verwijdering of opheldering vragen over persoonsgegevens die via het formulier zijn verzonden, via het op deze pagina vermelde openbare contact. Het is ook mogelijk om lokale voorkeuren rechtstreeks in de browser te wissen."
+      },
+      "changes": {
+        "title": "Wijzigingen in het beleid",
+        "content": "Dit beleid kan worden bijgewerkt wanneer de site, het contactformulier of de externe diensten veranderen. De datum hierboven geeft de laatst geregistreerde herziening aan."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Voor vragen over dit beleid of over via het formulier verzonden gegevens kunt u het openbare e-mailadres sergio.cordero.calvimontes@proton.me gebruiken of het contacttabblad van de site."
+      }
+    }
+  },
+  "palettes": {
+    "system": "Systeem",
+    "classic": "Klassiek",
+    "alternative": "Alternatief",
+    "editorial": "Redactioneel",
+    "classicDark": "Klassiek donker",
+    "alternativeDark": "Alternatief donker",
+    "editorialDark": "Redactioneel donker",
+    "blueprint": "Blueprint",
+    "blueprintDark": "Blueprint donker"
+  },
+  "controls": {
+    "readMore": "Lees meer",
+    "readLess": "Lees minder",
+    "showMore": "Meer weergeven",
+    "showLess": "Minder weergeven",
+    "filterByYear": "Filteren op jaar:",
+    "filterByCategory": "Filteren op gebied:",
+    "filterByType": "Filteren op type:",
+    "all": "Alle",
+    "previousImage": "Vorige afbeelding",
+    "nextImage": "Volgende afbeelding"
+  }
+}
