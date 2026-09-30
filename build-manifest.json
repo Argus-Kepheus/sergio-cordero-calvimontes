@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-31T14:11:30.063Z",
+  "generatedAt": "2026-09-30T17:00:02.276Z",
   "site": {
-    "siteUrl": "https://argus-kepheus.github.io",
-    "basePath": "/sergio-cordero-calvimontes/",
+    "siteUrl": "https://scc.arguskepheus.com.br",
+    "basePath": "/",
     "defaultLocale": "pt",
     "supportedLocales": [
       "pt",
@@ -17,20 +17,20 @@
     ]
   },
   "assets": {
-    "css": "assets/style-OJ6QYC7E.css",
+    "css": "assets/style-GOL3SUH7.css",
     "componentLoader": "assets/app-AHIV7DQA.js",
-    "js": "assets/app-GATTQX5R.js"
+    "js": "assets/app-M2KNJ7GT.js"
   },
   "locales": {
-    "en": "en.c4bd5dfaad.json",
-    "es": "es.181ae235ec.json",
-    "he": "he.8523268121.json",
-    "ja": "ja.72f37e9514.json",
-    "ko": "ko.92b29ba88e.json",
-    "nl": "nl.a556f8f819.json",
-    "pt": "pt.bed95f60f1.json",
-    "ru": "ru.a7b858473e.json",
-    "sv": "sv.3b567adbd8.json"
+    "en": "en.a74ac9027a.json",
+    "es": "es.70ee2e90de.json",
+    "he": "he.b009608a86.json",
+    "ja": "ja.a1d940b5cc.json",
+    "ko": "ko.77e4b29be4.json",
+    "nl": "nl.d15db1cd6e.json",
+    "pt": "pt.af83702d7f.json",
+    "ru": "ru.aced10116a.json",
+    "sv": "sv.8705387efd.json"
   },
   "copied": {
     "sourceDirectories": [

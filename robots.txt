@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://argus-kepheus.github.io/sergio-cordero-calvimontes/sitemap.xml
+Sitemap: https://scc.arguskepheus.com.br/sitemap.xml
