@@ -184,7 +184,7 @@
   "projetos": {
     "pageTitle": "プロジェクト",
     "title": "技術・科学プロジェクト",
-    "description": "履歴書の編集版から選定した学術・技術プロジェクト。",
+    "description": "科学計算、工学、電子機器の試作に関するプロジェクト。",
     "demoButton": "プロジェクトを見る",
     "codeButton": "コードを見る",
     "items": [
@@ -275,6 +275,52 @@
           "role": "Arduino/C++ファームウェア、ネイティブ協調スケジューラ、Wokwiでシミュレーションした回路、プロジェクトのバイリンガル技術文書を開発しました。",
           "results": "Wokwi向けの独立した診断スケッチと統合版の受け入れチェックリストによって検証し、LaTeXによる技術報告書として文書化しました。"
         }
+      },
+      {
+        "slug": "multiphysics",
+        "category": "computacao-cientifica",
+        "title": "Multiphysics",
+        "description": "フラッシュバット溶接を基準プロセスとする、連成物理現象の数値シミュレーションに向けたモジュール型研究プラットフォーム。",
+        "image": "images/projects/multiphysics.jpg",
+        "technologies": [
+          "GNU Octave",
+          "C++17",
+          "FDM / FEM / FVM"
+        ],
+        "links": [
+          {
+            "label": "プロジェクトのウェブサイト",
+            "url": "https://mpx.arguskepheus.com.br/"
+          }
+        ],
+        "detail": {
+          "longDescription": "材料、機械、プロセス設定、物理モデル、数値手法を分離し、それぞれの発展と再構成を可能にする科学ソフトウェアの研究プロジェクトです。2018年のフラッシュバット溶接に関する修士研究を基に、GNU OctaveとC++17による実装、および有限差分法、有限要素法、有限体積法を含みます。ウェブサイトでは、アーキテクチャ、現在のモデル、技術文書、科学的な共同研究の機会を紹介しています。",
+          "role": "モジュール型アーキテクチャ、数値モデルと手法、技術・科学文書の開発。",
+          "results": "実装済みの機能と数値検証の根拠を公開している、開発中の研究プラットフォームです。モデル全体の物理的な校正と実験による妥当性確認は、別個の研究段階です。"
+        }
+      },
+      {
+        "slug": "competitions",
+        "category": "computacao-cientifica",
+        "title": "計算科学の競技 — Argus Kepheus",
+        "description": "Editora Argus Kepheusが運営する学術競技プラットフォーム。科学計算、数値精度、性能に関する再現可能な課題を扱います。",
+        "image": "images/projects/competitions.jpg",
+        "technologies": [
+          "GNU Octave",
+          "Mittag-Leffler",
+          "PC-bench"
+        ],
+        "links": [
+          {
+            "label": "競技ポータル",
+            "url": "https://cps.arguskepheus.com.br/#home"
+          }
+        ],
+        "detail": {
+          "longDescription": "数学的仕様、インターフェース、評価基準を明示した課題と開催版を通じて科学的問題を扱うプロジェクトです。ポータルでは文書と参加案内の公開、試験参加用ファイルの受け付け、ローカルでの予備検査を行います。正式な評価は別の基盤で実行されます。最初の課題は、GNU Octaveで実装する1パラメータのMittag-Leffler関数です。",
+          "role": "プラットフォーム、参加契約、評価手順の設計と、公開ポータルの開発。",
+          "results": "課題文書とMittag-Lefflerの非公式な試験参加を提供する公開ポータルです。プラットフォームは開発中です。"
+        }
       }
     ],
     "viewDetails": "詳細を見る",
@@ -282,7 +328,8 @@
       "mecanica": "機械工学",
       "eletroeletronica": "電気電子工学",
       "informatica": "情報工学",
-      "prototipagem-eletronica": "電子プロトタイピング"
+      "prototipagem-eletronica": "電子プロトタイピング",
+      "computacao-cientifica": "科学計算"
     },
     "detail": {
       "categoryLabel": "分野",

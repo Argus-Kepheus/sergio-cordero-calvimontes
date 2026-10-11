@@ -184,7 +184,7 @@
   "projetos": {
     "pageTitle": "Projecten",
     "title": "Technisch-wetenschappelijke projecten",
-    "description": "Academische en technische projecten, geselecteerd op basis van de redactionele versie van het cv.",
+    "description": "Geselecteerde projecten in wetenschappelijk rekenen, techniek en elektronische prototyping.",
     "demoButton": "Bekijk project",
     "codeButton": "Bekijk code",
     "items": [
@@ -275,6 +275,52 @@
           "role": "Ontwikkeling van de Arduino/C++-firmware, de native coöperatieve scheduler, het in Wokwi gesimuleerde circuit en de tweetalige technische documentatie van het project.",
           "results": "Gevalideerd met geïsoleerde diagnostische sketches voor Wokwi en een acceptatiechecklist voor de geïntegreerde versie, gedocumenteerd in een technisch rapport in LaTeX."
         }
+      },
+      {
+        "slug": "multiphysics",
+        "category": "computacao-cientifica",
+        "title": "Multiphysics",
+        "description": "Een modulair onderzoeksplatform voor de numerieke simulatie van gekoppelde fysische processen, met afbrandstuiklassen als referentieproces.",
+        "image": "images/projects/multiphysics.jpg",
+        "technologies": [
+          "GNU Octave",
+          "C++17",
+          "FDM / FEM / FVM"
+        ],
+        "links": [
+          {
+            "label": "Projectwebsite",
+            "url": "https://mpx.arguskepheus.com.br/"
+          }
+        ],
+        "detail": {
+          "longDescription": "Een wetenschappelijk softwareproject dat materialen, machines, procesconfiguraties, fysische modellen en numerieke methoden scheidt, zodat deze afzonderlijk kunnen worden ontwikkeld en gecombineerd. Het bouwt voort op het masteronderzoek uit 2018 naar afbrandstuiklassen en omvat implementaties in GNU Octave en C++17 met eindige-differentie-, eindige-elementen- en eindige-volumemethoden. De website presenteert de architectuur, het huidige model, technische documentatie en mogelijkheden voor wetenschappelijke samenwerking.",
+          "role": "Ontwikkeling van de modulaire architectuur, numerieke modellen en methoden, en technisch-wetenschappelijke documentatie.",
+          "results": "Een onderzoeksplatform in ontwikkeling met openbare documentatie van geïmplementeerde mogelijkheden en bewijs van numerieke verificatie. Fysische kalibratie en experimentele validatie van het volledige model blijven afzonderlijke onderzoeksfasen."
+        }
+      },
+      {
+        "slug": "competitions",
+        "category": "computacao-cientifica",
+        "title": "Computationele wedstrijden — Argus Kepheus",
+        "description": "Het academische wedstrijdplatform van Editora Argus Kepheus, met reproduceerbare uitdagingen in wetenschappelijk rekenen, numerieke nauwkeurigheid en prestaties.",
+        "image": "images/projects/competitions.jpg",
+        "technologies": [
+          "GNU Octave",
+          "Mittag-Leffler",
+          "PC-bench"
+        ],
+        "links": [
+          {
+            "label": "Wedstrijdportaal",
+            "url": "https://cps.arguskepheus.com.br/#home"
+          }
+        ],
+        "detail": {
+          "longDescription": "Een project dat wetenschappelijke problemen organiseert in uitdagingen en edities met expliciete wiskundige specificaties, interfaces en beoordelingscriteria. Het portaal publiceert documentatie en deelname-instructies, ontvangt bestanden voor testdeelname en biedt voorlopige lokale controles; de gezaghebbende beoordeling vindt plaats op afzonderlijke infrastructuur. De eerste uitdaging betreft de Mittag-Leffler-functie met één parameter, geïmplementeerd in GNU Octave.",
+          "role": "Ontwerp van het platform, deelnemerscontracten en beoordelingsprotocollen, en ontwikkeling van het openbare portaal.",
+          "results": "Een openbaar portaal met documentatie over uitdagingen en informele testdeelname voor Mittag-Leffler. Het platform is in ontwikkeling."
+        }
       }
     ],
     "viewDetails": "Bekijk details",
@@ -282,7 +328,8 @@
       "mecanica": "Werktuigbouwkunde",
       "eletroeletronica": "Elektro-elektronica",
       "informatica": "Informatica",
-      "prototipagem-eletronica": "Elektronica-prototyping"
+      "prototipagem-eletronica": "Elektronica-prototyping",
+      "computacao-cientifica": "Wetenschappelijk rekenen"
     },
     "detail": {
       "categoryLabel": "Gebied",

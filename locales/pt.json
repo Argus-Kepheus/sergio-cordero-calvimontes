@@ -184,7 +184,7 @@
   "projetos": {
     "pageTitle": "Projetos",
     "title": "Projetos técnico-científicos",
-    "description": "Projetos acadêmicos e técnicos selecionados a partir da versão editorial do currículo.",
+    "description": "Projetos selecionados de computação científica, engenharia e prototipagem eletrônica.",
     "demoButton": "Ver projeto",
     "codeButton": "Ver código",
     "items": [
@@ -275,6 +275,52 @@
           "role": "Desenvolvimento do firmware Arduino/C++, do escalonador cooperativo nativo, do circuito simulado no Wokwi e da documentação técnica bilíngue do projeto.",
           "results": "Validado com sketches de diagnóstico isolados para Wokwi e um checklist de aceitação da versão integrada, documentado em relatório técnico em LaTeX."
         }
+      },
+      {
+        "slug": "multiphysics",
+        "category": "computacao-cientifica",
+        "title": "Multiphysics",
+        "description": "Plataforma modular de pesquisa para simulação numérica de processos físicos acoplados, com a soldagem de topo por centelhamento como processo de referência.",
+        "image": "images/projects/multiphysics.jpg",
+        "technologies": [
+          "GNU Octave",
+          "C++17",
+          "FDM / FEM / FVM"
+        ],
+        "links": [
+          {
+            "label": "Website do projeto",
+            "url": "https://mpx.arguskepheus.com.br/"
+          }
+        ],
+        "detail": {
+          "longDescription": "Projeto de software científico que separa materiais, máquinas, configurações de processo, modelos físicos e métodos numéricos para permitir sua evolução e recombinação. Parte da pesquisa de mestrado de 2018 sobre soldagem de topo por centelhamento e reúne implementações em GNU Octave e C++17, com métodos de diferenças finitas, elementos finitos e volumes finitos. O website apresenta a arquitetura, o modelo atual, a documentação técnica e possibilidades de colaboração científica.",
+          "role": "Desenvolvimento da arquitetura modular, dos modelos e métodos numéricos e da documentação técnico-científica.",
+          "results": "Plataforma de pesquisa em desenvolvimento, com documentação pública das capacidades implementadas e das evidências de verificação numérica. A calibração física e a validação experimental do modelo completo permanecem etapas distintas da pesquisa."
+        }
+      },
+      {
+        "slug": "competitions",
+        "category": "computacao-cientifica",
+        "title": "Competições Computacionais — Argus Kepheus",
+        "description": "Plataforma de competições acadêmicas da Editora Argus Kepheus, com desafios reprodutíveis de computação científica, precisão numérica e desempenho.",
+        "image": "images/projects/competitions.jpg",
+        "technologies": [
+          "GNU Octave",
+          "Mittag-Leffler",
+          "PC-bench"
+        ],
+        "links": [
+          {
+            "label": "Portal de competições",
+            "url": "https://cps.arguskepheus.com.br/#home"
+          }
+        ],
+        "detail": {
+          "longDescription": "Projeto que organiza problemas científicos em desafios e edições com especificações matemáticas, interfaces e critérios de avaliação explícitos. O portal publica documentação e orientações de participação, recebe arquivos para a participação de teste e oferece verificações locais preliminares; a avaliação autoritativa ocorre em infraestrutura separada. O desafio inicial aborda a função de Mittag-Leffler de um parâmetro, com implementação em GNU Octave.",
+          "role": "Concepção da plataforma, dos contratos de participação e dos protocolos de avaliação, com desenvolvimento do portal público.",
+          "results": "Portal público com documentação de desafios e uma participação informal de teste para Mittag-Leffler. A plataforma está em desenvolvimento."
+        }
       }
     ],
     "viewDetails": "Ver detalhes",
@@ -282,7 +328,8 @@
       "mecanica": "Mecânica",
       "eletroeletronica": "Eletroeletrônica",
       "informatica": "Informática",
-      "prototipagem-eletronica": "Prototipagem eletrônica"
+      "prototipagem-eletronica": "Prototipagem eletrônica",
+      "computacao-cientifica": "Computação científica"
     },
     "detail": {
       "categoryLabel": "Área",

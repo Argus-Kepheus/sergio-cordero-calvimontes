@@ -184,7 +184,7 @@
   "projetos": {
     "pageTitle": "Projects",
     "title": "Technical-scientific projects",
-    "description": "Selected academic and technical projects from the editorial CV version.",
+    "description": "Selected projects in scientific computing, engineering and electronics prototyping.",
     "demoButton": "View project",
     "codeButton": "View code",
     "items": [
@@ -275,6 +275,52 @@
           "role": "Development of the Arduino/C++ firmware, the native cooperative scheduler, the circuit simulated in Wokwi, and the project's bilingual technical documentation.",
           "results": "Validated with isolated diagnostic sketches for Wokwi and an acceptance checklist for the integrated build, documented in a LaTeX technical report."
         }
+      },
+      {
+        "slug": "multiphysics",
+        "category": "computacao-cientifica",
+        "title": "Multiphysics",
+        "description": "A modular research platform for numerical simulation of coupled physical processes, using flash-butt welding as its reference process.",
+        "image": "images/projects/multiphysics.jpg",
+        "technologies": [
+          "GNU Octave",
+          "C++17",
+          "FDM / FEM / FVM"
+        ],
+        "links": [
+          {
+            "label": "Project website",
+            "url": "https://mpx.arguskepheus.com.br/"
+          }
+        ],
+        "detail": {
+          "longDescription": "A scientific-software project that separates materials, machines, process configurations, physical models and numerical methods so they can evolve and be recombined. It builds on the 2018 Master's research on flash-butt welding and includes GNU Octave and C++17 implementations with finite-difference, finite-element and finite-volume methods. The website presents the architecture, current model, technical documentation and opportunities for scientific collaboration.",
+          "role": "Development of the modular architecture, numerical models and methods, and technical-scientific documentation.",
+          "results": "An evolving research platform with public documentation of implemented capabilities and numerical-verification evidence. Physical calibration and experimental validation of the complete model remain distinct research stages."
+        }
+      },
+      {
+        "slug": "competitions",
+        "category": "computacao-cientifica",
+        "title": "Computational Competitions — Argus Kepheus",
+        "description": "Editora Argus Kepheus's academic competition platform, with reproducible challenges in scientific computing, numerical accuracy and performance.",
+        "image": "images/projects/competitions.jpg",
+        "technologies": [
+          "GNU Octave",
+          "Mittag-Leffler",
+          "PC-bench"
+        ],
+        "links": [
+          {
+            "label": "Competition portal",
+            "url": "https://cps.arguskepheus.com.br/#home"
+          }
+        ],
+        "detail": {
+          "longDescription": "A project that organizes scientific problems into challenges and editions with explicit mathematical specifications, interfaces and evaluation criteria. The portal publishes documentation and participation guidance, accepts files for test participation and provides preliminary local checks; authoritative evaluation runs on separate infrastructure. The initial challenge covers the one-parameter Mittag-Leffler function, implemented in GNU Octave.",
+          "role": "Design of the platform, participant contracts and evaluation protocols, and development of the public portal.",
+          "results": "A public portal with challenge documentation and informal test participation for Mittag-Leffler. The platform is in development."
+        }
       }
     ],
     "viewDetails": "View details",
@@ -282,7 +328,8 @@
       "mecanica": "Mechanical Engineering",
       "eletroeletronica": "Electrical & Electronics",
       "informatica": "Computing",
-      "prototipagem-eletronica": "Electronics prototyping"
+      "prototipagem-eletronica": "Electronics prototyping",
+      "computacao-cientifica": "Scientific computing"
     },
     "detail": {
       "categoryLabel": "Area",

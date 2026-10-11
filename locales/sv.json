@@ -184,7 +184,7 @@
   "projetos": {
     "pageTitle": "Projekt",
     "title": "Teknisk-vetenskapliga projekt",
-    "description": "Akademiska och tekniska projekt utvalda utifrån CV:ts redaktionella version.",
+    "description": "Utvalda projekt inom vetenskapliga beräkningar, teknik och elektronikprototyper.",
     "demoButton": "Se projekt",
     "codeButton": "Se kod",
     "items": [
@@ -275,6 +275,52 @@
           "role": "Utveckling av Arduino/C++-firmware, av den inbyggda kooperativa schemaläggaren, av kretsen simulerad i Wokwi och av projektets tvåspråkiga tekniska dokumentation.",
           "results": "Validerat med isolerade diagnostiska sketcher för Wokwi och en checklista för godkännande av den integrerade versionen, dokumenterat i en teknisk rapport i LaTeX."
         }
+      },
+      {
+        "slug": "multiphysics",
+        "category": "computacao-cientifica",
+        "title": "Multiphysics",
+        "description": "En modulär forskningsplattform för numerisk simulering av kopplade fysikaliska processer, med brännsvetsning som referensprocess.",
+        "image": "images/projects/multiphysics.jpg",
+        "technologies": [
+          "GNU Octave",
+          "C++17",
+          "FDM / FEM / FVM"
+        ],
+        "links": [
+          {
+            "label": "Projektets webbplats",
+            "url": "https://mpx.arguskepheus.com.br/"
+          }
+        ],
+        "detail": {
+          "longDescription": "Ett vetenskapligt programvaruprojekt som skiljer mellan material, maskiner, processkonfigurationer, fysikaliska modeller och numeriska metoder så att de kan utvecklas och kombineras oberoende av varandra. Det bygger på masterforskningen från 2018 om brännsvetsning och omfattar implementationer i GNU Octave och C++17 med finita differens-, finita element- och finita volymmetoder. Webbplatsen presenterar arkitekturen, den aktuella modellen, teknisk dokumentation och möjligheter till vetenskapligt samarbete.",
+          "role": "Utveckling av den modulära arkitekturen, numeriska modeller och metoder samt teknisk och vetenskaplig dokumentation.",
+          "results": "En forskningsplattform under utveckling med offentlig dokumentation av implementerade funktioner och belägg för numerisk verifiering. Fysikalisk kalibrering och experimentell validering av den fullständiga modellen är fortsatt separata forskningssteg."
+        }
+      },
+      {
+        "slug": "competitions",
+        "category": "computacao-cientifica",
+        "title": "Beräkningstävlingar — Argus Kepheus",
+        "description": "Editora Argus Kepheus akademiska tävlingsplattform med reproducerbara utmaningar inom vetenskapliga beräkningar, numerisk noggrannhet och prestanda.",
+        "image": "images/projects/competitions.jpg",
+        "technologies": [
+          "GNU Octave",
+          "Mittag-Leffler",
+          "PC-bench"
+        ],
+        "links": [
+          {
+            "label": "Tävlingsportal",
+            "url": "https://cps.arguskepheus.com.br/#home"
+          }
+        ],
+        "detail": {
+          "longDescription": "Ett projekt som organiserar vetenskapliga problem i utmaningar och tävlingsomgångar med tydliga matematiska specifikationer, gränssnitt och bedömningskriterier. Portalen publicerar dokumentation och deltagarvägledning, tar emot filer för testdeltagande och erbjuder preliminära lokala kontroller; den slutgiltiga bedömningen sker i separat infrastruktur. Den första utmaningen gäller Mittag-Leffler-funktionen med en parameter, implementerad i GNU Octave.",
+          "role": "Utformning av plattformen, deltagaravtalen och bedömningsprotokollen samt utveckling av den offentliga portalen.",
+          "results": "En offentlig portal med dokumentation av utmaningar och informellt testdeltagande för Mittag-Leffler. Plattformen är under utveckling."
+        }
       }
     ],
     "viewDetails": "Se detaljer",
@@ -282,7 +328,8 @@
       "mecanica": "Mekanik",
       "eletroeletronica": "Elektroteknik",
       "informatica": "Datavetenskap",
-      "prototipagem-eletronica": "Elektronikprototyper"
+      "prototipagem-eletronica": "Elektronikprototyper",
+      "computacao-cientifica": "Vetenskapliga beräkningar"
     },
     "detail": {
       "categoryLabel": "Område",

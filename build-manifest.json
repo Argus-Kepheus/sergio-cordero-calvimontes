@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T17:00:02.276Z",
+  "generatedAt": "2026-10-11T11:26:36.494Z",
   "site": {
     "siteUrl": "https://scc.arguskepheus.com.br",
     "basePath": "/",
@@ -17,20 +17,20 @@
     ]
   },
   "assets": {
-    "css": "assets/style-GOL3SUH7.css",
+    "css": "assets/style-F57AZBJY.css",
     "componentLoader": "assets/app-AHIV7DQA.js",
-    "js": "assets/app-M2KNJ7GT.js"
+    "js": "assets/app-QFDIXWZM.js"
   },
   "locales": {
-    "en": "en.a74ac9027a.json",
-    "es": "es.70ee2e90de.json",
-    "he": "he.b009608a86.json",
-    "ja": "ja.a1d940b5cc.json",
-    "ko": "ko.77e4b29be4.json",
-    "nl": "nl.d15db1cd6e.json",
-    "pt": "pt.af83702d7f.json",
-    "ru": "ru.aced10116a.json",
-    "sv": "sv.8705387efd.json"
+    "en": "en.7bcb7b4d58.json",
+    "es": "es.02197390b0.json",
+    "he": "he.db6f1c72f4.json",
+    "ja": "ja.a1acb75985.json",
+    "ko": "ko.69a1349494.json",
+    "nl": "nl.ac6bbc9d0f.json",
+    "pt": "pt.3baabc84a2.json",
+    "ru": "ru.b9e16d14ba.json",
+    "sv": "sv.54383536e3.json"
   },
   "copied": {
     "sourceDirectories": [
